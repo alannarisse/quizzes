@@ -1,7 +1,19 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 700px;
+  font-family: Commissioner, sans-serif;
   margin: 20px auto;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(199, 4, 199);
+}
+
+.wrapper {
+  width: 80vw;
+  margin: auto;
 }
 
 .question {
@@ -14,6 +26,9 @@ body {
   margin: 8px 0;
   padding: 10px;
   width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  color: black;
 }
 
 .feedback {
@@ -53,4 +68,10 @@ body {
 .nav-buttons button {
   margin-right: 10px;
   padding: 8px 16px;
+}
+
+@media only screen and (max-width: 968px) {
+  .wrapper {
+    width: 90vw;
+  }
 }

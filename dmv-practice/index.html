@@ -3,7 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DMV Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
 
@@ -11,23 +15,26 @@
 </head>
 
 <body>
-  <h1>DMV Practice Quiz</h1>
-  <div class="progress-container">
-    <div class="progress-bar" id="progressBar"></div>
+  <div class="wrapper">
+    <h1>DMV Practice Quiz</h1>
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
     <div id="place"></div>
-  </div>
-  <div id="quiz"></div>
-  <div id="score"></div>
-  <div class="nav-buttons">
-    <button id="prevBtn" style="display:none;">Previous</button>
-    <button id="nextBtn" style="display:none;">Next</button>
-    <button id="restart">Restart Quiz</button>
-  </div>
+
+    <div id="quiz"></div>
+    <div id="score"></div>
+    <div class="nav-buttons">
+      <button id="prevBtn" style="display:none;">Previous</button>
+      <button id="nextBtn" style="display:none;">Next</button>
+      <button id="restart">Restart Quiz</button>
+    </div>
     <footer>
       <p><a href="../">
           << Quizzes home</a>
       </p>
     </footer>
+  </div>
   <script src="script.js"></script>
 
 </body>

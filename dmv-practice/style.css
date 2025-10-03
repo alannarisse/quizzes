@@ -1,11 +1,24 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 700px;
+  font-family: Commissioner, sans-serif;
   margin: 20px auto;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(199, 4, 199);
+}
+
+.wrapper {
+  width: 80vw;
+  max-width: 1024px;
+  margin: auto;
 }
 
 .question {
-  font-size: 18px;
   margin: 20px 0;
 }
 
@@ -14,6 +27,9 @@ body {
   margin: 8px 0;
   padding: 10px;
   width: 100%;
+  text-align: left;
+  color: black;
+  font-size: 1rem;
 }
 
 .feedback {
@@ -35,7 +51,8 @@ body {
 .progress-container {
   width: 100%;
   margin: 15px 0;
-
+  background-color: #ece6e6;
+  border-radius: 10px;
 }
 
 .progress-bar {
@@ -43,7 +60,7 @@ body {
   background: #4caf50;
   width: 0%;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .nav-buttons {
@@ -53,4 +70,10 @@ body {
 .nav-buttons button {
   margin-right: 10px;
   padding: 8px 16px;
+}
+
+@media only screen and (max-width: 968px) {
+  .wrapper {
+    width: 90vw;
+  }
 }
