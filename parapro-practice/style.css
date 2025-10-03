@@ -26,7 +26,10 @@ button {
   background: #ebf8fd;
   border: 1px solid #cfcece;
 }
-
+button:hover {
+  border: 1px solid #868484;
+  box-shadow: inset 0 0 6px #cacac9;
+}
 .answers button {
   display: block;
   margin: 8px 0;
