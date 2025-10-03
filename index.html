@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizes!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Commissioner:wght@100..900&display=swap"
+    rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: pricedow;
+      src: url(fonts/pricedow.ttf);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    a {
+      color: #f08d0b;
+    }
+
+    a:hover {
+      color: purple;
+    }
+
+    body {
+      font-family: "Commissioner", sans-serif;
+      font-size: 20px;
+      line-height: 1.6rem;
+      color: #333;
+      background: orange;
+      border: 22px dotted yellow;
+      border-radius: 40px;
+      margin: 30px;
+    }
+
+    h1 {
+      font-family: pricedow;
+      font-size: 100px;
+      font-weight: 400;
+      line-height: 4.8rem;
+      background: linear-gradient(to top, red, yellow);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    h1 span.big {
+      display: block;
+      font-size: 10rem;
+    }
+
+    h1 span.indent {
+      margin-left: 105px;
+    }
+
+    .container {
+      background: #fff;
+      width: auto;
+      margin: 20px;
+      border-radius: 40px;
+      border: 1px solid #fff;
+      padding: 0 20px;
+
+    }
+
+    header,
+    main,
+    footer {
+      margin: 20px;
+    }
+
+    footer {
+      padding: 60px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: 400px 400px;
+      grid-gap: 60px;
+    }
+
+
+    .card {
+      border-radius: 20px;
+      background: linear-gradient(45deg, purple, orange);
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card p {
+      border-radius: calc(20px - 10px);
+      background: #fff;
+      margin: 0;
+      height: 300px;
+      width: 360px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 180px;
+    }
+
+    footer {
+      margin: 80px auto;
+    }
+
+    @media only screen and (max-width: 968px) {
+      body {
+        border-radius: 40px;
+        margin: 16px;
+      }
+
+      .container {
+        margin: 10px;
+      }
+
+      .cards {
+        grid-template-columns: 240px;
+      }
+
+      h1 {
+        line-height: 1.6rem;
+        margin-top: 0;
+        padding-top: 16px;
+      }
+
+      h1 span.big {
+        display: block;
+        font-size: 6rem;
+      }
+
+      h1 span.indent {
+        font-size: 2.4rem;
+        margin-left: 65px;
+      }
+
+      header,
+      main,
+      footer {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1><span class="big">Quizzes</span>
+        <span class="indent">of all sorts!</span>
+      </h1>
+    </header>
+
+    <main>
+      <section class="cards">
+        <div class="card">
+          <p><a href="dmv-practice/"><img src="images/oregon-dmv-logo.png" alt="Oregon DMV Learner's Permit test"><br>
+              Oregon DMV Practice Quiz</a></p>
+        </div>
+        <div class="card">
+          <p><a href="capm-practice/">
+              <img src="images/capm-logo.png" alt="PMI CAPM practice quiz"><br>
+              CAPM Practice Quiz</a></p>
+        </div>
+        <div class="card">
+          <p><a href="parapro-practice/">
+              <img src="images/parapro.png" alt="Para Professional quiz practice for education test"><br>
+              Para Professional Practice Quiz</a></p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      @copyright Alanna Risse 2025
+    </footer>
+  </div>
+</body>
+
+</html>

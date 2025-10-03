@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary purpose of the Project Charter?",
+    "answers": [
+      "To formally authorize a project",
+      "To define detailed project tasks",
+      "To assign team roles",
+      "To list all project risks"
+    ],
+    "correct_choice": "To formally authorize a project",
+    "explanation": "The Project Charter formally authorizes the project and gives the project manager authority.",
+    "image_filename": "project_charter.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 2,
+    "question": "Which process group focuses on monitoring and measuring project performance?",
+    "answers": [
+      "Initiating",
+      "Planning",
+      "Executing",
+      "Monitoring and Controlling"
+    ],
+    "correct_choice": "Monitoring and Controlling",
+    "explanation": "The Monitoring and Controlling process group ensures project objectives are met by tracking and measuring progress.",
+    "image_filename": "monitoring_controlling.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 3,
+    "question": "What does a Work Breakdown Structure (WBS) represent?",
+    "answers": [
+      "A list of risks",
+      "A hierarchical decomposition of deliverables",
+      "A time-phased project schedule",
+      "A budget report"
+    ],
+    "correct_choice": "A hierarchical decomposition of deliverables",
+    "explanation": "The WBS decomposes project deliverables into smaller, manageable components.",
+    "image_filename": "wbs.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 4,
+    "question": "Which document identifies, assesses, and manages uncertainty in a project?",
+    "answers": [
+      "Risk Register",
+      "Issue Log",
+      "Project Charter",
+      "Stakeholder Register"
+    ],
+    "correct_choice": "Risk Register",
+    "explanation": "The Risk Register documents identified risks, analysis, and response plans.",
+    "image_filename": "risk_register.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 5,
+    "question": "In earned value management, what does SPI stand for?",
+    "answers": [
+      "Schedule Performance Index",
+      "Scope Performance Indicator",
+      "Schedule Planning Input",
+      "Stakeholder Performance Index"
+    ],
+    "correct_choice": "Schedule Performance Index",
+    "explanation": "SPI measures schedule efficiency by comparing earned value to planned value.",
+    "image_filename": "spi.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 6,
+    "question": "Sample CAPM exam question 6?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_6.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 7,
+    "question": "Sample CAPM exam question 7?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_7.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 8,
+    "question": "Sample CAPM exam question 8?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_8.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 9,
+    "question": "Sample CAPM exam question 9?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_9.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 10,
+    "question": "Sample CAPM exam question 10?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_10.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 11,
+    "question": "Sample CAPM exam question 11?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_11.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 12,
+    "question": "Sample CAPM exam question 12?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_12.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 13,
+    "question": "Sample CAPM exam question 13?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_13.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 14,
+    "question": "Sample CAPM exam question 14?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_14.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 15,
+    "question": "Sample CAPM exam question 15?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_15.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 16,
+    "question": "Sample CAPM exam question 16?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_16.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 17,
+    "question": "Sample CAPM exam question 17?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_17.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 18,
+    "question": "Sample CAPM exam question 18?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_18.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 19,
+    "question": "Sample CAPM exam question 19?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_19.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 20,
+    "question": "Sample CAPM exam question 20?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_20.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 21,
+    "question": "Sample CAPM exam question 21?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_21.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 22,
+    "question": "Sample CAPM exam question 22?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_22.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 23,
+    "question": "Sample CAPM exam question 23?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_23.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 24,
+    "question": "Sample CAPM exam question 24?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_24.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 25,
+    "question": "Sample CAPM exam question 25?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_25.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 26,
+    "question": "Sample CAPM exam question 26?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_26.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 27,
+    "question": "Sample CAPM exam question 27?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_27.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 28,
+    "question": "Sample CAPM exam question 28?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_28.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 29,
+    "question": "Sample CAPM exam question 29?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_29.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 30,
+    "question": "Sample CAPM exam question 30?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_30.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 31,
+    "question": "Sample CAPM exam question 31?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_31.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 32,
+    "question": "Sample CAPM exam question 32?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_32.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 33,
+    "question": "Sample CAPM exam question 33?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_33.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 34,
+    "question": "Sample CAPM exam question 34?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_34.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 35,
+    "question": "Sample CAPM exam question 35?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_35.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 36,
+    "question": "Sample CAPM exam question 36?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_36.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 37,
+    "question": "Sample CAPM exam question 37?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_37.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 38,
+    "question": "Sample CAPM exam question 38?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_38.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 39,
+    "question": "Sample CAPM exam question 39?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_39.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 40,
+    "question": "Sample CAPM exam question 40?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_40.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 41,
+    "question": "Sample CAPM exam question 41?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_41.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 42,
+    "question": "Sample CAPM exam question 42?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_42.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 43,
+    "question": "Sample CAPM exam question 43?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_43.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 44,
+    "question": "Sample CAPM exam question 44?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_44.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 45,
+    "question": "Sample CAPM exam question 45?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_45.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 46,
+    "question": "Sample CAPM exam question 46?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_46.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 47,
+    "question": "Sample CAPM exam question 47?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_47.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 48,
+    "question": "Sample CAPM exam question 48?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_48.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 49,
+    "question": "Sample CAPM exam question 49?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_49.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 50,
+    "question": "Sample CAPM exam question 50?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM question.",
+    "image_filename": "capm_image_50.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  }
+]

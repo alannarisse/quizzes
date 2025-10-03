@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "question": "A project manager is creating a stakeholder register. What process group is this activity part of?",
+    "answers": [
+      "Initiating",
+      "Planning",
+      "Executing",
+      "Closing"
+    ],
+    "correct_choice": "Initiating",
+    "explanation": "Identifying stakeholders and creating the stakeholder register occurs during the Initiating process group.",
+    "image_filename": "stakeholder_register.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 2,
+    "question": "The cost performance index (CPI) is calculated using which formula?",
+    "answers": [
+      "EV \u00f7 AC",
+      "EV \u00f7 PV",
+      "AC \u00f7 EV",
+      "PV \u00f7 EV"
+    ],
+    "correct_choice": "EV \u00f7 AC",
+    "explanation": "CPI = Earned Value (EV) divided by Actual Cost (AC). A CPI greater than 1 indicates cost efficiency.",
+    "image_filename": "cpi_formula.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 3,
+    "question": "Which conflict resolution technique is considered most effective for long-term problem solving?",
+    "answers": [
+      "Smoothing",
+      "Avoiding",
+      "Collaborating",
+      "Compromising"
+    ],
+    "correct_choice": "Collaborating",
+    "explanation": "Collaboration (problem-solving) addresses the root cause and is best for long-term resolution.",
+    "image_filename": "conflict_resolution.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 4,
+    "question": "What is the main purpose of a lessons learned register?",
+    "answers": [
+      "To record project risks",
+      "To track schedule progress",
+      "To capture knowledge for future projects",
+      "To store budget details"
+    ],
+    "correct_choice": "To capture knowledge for future projects",
+    "explanation": "The lessons learned register helps capture insights and improve performance in future projects.",
+    "image_filename": "lessons_learned.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 5,
+    "question": "In the critical path method (CPM), what does 'float' represent?",
+    "answers": [
+      "The extra cost available for tasks",
+      "The maximum time a task can be delayed without delaying the project",
+      "The number of resources assigned",
+      "The estimated project budget"
+    ],
+    "correct_choice": "The maximum time a task can be delayed without delaying the project",
+    "explanation": "Float (slack) is the amount of time a task can slip without affecting the overall project completion date.",
+    "image_filename": "float.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 6,
+    "question": "Which estimating technique uses historical data from similar projects?",
+    "answers": [
+      "Analogous estimating",
+      "Parametric estimating",
+      "Bottom-up estimating",
+      "Three-point estimating"
+    ],
+    "correct_choice": "Analogous estimating",
+    "explanation": "Analogous estimating uses data from similar past projects to estimate cost or duration.",
+    "image_filename": "analogous_estimate.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 7,
+    "question": "A project manager is performing qualitative risk analysis. Which tool might they use?",
+    "answers": [
+      "Monte Carlo simulation",
+      "Risk probability and impact matrix",
+      "Earned value analysis",
+      "Cost baseline"
+    ],
+    "correct_choice": "Risk probability and impact matrix",
+    "explanation": "Qualitative risk analysis often uses probability and impact matrices to prioritize risks.",
+    "image_filename": "risk_matrix.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 8,
+    "question": "Which process involves developing an approximation of the monetary resources needed to complete project work?",
+    "answers": [
+      "Estimate Costs",
+      "Determine Budget",
+      "Control Costs",
+      "Plan Cost Management"
+    ],
+    "correct_choice": "Estimate Costs",
+    "explanation": "Estimate Costs develops an approximation of the costs of resources required to complete project activities.",
+    "image_filename": "estimate_costs.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 9,
+    "question": "During which process group is the project management plan developed?",
+    "answers": [
+      "Initiating",
+      "Planning",
+      "Executing",
+      "Monitoring and Controlling"
+    ],
+    "correct_choice": "Planning",
+    "explanation": "The project management plan is developed during the Planning process group.",
+    "image_filename": "pmp_plan.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 10,
+    "question": "Which knowledge area includes processes related to acquiring, developing, and managing the project team?",
+    "answers": [
+      "Human Resource Management",
+      "Resource Management",
+      "Stakeholder Management",
+      "Procurement Management"
+    ],
+    "correct_choice": "Resource Management",
+    "explanation": "PMBOK 6th edition renamed Human Resource Management to Resource Management.",
+    "image_filename": "resource_management.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 11,
+    "question": "Sample scenario-based CAPM exam question 11?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_11.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 12,
+    "question": "Sample scenario-based CAPM exam question 12?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_12.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 13,
+    "question": "Sample scenario-based CAPM exam question 13?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_13.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 14,
+    "question": "Sample scenario-based CAPM exam question 14?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_14.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 15,
+    "question": "Sample scenario-based CAPM exam question 15?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_15.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 16,
+    "question": "Sample scenario-based CAPM exam question 16?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_16.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 17,
+    "question": "Sample scenario-based CAPM exam question 17?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_17.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 18,
+    "question": "Sample scenario-based CAPM exam question 18?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_18.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 19,
+    "question": "Sample scenario-based CAPM exam question 19?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_19.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 20,
+    "question": "Sample scenario-based CAPM exam question 20?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_20.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 21,
+    "question": "Sample scenario-based CAPM exam question 21?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_21.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 22,
+    "question": "Sample scenario-based CAPM exam question 22?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_22.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 23,
+    "question": "Sample scenario-based CAPM exam question 23?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_23.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 24,
+    "question": "Sample scenario-based CAPM exam question 24?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_24.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 25,
+    "question": "Sample scenario-based CAPM exam question 25?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_25.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 26,
+    "question": "Sample scenario-based CAPM exam question 26?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_26.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 27,
+    "question": "Sample scenario-based CAPM exam question 27?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_27.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 28,
+    "question": "Sample scenario-based CAPM exam question 28?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_28.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 29,
+    "question": "Sample scenario-based CAPM exam question 29?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_29.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 30,
+    "question": "Sample scenario-based CAPM exam question 30?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_30.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 31,
+    "question": "Sample scenario-based CAPM exam question 31?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_31.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 32,
+    "question": "Sample scenario-based CAPM exam question 32?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_32.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 33,
+    "question": "Sample scenario-based CAPM exam question 33?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_33.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 34,
+    "question": "Sample scenario-based CAPM exam question 34?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_34.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 35,
+    "question": "Sample scenario-based CAPM exam question 35?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_35.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 36,
+    "question": "Sample scenario-based CAPM exam question 36?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_36.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 37,
+    "question": "Sample scenario-based CAPM exam question 37?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_37.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 38,
+    "question": "Sample scenario-based CAPM exam question 38?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_38.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 39,
+    "question": "Sample scenario-based CAPM exam question 39?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_39.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 40,
+    "question": "Sample scenario-based CAPM exam question 40?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_40.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 41,
+    "question": "Sample scenario-based CAPM exam question 41?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_41.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 42,
+    "question": "Sample scenario-based CAPM exam question 42?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_42.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 43,
+    "question": "Sample scenario-based CAPM exam question 43?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_43.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 44,
+    "question": "Sample scenario-based CAPM exam question 44?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_44.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 45,
+    "question": "Sample scenario-based CAPM exam question 45?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_45.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 46,
+    "question": "Sample scenario-based CAPM exam question 46?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_46.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 47,
+    "question": "Sample scenario-based CAPM exam question 47?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_47.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 48,
+    "question": "Sample scenario-based CAPM exam question 48?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_48.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 49,
+    "question": "Sample scenario-based CAPM exam question 49?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_49.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  },
+  {
+    "id": 50,
+    "question": "Sample scenario-based CAPM exam question 50?",
+    "answers": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correct_choice": "Option A",
+    "explanation": "Explanation placeholder for CAPM scenario question.",
+    "image_filename": "capm_varied_50.png",
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm"
+  }
+]
