@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "question": "Which is NOT one of the word parts in a medical term?:",
+    "answers": [
+      "word root",
+      "suffix",
+      "combining vowel",
+      "combining form"
+    ],
+    "correct_choice": "combining form",
+    "explanation": "There is no such thing as a combining form",
+    "image_filename": "solid_yellow_line.png",
+    "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
+  },
+  {
+    "id": 2,
+    "question": "A solid yellow line on your side of the roadway means:",
+    "answers": [
+      "You may pass carefully",
+      "Do not pass",
+      "Passing is allowed at night only",
+      "Passing is allowed if no traffic is coming"
+    ],
+    "correct_choice": "Do not pass",
+    "explanation": "A solid yellow line on your side means no passing is allowed.",
+    "image_filename": "solid_yellow_line.png",
+    "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
+  }

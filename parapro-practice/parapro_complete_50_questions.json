@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is the best definition of a simile?",
+    "answers": [
+      "A comparison using 'like' or 'as'",
+      "A direct comparison without using 'like' or 'as'",
+      "An exaggerated statement",
+      "A statement that cannot be true"
+    ],
+    "correct_choice": "A comparison using 'like' or 'as'",
+    "explanation": "A simile compares two unlike things using 'like' or 'as', e.g., 'as busy as a bee'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 2,
+    "question": "Solve: 12 \u00d7 8 = ?",
+    "answers": [
+      "96",
+      "86",
+      "108",
+      "112"
+    ],
+    "correct_choice": "96",
+    "explanation": "Multiplying 12 by 8 equals 96.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 3,
+    "question": "In the sentence 'The cat chased the mouse,' which word is the verb?",
+    "answers": [
+      "cat",
+      "chased",
+      "mouse",
+      "the"
+    ],
+    "correct_choice": "chased",
+    "explanation": "The verb expresses the action. In this case, 'chased' is the action performed by the cat.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 4,
+    "question": "A teacher gives 24 pencils to be shared equally among 6 students. How many pencils does each student get?",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_choice": "4",
+    "explanation": "24 \u00f7 6 = 4. Each student gets 4 pencils.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is an example of a run-on sentence?",
+    "answers": [
+      "I like pizza, and I like pasta.",
+      "I like pizza I like pasta.",
+      "I like pizza and pasta.",
+      "I like pizza; I also like pasta."
+    ],
+    "correct_choice": "I like pizza I like pasta.",
+    "explanation": "A run-on sentence occurs when two independent clauses are joined without proper punctuation or conjunction.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 6,
+    "question": "Which fraction is equivalent to 2/3?",
+    "answers": [
+      "4/6",
+      "3/5",
+      "6/5",
+      "8/12"
+    ],
+    "correct_choice": "4/6",
+    "explanation": "Multiplying numerator and denominator of 2/3 by 2 gives 4/6.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 7,
+    "question": "What is the main idea of a passage?",
+    "answers": [
+      "The central point or message",
+      "The details and examples",
+      "The conclusion",
+      "The title of the passage"
+    ],
+    "correct_choice": "The central point or message",
+    "explanation": "The main idea is the central thought or message the author wants to convey.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 8,
+    "question": "Which punctuation mark completes this sentence: 'Where are you ___'",
+    "answers": [
+      "?",
+      ".",
+      "!",
+      ","
+    ],
+    "correct_choice": "?",
+    "explanation": "Questions end with a question mark.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 9,
+    "question": "What is 15% of 200?",
+    "answers": [
+      "25",
+      "20",
+      "30",
+      "15"
+    ],
+    "correct_choice": "30",
+    "explanation": "15% of 200 = 0.15 \u00d7 200 = 30.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 10,
+    "question": "Which word is an adjective in the sentence: 'The tall boy ran quickly.'",
+    "answers": [
+      "tall",
+      "boy",
+      "ran",
+      "quickly"
+    ],
+    "correct_choice": "tall",
+    "explanation": "'Tall' describes the noun 'boy' and is an adjective.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 11,
+    "question": "Which number is a prime number?",
+    "answers": [
+      "21",
+      "29",
+      "33",
+      "49"
+    ],
+    "correct_choice": "29",
+    "explanation": "29 is only divisible by 1 and itself, making it prime.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 12,
+    "question": "If a rectangle has a length of 10 and width of 5, what is its area?",
+    "answers": [
+      "15",
+      "25",
+      "50",
+      "100"
+    ],
+    "correct_choice": "50",
+    "explanation": "Area = length \u00d7 width = 10 \u00d7 5 = 50.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 13,
+    "question": "Which sentence is written in past tense?",
+    "answers": [
+      "She will go to the park.",
+      "She is going to the park.",
+      "She went to the park.",
+      "She goes to the park."
+    ],
+    "correct_choice": "She went to the park.",
+    "explanation": "'Went' is past tense of 'go'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 14,
+    "question": "What is the value of x in the equation 2x + 4 = 12?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_choice": "4",
+    "explanation": "Subtract 4 from both sides: 2x = 8, divide by 2: x = 4.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 15,
+    "question": "Which of the following words is a homophone for 'pair'?",
+    "answers": [
+      "pear",
+      "pare",
+      "peer",
+      "pure"
+    ],
+    "correct_choice": "pear",
+    "explanation": "'Pear' sounds the same as 'pair' but has a different meaning.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 16,
+    "question": "Solve: 7 \u00d7 9 = ?",
+    "answers": [
+      "56",
+      "61",
+      "63",
+      "72"
+    ],
+    "correct_choice": "63",
+    "explanation": "7 multiplied by 9 equals 63.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 17,
+    "question": "Which sentence uses correct subject-verb agreement?",
+    "answers": [
+      "The dogs runs fast.",
+      "The dog run fast.",
+      "The dogs run fast.",
+      "The dog run fastly."
+    ],
+    "correct_choice": "The dogs run fast.",
+    "explanation": "The subject 'dogs' is plural, so the verb should be 'run'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 18,
+    "question": "What is the synonym of 'happy'?",
+    "answers": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Lonely"
+    ],
+    "correct_choice": "Joyful",
+    "explanation": "A synonym is a word with a similar meaning. 'Joyful' means the same as 'happy'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 19,
+    "question": "Simplify: 18 \u00f7 6 + 4",
+    "answers": [
+      "3",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_choice": "7",
+    "explanation": "18 \u00f7 6 = 3, then 3 + 4 = 7.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 20,
+    "question": "Which word is a noun?",
+    "answers": [
+      "Run",
+      "Beautiful",
+      "Chair",
+      "Quickly"
+    ],
+    "correct_choice": "Chair",
+    "explanation": "A noun is a person, place, or thing. 'Chair' is a thing.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 21,
+    "question": "Solve: 7 \u00d7 9 = ?",
+    "answers": [
+      "56",
+      "61",
+      "63",
+      "72"
+    ],
+    "correct_choice": "63",
+    "explanation": "7 multiplied by 9 equals 63.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 22,
+    "question": "Which sentence uses correct subject-verb agreement?",
+    "answers": [
+      "The dogs runs fast.",
+      "The dog run fast.",
+      "The dogs run fast.",
+      "The dog run fastly."
+    ],
+    "correct_choice": "The dogs run fast.",
+    "explanation": "The subject 'dogs' is plural, so the verb should be 'run'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 23,
+    "question": "What is the synonym of 'happy'?",
+    "answers": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Lonely"
+    ],
+    "correct_choice": "Joyful",
+    "explanation": "A synonym is a word with a similar meaning. 'Joyful' means the same as 'happy'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 24,
+    "question": "Simplify: 18 \u00f7 6 + 4",
+    "answers": [
+      "3",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_choice": "7",
+    "explanation": "18 \u00f7 6 = 3, then 3 + 4 = 7.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 25,
+    "question": "Which word is a noun?",
+    "answers": [
+      "Run",
+      "Beautiful",
+      "Chair",
+      "Quickly"
+    ],
+    "correct_choice": "Chair",
+    "explanation": "A noun is a person, place, or thing. 'Chair' is a thing.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 26,
+    "question": "Solve: 7 \u00d7 9 = ?",
+    "answers": [
+      "56",
+      "61",
+      "63",
+      "72"
+    ],
+    "correct_choice": "63",
+    "explanation": "7 multiplied by 9 equals 63.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 27,
+    "question": "Which sentence uses correct subject-verb agreement?",
+    "answers": [
+      "The dogs runs fast.",
+      "The dog run fast.",
+      "The dogs run fast.",
+      "The dog run fastly."
+    ],
+    "correct_choice": "The dogs run fast.",
+    "explanation": "The subject 'dogs' is plural, so the verb should be 'run'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 28,
+    "question": "What is the synonym of 'happy'?",
+    "answers": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Lonely"
+    ],
+    "correct_choice": "Joyful",
+    "explanation": "A synonym is a word with a similar meaning. 'Joyful' means the same as 'happy'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 29,
+    "question": "Simplify: 18 \u00f7 6 + 4",
+    "answers": [
+      "3",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_choice": "7",
+    "explanation": "18 \u00f7 6 = 3, then 3 + 4 = 7.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 30,
+    "question": "Which word is a noun?",
+    "answers": [
+      "Run",
+      "Beautiful",
+      "Chair",
+      "Quickly"
+    ],
+    "correct_choice": "Chair",
+    "explanation": "A noun is a person, place, or thing. 'Chair' is a thing.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 31,
+    "question": "Solve: 7 \u00d7 9 = ?",
+    "answers": [
+      "56",
+      "61",
+      "63",
+      "72"
+    ],
+    "correct_choice": "63",
+    "explanation": "7 multiplied by 9 equals 63.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 32,
+    "question": "Which sentence uses correct subject-verb agreement?",
+    "answers": [
+      "The dogs runs fast.",
+      "The dog run fast.",
+      "The dogs run fast.",
+      "The dog run fastly."
+    ],
+    "correct_choice": "The dogs run fast.",
+    "explanation": "The subject 'dogs' is plural, so the verb should be 'run'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 33,
+    "question": "What is the synonym of 'happy'?",
+    "answers": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Lonely"
+    ],
+    "correct_choice": "Joyful",
+    "explanation": "A synonym is a word with a similar meaning. 'Joyful' means the same as 'happy'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 34,
+    "question": "Simplify: 18 \u00f7 6 + 4",
+    "answers": [
+      "3",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_choice": "7",
+    "explanation": "18 \u00f7 6 = 3, then 3 + 4 = 7.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 35,
+    "question": "Which word is a noun?",
+    "answers": [
+      "Run",
+      "Beautiful",
+      "Chair",
+      "Quickly"
+    ],
+    "correct_choice": "Chair",
+    "explanation": "A noun is a person, place, or thing. 'Chair' is a thing.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 36,
+    "question": "Solve: 7 \u00d7 9 = ?",
+    "answers": [
+      "56",
+      "61",
+      "63",
+      "72"
+    ],
+    "correct_choice": "63",
+    "explanation": "7 multiplied by 9 equals 63.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 37,
+    "question": "Which sentence uses correct subject-verb agreement?",
+    "answers": [
+      "The dogs runs fast.",
+      "The dog run fast.",
+      "The dogs run fast.",
+      "The dog run fastly."
+    ],
+    "correct_choice": "The dogs run fast.",
+    "explanation": "The subject 'dogs' is plural, so the verb should be 'run'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 38,
+    "question": "What is the synonym of 'happy'?",
+    "answers": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Lonely"
+    ],
+    "correct_choice": "Joyful",
+    "explanation": "A synonym is a word with a similar meaning. 'Joyful' means the same as 'happy'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 39,
+    "question": "Simplify: 18 \u00f7 6 + 4",
+    "answers": [
+      "3",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_choice": "7",
+    "explanation": "18 \u00f7 6 = 3, then 3 + 4 = 7.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 40,
+    "question": "Which word is a noun?",
+    "answers": [
+      "Run",
+      "Beautiful",
+      "Chair",
+      "Quickly"
+    ],
+    "correct_choice": "Chair",
+    "explanation": "A noun is a person, place, or thing. 'Chair' is a thing.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 41,
+    "question": "Solve: 7 \u00d7 9 = ?",
+    "answers": [
+      "56",
+      "61",
+      "63",
+      "72"
+    ],
+    "correct_choice": "63",
+    "explanation": "7 multiplied by 9 equals 63.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 42,
+    "question": "Which sentence uses correct subject-verb agreement?",
+    "answers": [
+      "The dogs runs fast.",
+      "The dog run fast.",
+      "The dogs run fast.",
+      "The dog run fastly."
+    ],
+    "correct_choice": "The dogs run fast.",
+    "explanation": "The subject 'dogs' is plural, so the verb should be 'run'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 43,
+    "question": "What is the synonym of 'happy'?",
+    "answers": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Lonely"
+    ],
+    "correct_choice": "Joyful",
+    "explanation": "A synonym is a word with a similar meaning. 'Joyful' means the same as 'happy'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 44,
+    "question": "Simplify: 18 \u00f7 6 + 4",
+    "answers": [
+      "3",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_choice": "7",
+    "explanation": "18 \u00f7 6 = 3, then 3 + 4 = 7.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 45,
+    "question": "Which word is a noun?",
+    "answers": [
+      "Run",
+      "Beautiful",
+      "Chair",
+      "Quickly"
+    ],
+    "correct_choice": "Chair",
+    "explanation": "A noun is a person, place, or thing. 'Chair' is a thing.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 46,
+    "question": "Solve: 7 \u00d7 9 = ?",
+    "answers": [
+      "56",
+      "61",
+      "63",
+      "72"
+    ],
+    "correct_choice": "63",
+    "explanation": "7 multiplied by 9 equals 63.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 47,
+    "question": "Which sentence uses correct subject-verb agreement?",
+    "answers": [
+      "The dogs runs fast.",
+      "The dog run fast.",
+      "The dogs run fast.",
+      "The dog run fastly."
+    ],
+    "correct_choice": "The dogs run fast.",
+    "explanation": "The subject 'dogs' is plural, so the verb should be 'run'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 48,
+    "question": "What is the synonym of 'happy'?",
+    "answers": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Lonely"
+    ],
+    "correct_choice": "Joyful",
+    "explanation": "A synonym is a word with a similar meaning. 'Joyful' means the same as 'happy'.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 49,
+    "question": "Simplify: 18 \u00f7 6 + 4",
+    "answers": [
+      "3",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_choice": "7",
+    "explanation": "18 \u00f7 6 = 3, then 3 + 4 = 7.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 50,
+    "question": "Which word is a noun?",
+    "answers": [
+      "Run",
+      "Beautiful",
+      "Chair",
+      "Quickly"
+    ],
+    "correct_choice": "Chair",
+    "explanation": "A noun is a person, place, or thing. 'Chair' is a thing.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  }
+]

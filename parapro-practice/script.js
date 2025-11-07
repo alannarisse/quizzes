@@ -1,7 +1,7 @@
 const questions = [
   {
     "id": 1,
-    "question": "Which of the following sentences is grammatically correct?",
+    "question": `Which of the following sentences is grammatically correct?`,
     "answers": [
       "Their going to the park later.",
       "They're going to the park later.",
@@ -15,7 +15,7 @@ const questions = [
   },
   {
     "id": 2,
-    "question": "Solve: 3/4 + 2/3 = ?",
+    "question": `Solve: 3/4 + 2/3 = ?`,
     "answers": [
       "17/12",
       "13/12",
@@ -29,7 +29,7 @@ const questions = [
   },
   {
     "id": 3,
-    "question": "What is the main purpose of a topic sentence in a paragraph?",
+    "question": `What is the main purpose of a topic sentence in a paragraph?`,
     "answers": [
       "To summarize the entire essay",
       "To introduce the main idea of the paragraph",
@@ -43,7 +43,7 @@ const questions = [
   },
   {
     "id": 4,
-    "question": "Which number is equivalent to 45%?",
+    "question": `Which number is equivalent to 45%?`,
     "answers": [
       "0.045",
       "0.45",
@@ -57,7 +57,7 @@ const questions = [
   },
   {
     "id": 5,
-    "question": "In the sentence 'She quickly ran to the store,' what part of speech is 'quickly'?",
+    "question": `In the sentence 'She quickly ran to the store,' what part of speech is 'quickly'?`,
     "answers": [
       "Noun",
       "Adverb",
@@ -71,7 +71,7 @@ const questions = [
   },
   {
     "id": 6,
-    "question": "Reading comprehension question 6: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 6: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -85,7 +85,7 @@ const questions = [
   },
   {
     "id": 7,
-    "question": "Math question 7: Solve 6 \u00d7 (2 + 3).",
+    "question": `Math question 7: Solve 6 \u00d7 (2 + 3).`,
     "answers": [
       "30",
       "12",
@@ -99,7 +99,7 @@ const questions = [
   },
   {
     "id": 8,
-    "question": "Writing question 8: Which sentence is punctuated correctly?",
+    "question": `Writing question 8: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -113,7 +113,7 @@ const questions = [
   },
   {
     "id": 9,
-    "question": "Reading comprehension question 9: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 9: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -127,7 +127,7 @@ const questions = [
   },
   {
     "id": 10,
-    "question": "Math question 10: Solve 6 \u00d7 (2 + 3).",
+    "question": `Math question 10: Solve 6 \u00d7 (2 + 3).`,
     "answers": [
       "30",
       "12",
@@ -141,7 +141,7 @@ const questions = [
   },
   {
     "id": 11,
-    "question": "Writing question 11: Which sentence is punctuated correctly?",
+    "question": `Writing question 11: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -155,7 +155,7 @@ const questions = [
   },
   {
     "id": 12,
-    "question": "Reading comprehension question 12: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 12: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -183,7 +183,7 @@ const questions = [
   },
   {
     "id": 14,
-    "question": "Writing question 14: Which sentence is punctuated correctly?",
+    "question": `Writing question 14: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -197,7 +197,7 @@ const questions = [
   },
   {
     "id": 15,
-    "question": "Reading comprehension question 15: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 15: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -225,7 +225,7 @@ const questions = [
   },
   {
     "id": 17,
-    "question": "Writing question 17: Which sentence is punctuated correctly?",
+    "question": `Writing question 17: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -239,7 +239,7 @@ const questions = [
   },
   {
     "id": 18,
-    "question": "Reading comprehension question 18: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 18: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -267,7 +267,7 @@ const questions = [
   },
   {
     "id": 20,
-    "question": "Writing question 20: Which sentence is punctuated correctly?",
+    "question": `Writing question 20: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -281,7 +281,7 @@ const questions = [
   },
   {
     "id": 21,
-    "question": "Reading comprehension question 21: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 21: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -309,7 +309,7 @@ const questions = [
   },
   {
     "id": 23,
-    "question": "Writing question 23: Which sentence is punctuated correctly?",
+    "question": `Writing question 23: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -323,7 +323,7 @@ const questions = [
   },
   {
     "id": 24,
-    "question": "Reading comprehension question 24: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 24: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -351,7 +351,7 @@ const questions = [
   },
   {
     "id": 26,
-    "question": "Writing question 26: Which sentence is punctuated correctly?",
+    "question": `Writing question 26: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -365,7 +365,7 @@ const questions = [
   },
   {
     "id": 27,
-    "question": "Reading comprehension question 27: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 27: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -393,7 +393,7 @@ const questions = [
   },
   {
     "id": 29,
-    "question": "Writing question 29: Which sentence is punctuated correctly?",
+    "question": `Writing question 29: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -407,7 +407,7 @@ const questions = [
   },
   {
     "id": 30,
-    "question": "Reading comprehension question 30: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 30: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -435,7 +435,7 @@ const questions = [
   },
   {
     "id": 32,
-    "question": "Writing question 32: Which sentence is punctuated correctly?",
+    "question": `Writing question 32: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -449,7 +449,7 @@ const questions = [
   },
   {
     "id": 33,
-    "question": "Reading comprehension question 33: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 33: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -477,7 +477,7 @@ const questions = [
   },
   {
     "id": 35,
-    "question": "Writing question 35: Which sentence is punctuated correctly?",
+    "question": `Writing question 35: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -491,7 +491,7 @@ const questions = [
   },
   {
     "id": 36,
-    "question": "Reading comprehension question 36: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 36: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -505,7 +505,7 @@ const questions = [
   },
   {
     "id": 37,
-    "question": "Math question 37: Solve 6 \u00d7 (2 + 3).",
+    "question": `Math question 37: Solve 6 \u00d7 (2 + 3).`,
     "answers": [
       "30",
       "12",
@@ -519,7 +519,7 @@ const questions = [
   },
   {
     "id": 38,
-    "question": "Writing question 38: Which sentence is punctuated correctly?",
+    "question": `Writing question 38: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -533,7 +533,7 @@ const questions = [
   },
   {
     "id": 39,
-    "question": "Reading comprehension question 39: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 39: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -547,7 +547,7 @@ const questions = [
   },
   {
     "id": 40,
-    "question": "Math question 40: Solve 6 \u00d7 (2 + 3).",
+    "question": `Math question 40: Solve 6 \u00d7 (2 + 3).`,
     "answers": [
       "30",
       "12",
@@ -561,7 +561,7 @@ const questions = [
   },
   {
     "id": 41,
-    "question": "Writing question 41: Which sentence is punctuated correctly?",
+    "question": `Writing question 41: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -575,7 +575,7 @@ const questions = [
   },
   {
     "id": 42,
-    "question": "Reading comprehension question 42: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 42: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -589,7 +589,7 @@ const questions = [
   },
   {
     "id": 43,
-    "question": "Math question 43: Solve 6 \u00d7 (2 + 3).",
+    "question": `Math question 43: Solve 6 \u00d7 (2 + 3).`,
     "answers": [
       "30",
       "12",
@@ -603,7 +603,7 @@ const questions = [
   },
   {
     "id": 44,
-    "question": "Writing question 44: Which sentence is punctuated correctly?",
+    "question": `Writing question 44: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -617,7 +617,7 @@ const questions = [
   },
   {
     "id": 45,
-    "question": "Reading comprehension question 45: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 45: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -631,7 +631,7 @@ const questions = [
   },
   {
     "id": 46,
-    "question": "Math question 46: Solve 6 \u00d7 (2 + 3).",
+    "question": `Math question 46: Solve 6 \u00d7 (2 + 3).`,
     "answers": [
       "30",
       "12",
@@ -645,7 +645,7 @@ const questions = [
   },
   {
     "id": 47,
-    "question": "Writing question 47: Which sentence is punctuated correctly?",
+    "question": `Writing question 47: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -659,7 +659,7 @@ const questions = [
   },
   {
     "id": 48,
-    "question": "Reading comprehension question 48: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
+    "question": `Reading comprehension question 48: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -673,7 +673,7 @@ const questions = [
   },
   {
     "id": 49,
-    "question": "Math question 49: Solve 6 \u00d7 (2 + 3).",
+    "question": `Math question 49: Solve 6 \u00d7 (2 + 3).`,
     "answers": [
       "30",
       "12",
@@ -687,7 +687,7 @@ const questions = [
   },
   {
     "id": 50,
-    "question": "Writing question 50: Which sentence is punctuated correctly?",
+    "question": `Writing question 50: Which sentence is punctuated correctly?`,
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -698,18 +698,104 @@ const questions = [
     "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
     "image_filename": null,
     "web_link": "https://www.ets.org/parapro"
+  },
+  //my questions
+    {
+    "id": 51,
+    "question": `is .3 x .9 greater or less than .4 x .7?`,
+    "answers": [
+      ">",
+      "<",
+      "=",
+      "!="
+    ],
+    "correct_choice": "<",
+    "explanation": ".3x.9 = .27 and .4 x .7 = .28",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },    
+  {
+    "id": 52,
+    "question": `What is the place value of 2 in 14,208.7`,
+    "answers": [
+      "thousands",
+      "tens",
+      "hundreds",
+      "hundredths"
+    ],
+    "correct_choice": "hundreds",
+    "explanation": "fourteen thousand, two hundred and eight, and 7 tenths",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  // \u2303 is an upcarrot aka power of symbol
+    {
+    "id": 53,
+    "question": `Simplify: 3 \u2303 2 x 3 \u2303 4 = `,
+    "answers": [
+      "3 to the 6th power",
+      "3 to the 5th power",
+      "15",
+      "none"
+    ],
+    "correct_choice": "3 to the 6th power",
+    "explanation": "fourteen thousand, two hundred and eight, and 7 tenths",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 54,
+    "question": `Order of operations: (6 \u2303 2 - 6) / (5\u23032 + 10 - 8 x2) = `,
+    "answers": [
+      "30 over 19",
+      "6 over -6",
+      "-24 over 14",
+      "none"
+    ],
+    "correct_choice": "30 over 19",
+    "explanation": "pemdas and numbers squared are times themselves 5x5 is 5 squared",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 55,
+    "question": `In a math class, there are 238 girls and 244 boys. The teacher rounds the total number of students to the nearest hundred for a report. What toal does she report?`,
+    "answers": [
+      "500 students",
+      "450 students",
+      "400 students",
+      "none"
+    ],
+    "correct_choice": "500 students",
+    "explanation": "482 is closest to 500 if rounding up to nearest hundred",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
+  },
+  {
+    "id": 56,
+    "question": `One-step, single variable line y - 5/8 = 3/4`,
+    "answers": [
+      "y = 11/8",
+      "y = 2/8",
+      "y = 8/8",
+      "y = 0"
+    ],
+    "correct_choice": "y = 11/8",
+    "explanation": "482 is closest to 500 if rounding up to nearest hundred",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/parapro"
   }
 ]
 
 
-let savedState = JSON.parse(localStorage.getItem("quizState"));
+let savedState = JSON.parse(localStorage.getItem("paraQuizState"));
 let currentQuestion = savedState ? savedState.currentQuestion : 0;
 let score = savedState ? savedState.score : 0;
 let wrong = savedState ? savedState.wrong : 0;
 let answersGiven = savedState ? savedState.answersGiven : {}; // store chosen answers
 
 function saveState() {
-  localStorage.setItem("quizState", JSON.stringify({ currentQuestion, score, wrong, answersGiven }));
+  localStorage.setItem("paraQuizState", JSON.stringify({ currentQuestion, score, wrong, answersGiven }));
 }
 
 function updateProgress() {
@@ -728,7 +814,7 @@ function showQuestion() {
     document.getElementById("restart").style.display = "inline-block";
     document.getElementById("nextBtn").style.display = "none";
     document.getElementById("prevBtn").style.display = "none";
-    localStorage.removeItem("dmvQuizState");
+    localStorage.removeItem("paraQuizState");
     return;
   }
 

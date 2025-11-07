@@ -702,14 +702,14 @@ const questions = [
 ]
 
 
-let savedState = JSON.parse(localStorage.getItem("quizState"));
+let savedState = JSON.parse(localStorage.getItem("dmvQuizState"));
 let currentQuestion = savedState ? savedState.currentQuestion : 0;
 let score = savedState ? savedState.score : 0;
 let wrong = savedState ? savedState.wrong : 0;
 let answersGiven = savedState ? savedState.answersGiven : {}; // store chosen answers
 
 function saveState() {
-  localStorage.setItem("quizState", JSON.stringify({ currentQuestion, score, wrong, answersGiven }));
+  localStorage.setItem("dmvQuizState", JSON.stringify({ currentQuestion, score, wrong, answersGiven }));
 }
 
 function updateProgress() {
