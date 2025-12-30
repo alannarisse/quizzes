@@ -6,66 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Aldrich&family=Commissioner:wght@100..900&family=Sansation:wght@300;400;700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Marhey:wght@700&family=Commissioner:wght@100..900&display=swap"
     rel="stylesheet">
-  <title>Wine Finder :: Successfully pair your food with the most compatible wine</title>
-  <style>
-    body {
-      font-family: "Commissioner", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 20px;
-    }
-
-    h1 {
-      font-size: 4rem;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4 {
-      font-weight: 700;
-    }
-
-    .pairing-app {
-      max-width: 420px;
-    }
-
-    label {
-      display: block;
-      margin-bottom: 1rem;
-    }
-
-    select {
-      width: 100%;
-      padding: 0.5rem;
-      margin-top: 0.25rem;
-      font-size: 1rem;
-    }
-
-    .results {
-      margin-top: 1.5rem;
-      padding-top: 1rem;
-      border-top: 1px solid #ddd;
-    }
-
-    ul {
-      padding-left: 1.25rem;
-    }
-  </style>
+  <!-- &family=Sansation:wght@300;400;700 &family=Aldrich-->
+  <title>Wine Finder :: Successfully pair your food with the most compatible wines</title>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
   <header>
-    <h1>Wine Pairing Finder</h1>
+    <h1>Wine Finder</h1>
+    <h2>Pair like a pro!</h2>
 
   </header>
   <div id="wine-pairing-app" class="pairing-app">
-
+    <div id="instructions" class="instructions">
+      <h3>Let's find you some wine!</h3>
+      <p>Choose a food category, when the second drop-down appears, choose the closest preparation style to what you are
+        making. We'll do our best to find a good wine match for you!</p>
+    </div>
     <label>
       What are you eating?
       <select id="categorySelect">
@@ -89,7 +49,14 @@
       <h4>Suggested Wines</h4>
       <ul id="wineList"></ul>
     </div>
+
   </div>
+  <footer>
+    <p>&copy Alanna Risse 2026</p>
+    <p>Appreciate this app? <a href="https://ko-fi.com/alannarisse" target="_blank">Please leave me a tip at Kofi!</a>
+    </p>
+    </p>
+  </footer>
   <script>
     // Assume pairingsData is your JSON array loaded beforehand
 
@@ -97,6 +64,7 @@
     const subCategorySelect = document.getElementById("subCategorySelect");
     const subCategoryWrapper = document.getElementById("subCategoryWrapper");
     const results = document.getElementById("results");
+    const instructions = document.getElementById("instructions");
     const pairingStyle = document.getElementById("pairingStyle");
     const wineList = document.getElementById("wineList");
 
@@ -146,6 +114,7 @@
       });
 
       results.hidden = false;
+      instructions.hidden = true;
     }
 
     // Capitalization helper
@@ -193,7 +162,7 @@
           "category": "fish",
           "sub-category": "delicate, lean fish",
           "food-array": ["Tilapia", "Sole", "Flounder", "Sea Bass"],
-          "pairing-style": "light, crisp whites that won’t overpower subtle flavors",
+          "pairing-style": "Light, crisp whites that won’t overpower subtle flavors",
           "pairing-suggestions": ["Pinot Gris", "Pinot Grigio", "Sauvignon Blanc", "Albariño", "Vinho Verde"]
         },
         {
@@ -201,7 +170,7 @@
           "category": "fish",
           "sub-category": "rich, oily fish",
           "food-array": ["Salmon", "Tuna", "Mackerel", "Arctic Char"],
-          "pairing-style": "medium-bodied whites or light reds with good acidity",
+          "pairing-style": "Medium-bodied whites or light reds with good acidity",
           "pairing-suggestions": ["Chardonnay", "Viognier", "Rosé", "Pinot Noir", "Gamay"]
         },
         {
@@ -209,7 +178,7 @@
           "category": "chicken",
           "sub-category": "simply roasted or grilled chicken",
           "food-array": ["Roast Chicken", "Grilled Chicken Breast"],
-          "pairing-style": "medium-bodied whites or light reds that complement without dominating",
+          "pairing-style": "Medium-bodied whites or light reds that complement without dominating",
           "pairing-suggestions": ["Chardonnay", "Sauvignon Blanc", "Pinot Noir", "Gamay"]
         },
         {
@@ -225,7 +194,7 @@
           "category": "beef",
           "sub-category": "slow-cooked and braised beef",
           "food-array": ["Osso Buco", "Beef Shank", "Short Ribs", "Beef Stew"],
-          "pairing-style": "full-bodied reds with structure to match richness",
+          "pairing-style": "Full-bodied reds with structure to match richness",
           "pairing-suggestions": ["Cabernet Sauvignon", "Syrah", "Malbec", "Nebbiolo"]
         },
         {
@@ -233,7 +202,7 @@
           "category": "beef",
           "sub-category": "grilled or seared steaks",
           "food-array": ["Ribeye", "New York Strip", "Filet Mignon"],
-          "pairing-style": "bold reds with firm tannins and depth",
+          "pairing-style": "Bold reds with firm tannins and depth",
           "pairing-suggestions": ["Cabernet Sauvignon", "Bordeaux Blend", "Tempranillo", "Zinfandel"]
         },
         {
@@ -241,7 +210,7 @@
           "category": "pork",
           "sub-category": "roasted or grilled pork",
           "food-array": ["Pork Chop", "Pork Tenderloin", "Roast Pork"],
-          "pairing-style": "medium-bodied wines with good acidity and balance",
+          "pairing-style": "Medium-bodied wines with good acidity and balance",
           "pairing-suggestions": ["Pinot Noir", "Grenache", "Chenin Blanc", "Riesling"]
         },
         {
