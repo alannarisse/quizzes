@@ -10,7 +10,7 @@ const questions = [
     ],
     "correct_choice": "Do not pass",
     "explanation": "A solid yellow line on your side means no passing is allowed.",
-    "image_filename": "solid_yellow_line.png",
+    "image_filename": "solid-yellow-you.svg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   {
@@ -24,7 +24,7 @@ const questions = [
     ],
     "correct_choice": "The vehicle on the right",
     "explanation": "At a four-way stop, the vehicle on the right has the right-of-way if both arrive at the same time.",
-    "image_filename": "four_way_stop.png",
+    "image_filename": "four-way-you-left.svg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   {
@@ -38,7 +38,7 @@ const questions = [
     ],
     "correct_choice": "Stop, then proceed when safe",
     "explanation": "A flashing red light means the same as a stop sign.",
-    "image_filename": "flashing_red_light.png",
+    "image_filename": "flashing-red.svg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   {
@@ -52,7 +52,7 @@ const questions = [
     ],
     "correct_choice": "65 mph",
     "explanation": "The maximum speed limit on most Oregon interstates is 65 mph unless otherwise posted.",
-    "image_filename": "interstate_speed_limit.png",
+    "image_filename": "interstate-speed-limit.png",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   {
@@ -66,7 +66,7 @@ const questions = [
     ],
     "correct_choice": "All of the above",
     "explanation": "Headlights are required at night, in poor visibility, and when wipers are used.",
-    "image_filename": "headlights.png",
+    "image_filename": "headlights.svg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   {
@@ -80,7 +80,7 @@ const questions = [
     ],
     "correct_choice": "Proceed with caution and yield before turning",
     "explanation": "A flashing yellow arrow allows a turn after yielding to oncoming traffic.",
-    "image_filename": "flashing_yellow_arrow.png",
+    "image_filename": "flashing-yellow-arrow.svg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   {
@@ -94,7 +94,7 @@ const questions = [
     ],
     "correct_choice": "Stop and remain stopped until the lights stop flashing",
     "explanation": "Oregon law requires all drivers to stop for a school bus with flashing red lights.",
-    "image_filename": "school_bus_stop.png",
+    "image_filename": "school-bus-flashing.svg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   {
@@ -737,7 +737,11 @@ function showQuestion() {
   const chosen = answersGiven[q.id] || null;
 
   document.getElementById("quiz").innerHTML = `
-    <div class="question">Q${q.id}: ${q.question}</div>
+    <div class="question">
+    <img class="qimg" src="images/${q.image_filename}"><br class="break"/>
+    Q${q.id}: ${q.question}
+    
+    </div>
     <div class="answers">
       ${shuffledAnswers.map(ans => `
         <button 

@@ -1,0 +1,114 @@
+[
+  {
+    "id":1,
+    "category": "fish",
+    "sub-category": "delicate, lean fish",
+    "food-array": ["Tilapia", "Sole", "Flounder", "Sea Bass"],
+    "pairing-style": "light, crisp, whites",
+    "pairing-suggestions": ["Pinot Gris", "Pinot Grigio", "Sauvignon Blanc", "Albariño", "Vino Verde"]
+  },
+  {
+    "id":2,
+    "category": "fish",
+    "sub-category": "medium textured fish",
+    "food-array": ["Cod", "Haddock", "Halibut"],
+    "pairing-style": "medium bodied whites",
+    "pairing-suggestions": ["Unoaked Chardonnay", "Pinot Gris", "Pinot Grigio", "Vermentino" ]
+  },
+  {
+    "id":3,
+    "category": "fish",
+    "sub-category": "oily, meaty fish",
+    "food-array": ["Salmon", "Tuna", "Swordfish", "Mackerel", "Arctic Char"],
+    "pairing-style": "full-bodies whites or light reds",
+    "pairing-suggestions": ["Oaked Chardonnary", "Viognier", "Pinot Noir", "Grenache"]
+  },
+  {
+    "id":4,
+    "category": "fish",
+    "sub-category": "shellfish",
+    "food-array": ["Lobster", "Mussel", "Oysters"],
+    "pairing-style": "crisp whites or sparkling wines",
+    "pairing-suggestions": ["Sauvignon Blanc", "Pinot Grigio", "Chardonnay", "Champagne", "Prosecco"]
+  },
+  {
+    "id":5,
+    "category": "sauce",
+    "sub-category": "zesty/citrusy sauce",
+    "food-array": [],
+    "pairing-style": "",
+    "pairing-suggestions": ["Sauvignon Blanc", "Muscadet", "Grüner Vetliner"]
+  },
+  {
+    "id":6,
+    "category": "sauce",
+    "sub-category": "rich/creeamy sauce",
+    "food-array": [],
+    "pairing-style": "medium-bodied white or sparkling",
+    "pairing-suggestions": ["Oaked Chardonnay", "Viognier", "Champagne"]
+  },
+  {
+    "id":7,
+    "category": "sauce",
+    "sub-category": "spicy/asian sauce",
+    "food-array": [],
+    "pairing-style": "",
+    "pairing-suggestions": ["Reisling (off-dry)", "Gewurtztraminer", "gruner Vetliner", "Rosé"]
+  },
+  {
+    "id":8,
+    "category": "sauce",
+    "sub-category": "grilled/bbq",
+    "food-array": [],
+    "pairing-style": "light, chilled red wines or dry rosé",
+    "pairing-suggestions": ["Pinot Noir", "Beaujolais", "Rosé"]
+  },
+  {
+    "id":9,
+    "category": "beef",
+    "sub-category": "rich, fatty beef",
+    "food-array": ["Ribeye Steak", "Prime Rib", "Beef Short Ribs", "Bone-on Strip Steak"],
+    "pairing-style": "reds with strong tannins",
+    "pairing-suggestions": ["Cabernet Sauvignon", "Malbec", "Syrah/Shiraz", "Bordeaux Blend"]
+  },
+  {
+    "id":10,
+    "category": "beef",
+    "sub-category": "lean beef",
+    "food-array": ["Filet Mignon", "Beef Tenderloin", "Eye of Round"],
+    "pairing-style": "delicate to medium bodied reds",
+    "pairing-suggestions": ["Pinot Noir", "Merlot", "Gamay (Beaujolais)", "Grenache"]
+  },
+  {
+    "id":11,
+    "category": "beef",
+    "sub-category": "sauces with beef",
+    "food-array": ["Steak au Poivre", "Beef with Muchroom or red wine sauce", "Pepper-crusted steak"],
+    "pairing-style": "medium-bodied, complex flavored reds",
+    "pairing-suggestions": ["Syrah (peppery)", "Zinfadel (spicy+jammy)", "Tempranillio (savory+earthy)", "Carmenére (herbal notes)"]
+  },
+  {
+    "id":12,
+    "category": "beef",
+    "sub-category": "slow-cooked and braised beef",
+    "food-array": ["Osso Buco", "Beef Shank", "Beef Bourguignon", "Pot Roast", "Braised Short Ribs"],
+    "pairing-style": "medium to heavy bodied, acidic reds",
+    "pairing-suggestions": ["Nebbiolo", "Barolo", "Barbaresco", "Sangiovese", "Cabernet Franc"]
+  },
+  {
+    "id":13,
+    "category": "beef",
+    "sub-category": "ground beef & casual dishes",
+    "food-array": ["Burgers", "Meatloaf", "Tacos", "Moco Loco", "Sloppy Joes"],
+    "pairing-style": "fun, festive, medium bodied reds",
+    "pairing-suggestions": ["Zinfandel", "Malbec", "Cotes du Rhone", "Lambrusco (dry)"]
+  },
+  {
+    "id":13,
+    "category": "beef",
+    "sub-category": "spiced, asian, mediteranean beef dishes",
+    "food-array": ["Bulgogi", "Stir-fry", "kebabs", "Shwarma", "Chili con Carne", "Curry"],
+    "pairing-style": "flexible, medium bodied reds, off-dry reds, or rose",
+    "pairing-suggestions": ["Zinfandel", "Grenache Blend", "Red Blend (off-dry)", "Rosé"]
+  }
+]
