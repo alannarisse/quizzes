@@ -736,8 +736,15 @@ function showQuestion() {
   const shuffledAnswers = [...q.answers].sort(() => Math.random() - 0.5);
   const chosen = answersGiven[q.id] || null;
 
+
   document.getElementById("quiz").innerHTML = `
     <div class="question">
+      if (q.image_filename == "" || null) {
+      alert('no image')
+    }
+  else {
+    alert('yes image')
+    }
     <img class="qimg" src="images/${q.image_filename}"><br class="break"/>
     Q${q.id}: ${q.question}
     

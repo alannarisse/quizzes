@@ -42,7 +42,7 @@
   {
     "id":6,
     "category": "sauce",
-    "sub-category": "rich/creeamy sauce",
+    "sub-category": "rich/creamy sauce",
     "food-array": [],
     "pairing-style": "medium-bodied white or sparkling",
     "pairing-suggestions": ["Oaked Chardonnay", "Viognier", "Champagne"]
@@ -110,5 +110,93 @@
     "food-array": ["Bulgogi", "Stir-fry", "kebabs", "Shwarma", "Chili con Carne", "Curry"],
     "pairing-style": "flexible, medium bodied reds, off-dry reds, or rose",
     "pairing-suggestions": ["Zinfandel", "Grenache Blend", "Red Blend (off-dry)", "Rosé"]
+  },
+  {
+    "id": 3,
+    "category": "chicken",
+    "sub-category": "simply roasted or grilled chicken",
+    "food-array": ["Roast Chicken", "Grilled Chicken Breast"],
+    "pairing-style": "medium-bodied whites or light reds that complement without dominating",
+    "pairing-suggestions": ["Chardonnay", "Sauvignon Blanc", "Pinot Noir", "Gamay"]
+  },
+  {
+    "id": 4,
+    "category": "chicken",
+    "sub-category": "rich or creamy chicken dishes",
+    "food-array": ["Chicken Alfredo", "Chicken Pot Pie", "Chicken Fricassée"],
+    "pairing-style": "round, fuller-bodied whites with texture",
+    "pairing-suggestions": ["Oaked Chardonnay", "Viognier", "Marsanne", "White Rhône Blend"]
+  },
+  {
+    "id": 7,
+    "category": "pork",
+    "sub-category": "roasted or grilled pork",
+    "food-array": ["Pork Chop", "Pork Tenderloin", "Roast Pork"],
+    "pairing-style": "medium-bodied wines with good acidity and balance",
+    "pairing-suggestions": ["Pinot Noir", "Grenache", "Chenin Blanc", "Riesling"]
+  },
+  {
+    "id": 8,
+    "category": "lamb",
+    "sub-category": "herb-roasted or grilled lamb",
+    "food-array": ["Rack of Lamb", "Lamb Chops", "Leg of Lamb"],
+    "pairing-style": "earthy, full-bodied reds that complement savory flavors",
+    "pairing-suggestions": ["Syrah", "Cabernet Sauvignon", "Bordeaux Blend", "Tempranillo"]
+  },
+  {
+    "id": 9,
+    "category": "vegetarian",
+    "sub-category": "roasted vegetables and hearty plant-based dishes",
+    "food-array": ["Mushroom Risotto", "Roasted Root Vegetables", "Eggplant Parmesan"],
+    "pairing-style": "wines with earthiness or brightness depending on preparation",
+    "pairing-suggestions": ["Pinot Noir", "Gamay", "Chardonnay", "Sangiovese"]
+  },
+  {
+    "id": 10,
+    "category": "cheese",
+    "sub-category": "soft and creamy cheeses",
+    "food-array": ["Brie", "Camembert", "Triple-Crème Cheese"],
+    "pairing-style": "acid-driven whites or sparkling wines to cut richness",
+    "pairing-suggestions": ["Champagne", "Cava", "Chenin Blanc", "Sauvignon Blanc"]
+  },
+  {
+    "id": 11,
+    "category": "dessert",
+    "sub-category": "chocolate-based desserts",
+    "food-array": ["Chocolate Cake", "Brownies", "Chocolate Mousse"],
+    "pairing-style": "rich, sweet wines with enough body to match chocolate intensity",
+    "pairing-suggestions": ["Port", "Banyuls", "Madeira", "Late Harvest Zinfandel"]
+  },
+  {
+    "id": 12,
+    "category": "dessert",
+    "sub-category": "fruit-based desserts",
+    "food-array": ["Apple Tart", "Berry Cobbler", "Peach Galette"],
+    "pairing-style": "sweet or off-dry wines with bright acidity",
+    "pairing-suggestions": ["Moscato d’Asti", "Late Harvest Riesling", "Sauternes"]
+  },
+  {
+    "id": 13,
+    "category": "dessert",
+    "sub-category": "cream and custard desserts",
+    "food-array": ["Crème Brûlée", "Panna Cotta", "Flan"],
+    "pairing-style": "silky, sweet wines that echo creamy textures",
+    "pairing-suggestions": ["Sauternes", "Tokaji", "Late Harvest Chenin Blanc"]
+  },
+  {
+    "id": 14,
+    "category": "dessert",
+    "sub-category": "nut-based and caramel desserts",
+    "food-array": ["Pecan Pie", "Baklava", "Caramel Tart"],
+    "pairing-style": "oxidative or nutty sweet wines that mirror caramelized flavors",
+    "pairing-suggestions": ["Tawny Port", "Pedro Ximénez Sherry", "Madeira"]
+  },
+  {
+    "id": 15,
+    "category": "dessert",
+    "sub-category": "light and fresh desserts",
+    "food-array": ["Lemon Tart", "Angel Food Cake", "Sorbet"],
+    "pairing-style": "light, aromatic, and refreshing sweet wines",
+    "pairing-suggestions": ["Moscato d'Asti", "Prosecco", "Ice Wine"]
   }
 ]
