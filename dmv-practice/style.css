@@ -1,7 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Commissioner, sans-serif;
-  margin: 20px auto;
+  margin: auto;
+  font-size: 20px;
+  background: #666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 a {
   color: black;
@@ -11,18 +21,46 @@ a:hover {
   color: rgb(199, 4, 199);
 }
 
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #333;
+}
+
+h2 {
+  color: #333;
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  margin-top: 0;
+  max-width: 600px;
+
+}
+
+.break {
+  display: none;
+}
+
 .wrapper {
-  width: 80vw;
+  padding: 40px;
+  width: 100vw;
   margin: auto;
+  background-color: #fff;
 }
 
 .question {
-  font-size: 18px;
-  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 10px 0 0;
 }
 
 .qimg {
-  max-width: 160px;
+  display: inline-block;
+  max-height: 200px;
   padding-bottom: 16px;
 }
 
@@ -32,9 +70,11 @@ button {
   border: 1px solid #cfcece;
 }
 
+
 button:hover {
   border: 1px solid #868484;
-  box-shadow: inset 0 0 6px #cacac9;
+  box-shadow: inset 0 0 12px #9bc1c6;
+  cursor: pointer;
 }
 
 .answers button {
@@ -48,9 +88,18 @@ button:hover {
 }
 
 .feedback {
-  margin: 15px 0;
-  padding: 10px;
-  border-radius: 5px;
+  margin: 16px 0;
+  padding: 16px 20px;
+  border-radius: 15px;
+}
+
+.feedback h3 {
+  margin: 0;
+}
+
+.feedback p {
+  margin: 10px 16px;
+  color: #333;
 }
 
 .correct {
@@ -80,27 +129,44 @@ button:hover {
 }
 
 .nav-buttons {
+  display: flex;
+  justify-content: space-between;
   margin-top: 15px;
 }
 
 .nav-buttons button {
   margin-right: 10px;
-  padding: 8px 16px;
+  padding: 12px 24px;
   background: #c1eef6;
   border-radius: 12px;
   border: 1px solid #7a7979;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.nav-buttons button#restart {
+  cursor: alias;
 }
 
 footer {
-  padding-top: 30px;
+  width: 100vw;
+  padding: 30px;
+  background: #666;
+  color: #fff;
+  text-align: center;
+}
+
+
+footer a {
+  color: #fff;
 }
 
 @media only screen and (max-width: 968px) {
-  .wrapper {
-    width: 90vw;
-  }
+
 
   .qimg {
-    max-width: 100px;
+    max-height: 160px;
+    text-align: center;
   }
 }
