@@ -108,7 +108,7 @@ const questions = [
     ],
     "correct_choice": "0.08%",
     "explanation": "In Oregon, the legal limit for drivers age 21+ is 0.08% BAC.",
-    "image_filename": "bac_limit.png",
+    "image_filename": "alcohol-know-the-facts.jpg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   {
@@ -741,7 +741,6 @@ function showQuestion() {
 
   document.getElementById("quiz").innerHTML = `
     <div class="question">
-
     <img class="qimg" id="qimg" src="images/${q.image_filename}"><br class="break"/>
     <!-- Q${q.id}:  -->
     <h2 class="qcopy">${q.question}</h2>

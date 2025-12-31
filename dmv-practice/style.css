@@ -129,9 +129,10 @@ button:hover {
 }
 
 .nav-buttons {
+  max-width: 600px;
   display: flex;
   justify-content: space-between;
-  margin-top: 15px;
+  margin: 15px auto;
 }
 
 .nav-buttons button {
