@@ -1,0 +1,614 @@
+{
+  "quizTitle": "ISTQB CTFL Practice Exam",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which statement best describes testing?",
+      "options": [
+        "Executing software to show it works",
+        "Executing software to find defects",
+        "Reviewing code to ensure correctness",
+        "Proving software is defect-free"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Executing software to find defects"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a test objective?",
+      "options": [
+        "Prevent all defects",
+        "Demonstrate software meets user needs",
+        "Eliminate the need for maintenance",
+        "Replace debugging"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Demonstrate software meets user needs"
+    },
+    {
+      "id": 3,
+      "question": "Why is testing necessary?",
+      "options": [
+        "To prove there are no defects",
+        "To improve quality and reduce risk",
+        "To ensure 100% code coverage",
+        "To replace requirements analysis"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "To improve quality and reduce risk"
+    },
+    {
+      "id": 4,
+      "question": "Which statement is TRUE?",
+      "options": [
+        "Testing can prove the absence of defects",
+        "Testing shows software is fit for use",
+        "Testing guarantees customer satisfaction",
+        "Testing eliminates all risk"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Testing shows software is fit for use"
+    },
+    {
+      "id": 5,
+      "question": "Which is an example of a defect?",
+      "options": [
+        "A missing requirement",
+        "A coding error",
+        "A user complaint",
+        "A failed test case"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "A coding error"
+    },
+
+    {
+      "id": 6,
+      "question": "Which principle states that exhaustive testing is impossible?",
+      "options": [
+        "Testing shows presence of defects",
+        "Defect clustering",
+        "Exhaustive testing",
+        "Early testing"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Exhaustive testing"
+    },
+    {
+      "id": 7,
+      "question": "Defect clustering means:",
+      "options": [
+        "Defects occur randomly",
+        "Most defects are found in a small number of modules",
+        "Defects only occur in complex systems",
+        "Testing should focus on simple features"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Most defects are found in a small number of modules"
+    },
+    {
+      "id": 8,
+      "question": "The pesticide paradox refers to:",
+      "options": [
+        "Too many testers",
+        "Repeating the same tests no longer finds new defects",
+        "Using too many tools",
+        "Testing too late"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Repeating the same tests no longer finds new defects"
+    },
+    {
+      "id": 9,
+      "question": "Early testing helps to:",
+      "options": [
+        "Increase development cost",
+        "Reduce defect removal cost",
+        "Delay project schedules",
+        "Eliminate the need for reviews"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Reduce defect removal cost"
+    },
+    {
+      "id": 10,
+      "question": "Absence-of-errors fallacy means:",
+      "options": [
+        "No defects exist",
+        "Software is bug-free",
+        "Software may still be unusable despite few defects",
+        "Testing is unnecessary"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Software may still be unusable despite few defects"
+    },
+
+    {
+      "id": 11,
+      "question": "Which testing level focuses on individual components?",
+      "options": [
+        "System testing",
+        "Acceptance testing",
+        "Integration testing",
+        "Component testing"
+      ],
+      "correctAnswer": 3,
+      "correctAnswerText": "Component testing"
+    },
+    {
+      "id": 12,
+      "question": "Which testing level evaluates the complete integrated system?",
+      "options": [
+        "Unit testing",
+        "Integration testing",
+        "System testing",
+        "Component testing"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "System testing"
+    },
+    {
+      "id": 13,
+      "question": "Acceptance testing is primarily focused on:",
+      "options": [
+        "Finding defects",
+        "Developer confidence",
+        "Business needs and user requirements",
+        "Code structure"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Business needs and user requirements"
+    },
+    {
+      "id": 14,
+      "question": "Which lifecycle model emphasizes early and continuous testing?",
+      "options": [
+        "Waterfall",
+        "Agile",
+        "V-model",
+        "Big Bang"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "V-model"
+    },
+    {
+      "id": 15,
+      "question": "Which test activity is performed during requirements analysis?",
+      "options": [
+        "Test execution",
+        "Test closure",
+        "Test planning and review",
+        "Defect fixing"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Test planning and review"
+    },
+
+    {
+      "id": 16,
+      "question": "Which test type focuses on functional requirements?",
+      "options": [
+        "Structural testing",
+        "Non-functional testing",
+        "Functional testing",
+        "Maintenance testing"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Functional testing"
+    },
+    {
+      "id": 17,
+      "question": "Performance testing is an example of:",
+      "options": [
+        "Functional testing",
+        "Structural testing",
+        "Non-functional testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Non-functional testing"
+    },
+    {
+      "id": 18,
+      "question": "Regression testing is used to:",
+      "options": [
+        "Test new features only",
+        "Confirm fixes work",
+        "Ensure unchanged parts still work",
+        "Validate requirements"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Ensure unchanged parts still work"
+    },
+    {
+      "id": 19,
+      "question": "Smoke testing is typically used to:",
+      "options": [
+        "Perform detailed testing",
+        "Verify critical functionality",
+        "Replace regression testing",
+        "Test performance"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Verify critical functionality"
+    },
+    {
+      "id": 20,
+      "question": "Maintenance testing occurs:",
+      "options": [
+        "Before release",
+        "After deployment",
+        "Only during development",
+        "During acceptance testing"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "After deployment"
+    },
+
+    {
+      "id": 21,
+      "question": "Static testing does NOT include:",
+      "options": [
+        "Reviews",
+        "Walkthroughs",
+        "Inspections",
+        "Test execution"
+      ],
+      "correctAnswer": 3,
+      "correctAnswerText": "Test execution"
+    },
+    {
+      "id": 22,
+      "question": "Which artifact is typically reviewed during static testing?",
+      "options": [
+        "Executable code only",
+        "Test results",
+        "Requirements and design documents",
+        "Runtime logs"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Requirements and design documents"
+    },
+    {
+      "id": 23,
+      "question": "Which role leads a formal inspection?",
+      "options": [
+        "Author",
+        "Moderator",
+        "Tester",
+        "Manager"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Moderator"
+    },
+    {
+      "id": 24,
+      "question": "What is a benefit of static testing?",
+      "options": [
+        "Requires executable software",
+        "Finds defects early",
+        "Replaces dynamic testing",
+        "Is fully automated"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Finds defects early"
+    },
+    {
+      "id": 25,
+      "question": "Walkthroughs are typically:",
+      "options": [
+        "Formal and structured",
+        "Led by a moderator",
+        "Informal and author-led",
+        "Tool-based"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Informal and author-led"
+    },
+
+    {
+      "id": 26,
+      "question": "Which technique is black-box?",
+      "options": [
+        "Statement coverage",
+        "Decision coverage",
+        "Equivalence partitioning",
+        "Path testing"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Equivalence partitioning"
+    },
+    {
+      "id": 27,
+      "question": "Boundary value analysis focuses on:",
+      "options": [
+        "Random inputs",
+        "Internal logic",
+        "Edge values",
+        "Code paths"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Edge values"
+    },
+    {
+      "id": 28,
+      "question": "Which technique uses a decision table?",
+      "options": [
+        "State transition testing",
+        "Use case testing",
+        "Cause-effect graphing",
+        "Experience-based testing"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Cause-effect graphing"
+    },
+    {
+      "id": 29,
+      "question": "State transition testing is useful when:",
+      "options": [
+        "Inputs are independent",
+        "Output depends on previous states",
+        "Code coverage is required",
+        "Requirements are unclear"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Output depends on previous states"
+    },
+    {
+      "id": 30,
+      "question": "Which is a white-box technique?",
+      "options": [
+        "Equivalence partitioning",
+        "Error guessing",
+        "Statement coverage",
+        "Use case testing"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Statement coverage"
+    },
+
+    {
+      "id": 31,
+      "question": "Test planning includes:",
+      "options": [
+        "Defect fixing",
+        "Test execution",
+        "Defining scope and objectives",
+        "Writing code"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Defining scope and objectives"
+    },
+    {
+      "id": 32,
+      "question": "Test cases are derived primarily from:",
+      "options": [
+        "Source code",
+        "Requirements and design",
+        "Test results",
+        "Defect reports"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Requirements and design"
+    },
+    {
+      "id": 33,
+      "question": "Which document defines entry and exit criteria?",
+      "options": [
+        "Test case",
+        "Test plan",
+        "Defect report",
+        "Test summary"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Test plan"
+    },
+    {
+      "id": 34,
+      "question": "Risk-based testing prioritizes tests based on:",
+      "options": [
+        "Tester availability",
+        "Defect history and impact",
+        "Number of test cases",
+        "Automation level"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Defect history and impact"
+    },
+    {
+      "id": 35,
+      "question": "A test summary report is created during:",
+      "options": [
+        "Test planning",
+        "Test design",
+        "Test execution",
+        "Test closure"
+      ],
+      "correctAnswer": 3,
+      "correctAnswerText": "Test closure"
+    },
+
+    {
+      "id": 36,
+      "question": "A defect report typically includes:",
+      "options": [
+        "Only defect ID",
+        "Steps to reproduce",
+        "Source code",
+        "Test plan"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Steps to reproduce"
+    },
+    {
+      "id": 37,
+      "question": "Which status means a defect is fixed but not yet verified?",
+      "options": [
+        "Open",
+        "Closed",
+        "Retested",
+        "Resolved"
+      ],
+      "correctAnswer": 3,
+      "correctAnswerText": "Resolved"
+    },
+    {
+      "id": 38,
+      "question": "Severity describes:",
+      "options": [
+        "How often a defect occurs",
+        "Business priority",
+        "Impact of the defect",
+        "Time to fix"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Impact of the defect"
+    },
+    {
+      "id": 39,
+      "question": "Priority describes:",
+      "options": [
+        "Impact on system",
+        "Order of fixing defects",
+        "Root cause",
+        "Frequency"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Order of fixing defects"
+    },
+    {
+      "id": 40,
+      "question": "Which role usually decides defect priority?",
+      "options": [
+        "Tester",
+        "Developer",
+        "Project manager or product owner",
+        "Customer"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Project manager or product owner"
+    },
+
+    {
+      "id": 41,
+      "question": "Which tool supports test execution?",
+      "options": [
+        "Test management tool",
+        "Static analysis tool",
+        "Test automation tool",
+        "Configuration management tool"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Test automation tool"
+    },
+    {
+      "id": 42,
+      "question": "Static analysis tools help to:",
+      "options": [
+        "Execute test cases",
+        "Find defects without running code",
+        "Manage defects",
+        "Create test data"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Find defects without running code"
+    },
+    {
+      "id": 43,
+      "question": "Test management tools typically support:",
+      "options": [
+        "Code compilation",
+        "Test planning and reporting",
+        "Performance testing",
+        "UI automation"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Test planning and reporting"
+    },
+    {
+      "id": 44,
+      "question": "A benefit of test automation is:",
+      "options": [
+        "No maintenance required",
+        "Reduced test effort over time",
+        "No need for manual testing",
+        "Guaranteed defect detection"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Reduced test effort over time"
+    },
+    {
+      "id": 45,
+      "question": "Which is a risk of test automation?",
+      "options": [
+        "Faster feedback",
+        "High initial setup cost",
+        "Improved repeatability",
+        "Increased coverage"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "High initial setup cost"
+    },
+
+    {
+      "id": 46,
+      "question": "In Agile, testers typically:",
+      "options": [
+        "Test only at the end",
+        "Work separately from developers",
+        "Collaborate continuously",
+        "Avoid documentation"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Collaborate continuously"
+    },
+    {
+      "id": 47,
+      "question": "Exploratory testing is:",
+      "options": [
+        "Scripted testing",
+        "Experience-based testing",
+        "White-box testing",
+        "Automated testing"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Experience-based testing"
+    },
+    {
+      "id": 48,
+      "question": "Error guessing relies on:",
+      "options": [
+        "Formal techniques",
+        "Past experience and intuition",
+        "Code coverage",
+        "Test tools"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "Past experience and intuition"
+    },
+    {
+      "id": 49,
+      "question": "Which Agile artifact supports acceptance testing?",
+      "options": [
+        "Sprint backlog",
+        "User stories with acceptance criteria",
+        "Burndown chart",
+        "Retrospective notes"
+      ],
+      "correctAnswer": 1,
+      "correctAnswerText": "User stories with acceptance criteria"
+    },
+    {
+      "id": 50,
+      "question": "Which statement about Agile testing is TRUE?",
+      "options": [
+        "Testing is a separate phase",
+        "Testers work independently",
+        "Testing is continuous",
+        "Documentation is prohibited"
+      ],
+      "correctAnswer": 2,
+      "correctAnswerText": "Testing is continuous"
+    }
+  ]
+}
