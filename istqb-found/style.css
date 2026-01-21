@@ -42,11 +42,6 @@ body {
   border-color: #2563eb;
 }
 
-#controls {
-  margin-top: 20px;
-  text-align: right;
-}
-
 #controls button {
   padding: 10px 16px;
   border: none;
@@ -93,4 +88,52 @@ body {
   background: #f1f5f9;
   border-left: 4px solid #2563eb;
   font-size: 14px;
+}
+
+#progress-container {
+  width: 100%;
+  height: 10px;
+  background: #e5e7eb;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background: #2563eb;
+  transition: width 0.3s ease;
+}
+
+#place {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+#controls {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+#prev-btn {
+  background: #6b7280;
+}
+
+#restart-btn {
+  background: #dc2626;
+}
+
+#restart-final-btn {
+  padding: 10px 16px;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 16px;
 }

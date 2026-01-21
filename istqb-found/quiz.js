@@ -40,7 +40,7 @@ const quizData = {
 {"id":34,"question":"Alpha testing is performed:","options":["By end-users in production","By developers in-house","After release","During regression testing"],"correctAnswer":1,"explanation":"Alpha testing is done in-house by developers or QA to catch defects before external user testing."},
 {"id":35,"question":"Beta testing is conducted:","options":["Internally only","By selected end-users","By automation scripts","During static testing"],"correctAnswer":1,"explanation":"Beta testing is performed by real users in a production-like environment to find issues not caught internally."},
 {"id":36,"question":"Test coverage measures:","options":["Percentage of requirements tested","Percentage of defects found","Percentage of code executed","Percentage of users satisfied"],"correctAnswer":2,"explanation":"Test coverage assesses which parts of the code have been exercised by tests, ensuring thoroughness."},
-{"id":37,"question":"Defect severity indicates:","options":["Impact on the system","Probability of occurrence","Number of users affected","Complexity of fix"],"correctAnswer":0,"explanation":"Severity reflects the impact of a defect on the system’s operation or users, guiding prioritization."},
+{"id":37,"question":"Defect severity indicates:","options":["Impact on the system","Probability of occurrence","Number of users affected","Complexity of fix"],"correctAnswer":0,"explanation":"Severity reflects the impact of a defect on the system's operation or users, guiding prioritization."},
 {"id":38,"question":"Defect priority indicates:","options":["Impact on the system","Order of fixing","Probability of defect","Complexity of fix"],"correctAnswer":1,"explanation":"Priority determines the order in which defects should be fixed based on business needs, not technical impact."},
 {"id":39,"question":"A test plan includes:","options":["Code logic","Test objectives, scope, resources, schedule","Defect fixes","Automation scripts"],"correctAnswer":1,"explanation":"A test plan documents the approach, objectives, resources, schedule, and scope for testing activities."},
 {"id":40,"question":"A test case specification includes:","options":["Project schedule","Test inputs, expected results, and execution steps","Requirements document","Release notes"],"correctAnswer":1,"explanation":"Test case specifications detail what to test, how to execute it, and the expected outcomes."},
@@ -55,15 +55,30 @@ const quizData = {
 {"id":49,"question":"Which tool type is used for performance testing?","options":["Debugger","Profiler","Load and stress tool","IDE"],"correctAnswer":2,"explanation":"Load and stress testing tools simulate multiple users or high workloads to evaluate performance."},
 {"id":50,"question":"Which tool supports static analysis?","options":["Profiler","Code review tool","Compiler","Debugger"],"correctAnswer":1,"explanation":"Static analysis tools examine code without executing it to find defects and enforce standards."}
 ]
-
-  
 };
+
+// --------------------
+// STORAGE KEY
+// --------------------
+const STORAGE_KEY = "istqbQuizState";
+
 // --------------------
 // QUIZ STATE
 // --------------------
-let currentQuestionIndex = 0;
-let score = 0;
-let answered = false;
+let savedState = JSON.parse(localStorage.getItem(STORAGE_KEY));
+let currentQuestionIndex = savedState ? savedState.currentQuestionIndex : 0;
+let score = savedState ? savedState.score : 0;
+let wrong = savedState ? savedState.wrong : 0;
+let answersGiven = savedState ? savedState.answersGiven : {};
+
+function saveState() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({
+    currentQuestionIndex,
+    score,
+    wrong,
+    answersGiven
+  }));
+}
 
 // --------------------
 // DOM ELEMENTS
@@ -72,10 +87,14 @@ const quizTitle = document.getElementById("quiz-title");
 const questionText = document.getElementById("question-text");
 const optionsList = document.getElementById("options-list");
 const nextBtn = document.getElementById("next-btn");
+const prevBtn = document.getElementById("prev-btn");
+const restartBtn = document.getElementById("restart-btn");
 const resultContainer = document.getElementById("result-container");
 const scoreText = document.getElementById("score-text");
 const feedback = document.getElementById("feedback");
 const explanation = document.getElementById("explanation");
+const progressBar = document.getElementById("progressBar");
+const place = document.getElementById("place");
 
 // --------------------
 // INIT
@@ -84,19 +103,30 @@ quizTitle.textContent = quizData.quizTitle;
 loadQuestion();
 
 nextBtn.addEventListener("click", nextQuestion);
+prevBtn.addEventListener("click", prevQuestion);
+restartBtn.addEventListener("click", restartQuiz);
+document.getElementById("restart-final-btn").addEventListener("click", restartQuiz);
 
 // --------------------
 // FUNCTIONS
 // --------------------
+function updateProgress() {
+  const progress = ((currentQuestionIndex + 1) / quizData.questions.length) * 100;
+  progressBar.style.width = progress + "%";
+  place.innerHTML = `Question ${currentQuestionIndex + 1} of ${quizData.questions.length}<br>
+  Correct: ${score} | Wrong: ${wrong}`;
+}
+
 function loadQuestion() {
-  answered = false;
-  nextBtn.disabled = true;
+  const currentQuestion = quizData.questions[currentQuestionIndex];
+  const chosenIndex = answersGiven[currentQuestion.id];
+  const hasAnswered = chosenIndex !== undefined;
+
   feedback.textContent = "";
   feedback.className = "";
   explanation.textContent = "";
   explanation.classList.add("hidden");
 
-  const currentQuestion = quizData.questions[currentQuestionIndex];
   questionText.textContent = currentQuestion.question;
   optionsList.innerHTML = "";
 
@@ -106,47 +136,90 @@ function loadQuestion() {
 
     button.textContent = option;
     button.className = "option-btn";
-    button.onclick = () => handleAnswer(button, index);
+
+    if (hasAnswered) {
+      button.disabled = true;
+      if (index === currentQuestion.correctAnswer) {
+        button.classList.add("correct");
+      }
+      if (index === chosenIndex && chosenIndex !== currentQuestion.correctAnswer) {
+        button.classList.add("incorrect");
+      }
+      if (index === chosenIndex) {
+        button.style.border = "2px solid #2563eb";
+      }
+    } else {
+      button.onclick = () => handleAnswer(button, index);
+    }
 
     li.appendChild(button);
     optionsList.appendChild(li);
   });
+
+  // Show feedback if already answered
+  if (hasAnswered) {
+    showFeedback(currentQuestion, chosenIndex);
+  }
+
+  // Update button visibility
+  prevBtn.style.display = currentQuestionIndex > 0 ? "inline-block" : "none";
+  nextBtn.disabled = !hasAnswered;
+
+  updateProgress();
 }
 
 function handleAnswer(button, selectedIndex) {
-  if (answered) return;
-  answered = true;
-
   const currentQuestion = quizData.questions[currentQuestionIndex];
-  const correctIndex = currentQuestion.correctAnswer;
-  const optionButtons = document.querySelectorAll(".option-btn");
 
+  // Only record if not already answered
+  if (answersGiven[currentQuestion.id] === undefined) {
+    answersGiven[currentQuestion.id] = selectedIndex;
+
+    if (selectedIndex === currentQuestion.correctAnswer) {
+      score++;
+    } else {
+      wrong++;
+    }
+
+    saveState();
+  }
+
+  // Disable all buttons and show correct/incorrect
+  const optionButtons = document.querySelectorAll(".option-btn");
   optionButtons.forEach((btn, index) => {
     btn.disabled = true;
-    if (index === correctIndex) {
+    if (index === currentQuestion.correctAnswer) {
       btn.classList.add("correct");
     }
   });
 
-  if (selectedIndex === correctIndex) {
-    score++;
+  if (selectedIndex !== currentQuestion.correctAnswer) {
+    button.classList.add("incorrect");
+  }
+
+  button.style.border = "2px solid #2563eb";
+
+  showFeedback(currentQuestion, selectedIndex);
+  nextBtn.disabled = false;
+  updateProgress();
+}
+
+function showFeedback(question, selectedIndex) {
+  if (selectedIndex === question.correctAnswer) {
     feedback.textContent = "Correct ✔";
     feedback.className = "correct";
   } else {
-    button.classList.add("incorrect");
     feedback.textContent = "Incorrect ✖";
     feedback.className = "incorrect";
   }
 
-  // Show explanation
-  explanation.textContent = currentQuestion.explanation;
+  explanation.textContent = question.explanation;
   explanation.classList.remove("hidden");
-
-  nextBtn.disabled = false;
 }
 
 function nextQuestion() {
   currentQuestionIndex++;
+  saveState();
 
   if (currentQuestionIndex < quizData.questions.length) {
     loadQuestion();
@@ -155,10 +228,36 @@ function nextQuestion() {
   }
 }
 
+function prevQuestion() {
+  if (currentQuestionIndex > 0) {
+    currentQuestionIndex--;
+    saveState();
+    loadQuestion();
+  }
+}
+
+function restartQuiz() {
+  currentQuestionIndex = 0;
+  score = 0;
+  wrong = 0;
+  answersGiven = {};
+  localStorage.removeItem(STORAGE_KEY);
+
+  // Reset UI
+  document.getElementById("question-container").classList.remove("hidden");
+  document.getElementById("controls").classList.remove("hidden");
+  resultContainer.classList.add("hidden");
+
+  loadQuestion();
+}
+
 function showResults() {
   document.getElementById("question-container").classList.add("hidden");
   document.getElementById("controls").classList.add("hidden");
   resultContainer.classList.remove("hidden");
 
-  scoreText.textContent = `You scored ${score} out of ${quizData.questions.length}`;
+  scoreText.textContent = `You scored ${score} out of ${quizData.questions.length} (${wrong} wrong)`;
+
+  // Clear state when quiz is complete
+  localStorage.removeItem(STORAGE_KEY);
 }
