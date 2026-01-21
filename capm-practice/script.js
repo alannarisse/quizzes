@@ -805,7 +805,7 @@ document.getElementById("restart").onclick = () => {
   score = 0;
   wrong = 0;
   answersGiven = {};
-  localStorage.removeItem("quizState");
+  localStorage.removeItem("capmQuizState");
   document.getElementById("restart").style.display = "none";
   showQuestion();
 };
