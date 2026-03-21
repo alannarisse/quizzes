@@ -704,10 +704,22 @@ const questions = [
 const TOTAL_QUESTIONS = 35;
 const MAX_WRONG = 7;
 
+// Sound toggle - default to off
+let soundEnabled = false;
+
 // Sound effects using Web Audio API for short beeps
-const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+let audioContext = null;
+
+function initAudioContext() {
+  if (!audioContext) {
+    audioContext = new (window.AudioContext || window.webkitAudioContext)();
+  }
+}
 
 function playSound(isCorrect) {
+  if (!soundEnabled) return;
+
+  initAudioContext();
   const oscillator = audioContext.createOscillator();
   const gainNode = audioContext.createGain();
 
@@ -729,6 +741,21 @@ function playSound(isCorrect) {
   oscillator.start();
   oscillator.stop(audioContext.currentTime + 0.15);
 }
+
+function toggleSound() {
+  soundEnabled = !soundEnabled;
+  const btn = document.getElementById("soundToggle");
+  if (soundEnabled) {
+    btn.textContent = "Sound: On";
+    btn.classList.add("enabled");
+    initAudioContext();
+  } else {
+    btn.textContent = "Sound: Off";
+    btn.classList.remove("enabled");
+  }
+}
+
+document.getElementById("soundToggle").onclick = toggleSound;
 
 function shuffleArray(array) {
   const shuffled = [...array];
