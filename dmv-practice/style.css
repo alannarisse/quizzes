@@ -137,17 +137,19 @@ button:hover {
 
 .nav-buttons button {
   margin-right: 10px;
-  padding: 12px 24px;
-  background: #c1eef6;
+  padding: 12px 16px;
+  background: #c7e3e8;
   border-radius: 12px;
   border: 1px solid #7a7979;
   font-weight: bold;
   font-size: 16px;
-
 }
-
+#nextBtn {
+  
+}
 .nav-buttons button#restart {
   cursor: alias;
+  margin: auto;
 }
 
 footer {
@@ -161,6 +163,63 @@ footer {
 
 footer a {
   color: #fff;
+}
+
+.fail-screen,
+.pass-screen {
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.fail-screen {
+  background: #f8d7da;
+  border: 2px solid #721c24;
+}
+
+.fail-screen h2 {
+  color: #721c24;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.fail-screen p {
+  color: #721c24;
+  font-size: 1.1rem;
+}
+
+.pass-screen {
+  background: #d4edda;
+  border: 2px solid #155724;
+}
+
+.pass-screen h2 {
+  color: #155724;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.pass-screen p {
+  color: #155724;
+  font-size: 1.1rem;
+}
+
+.retry-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.retry-btn:hover {
+  background: #45a049;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width: 968px) {

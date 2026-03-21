@@ -8,11 +8,19 @@
  }
 
  a {
-   color: #f08d0b;
+   color: #2f655b;
  }
 
  a:hover {
-   color: purple;
+   color: #f08d06;
+ }
+
+ footer a {
+   color: #88dacb;
+ }
+
+ footer a:hover {
+   color: #f08d06;
  }
 
  body {
@@ -20,10 +28,23 @@
    font-size: 20px;
    line-height: 1.6rem;
    color: #333;
-   background: orange;
-   border: 22px dotted yellow;
+   /* background: orange; */
+   /* background:
+     radial-gradient(closest-side, #2f655b, #faeea0) 0/ .3em .3em space,
+     linear-gradient(80deg, #2f655b, #faeea0); */
+   /* border: 22px dotted yellow; */
    border-radius: 40px;
    margin: 30px;
+   background:
+     /* 1 */
+     var(--pattern,
+       radial-gradient(closest-side, #2f655b, #faeea0) 0/ .6em .6em space),
+     var(--map,
+       linear-gradient(70deg, #9a8a22, #faeea0));
+   background-blend-mode: hard-light;
+   /* filter: contrast(21) */
+   /* 3 */
+
  }
 
  h1 {
@@ -31,7 +52,7 @@
    font-size: 100px;
    font-weight: 400;
    line-height: 4.8rem;
-   background: linear-gradient(to top, red, yellow);
+   background: linear-gradient(to top, #f6b952, #efe292);
    -webkit-background-clip: text;
    background-clip: text;
    color: transparent;
@@ -47,11 +68,10 @@
  }
 
  .container {
-   background: #fff;
+   background: #2a5f54;
    width: auto;
    margin: 20px;
-   border-radius: 40px;
-   border: 1px solid #fff;
+   border: 10px solid #efe292;
    padding: 0 20px;
 
  }
@@ -74,16 +94,41 @@
 
 
  .card {
-   border-radius: 20px;
-   background: linear-gradient(45deg, purple, orange);
+   border-top-left-radius: 60px;
+   border-bottom-right-radius: 60px;
    padding: 20px;
    display: flex;
    justify-content: center;
+
+   /* background:
+     radial-gradient(closest-side, #2f655b, #faeea0) 0/ .4em .4em space,
+     linear-gradient(90deg, #2f655b, #faeea0); */
+
+ }
+
+ .grainy-gradient {
+   background-image: linear-gradient(135deg, #fcf7ab, #fdf8ca, #fcf7a7);
+   filter: saturate(50%);
+   /* Apply the grain effect */
+   position: relative;
+   overflow: hidden;
+ }
+
+ .grainy-gradient::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   filter: url(#grainy-filter);
+   opacity: 0.10;
+   mix-blend-mode: normal;
+   pointer-events: none;
  }
 
  .card p {
-   border-radius: calc(20px - 10px);
-   background: #fff;
+   /* border-radius: calc(20px - 10px); */
    margin: 0;
    height: 300px;
    width: 360px;
@@ -98,6 +143,7 @@
 
  footer {
    margin: 80px auto;
+   color: #faeea0;
  }
 
  @media only screen and (max-width: 968px) {
@@ -111,7 +157,7 @@
    }
 
    .cards {
-     grid-template-columns: 240px;
+     grid-template-columns: 1fr;
    }
 
    h1 {
@@ -136,4 +182,26 @@
      display: flex;
      justify-content: center;
    }
+ }
+
+
+ .grainy-body {
+   background-image: linear-gradient(135deg, #1d6a5e, #2a766a, #1e695d);
+   filter: saturate(100%);
+   /* Apply the grain effect */
+   position: relative;
+   overflow: hidden;
+ }
+
+ .grainy-body::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   filter: url(#grainy-filter);
+   opacity: 0.10;
+   mix-blend-mode: normal;
+   pointer-events: none;
  }

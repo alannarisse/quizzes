@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Shelf Board</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Commissioner:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="shelf-body">
+  <div class="shelf-container">
+    <main class="shelf-layout">
+      <section class="shelf-info">
+        <h1>Food Shelf Match</h1>
+        <p>Drag items between shelves. Each shelf can hold up to three items.</p>
+        <p><strong>Goal:</strong> Get three of the same item onto a single shelf to clear that set.</p>
+        <p id="sets-remaining" class="shelf-status"></p>
+        <p id="game-message" class="shelf-message" aria-live="polite"></p>
+        <button id="restart-btn" type="button">Restart game</button>
+      </section>
+
+      <section class="shelf-board-wrapper">
+        <div class="outer-shelf" aria-label="Food shelf board">
+          <div class="shelf-grid">
+            <div class="shelf-cell" data-shelf-id="0"></div>
+            <div class="shelf-cell" data-shelf-id="1"></div>
+            <div class="shelf-cell" data-shelf-id="2"></div>
+            <div class="shelf-cell" data-shelf-id="3"></div>
+            <div class="shelf-cell" data-shelf-id="4"></div>
+
+            <div class="shelf-cell" data-shelf-id="5"></div>
+            <div class="shelf-cell" data-shelf-id="6"></div>
+            <div class="shelf-cell" data-shelf-id="7"></div>
+            <div class="shelf-cell" data-shelf-id="8"></div>
+            <div class="shelf-cell" data-shelf-id="9"></div>
+
+            <div class="shelf-cell" data-shelf-id="10"></div>
+            <div class="shelf-cell" data-shelf-id="11"></div>
+            <div class="shelf-cell" data-shelf-id="12"></div>
+            <div class="shelf-cell" data-shelf-id="13"></div>
+            <div class="shelf-cell" data-shelf-id="14"></div>
+
+            <div class="shelf-cell" data-shelf-id="15"></div>
+            <div class="shelf-cell" data-shelf-id="16"></div>
+            <div class="shelf-cell" data-shelf-id="17"></div>
+            <div class="shelf-cell" data-shelf-id="18"></div>
+            <div class="shelf-cell" data-shelf-id="19"></div>
+
+            <div class="shelf-cell" data-shelf-id="20"></div>
+            <div class="shelf-cell" data-shelf-id="21"></div>
+            <div class="shelf-cell" data-shelf-id="22"></div>
+            <div class="shelf-cell" data-shelf-id="23"></div>
+            <div class="shelf-cell" data-shelf-id="24"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="shelf-game.js"></script>
+</body>
+
+</html>

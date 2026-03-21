@@ -1,0 +1,28 @@
+What is the primary function of a collection in Postman?
+
+
+To act as a container that stores related API requests
+To automatcally excute requestsTo store API documentation
+
+You selected "To act as a container that stores related API requests" because collections in Postman serve the primary purpose of organizing and grouping multiple API requests that are related to a specific project or workflow, making it easier to manage and execute them efficiently. This functionality enhances productivity and collaboration when working with APIs.
+
+
+
+How do you save a request in Postman?
+
+
+You selected "To act as a container that stores related API requests" because collections in Postman serve the primary purpose of organizing and grouping multiple API requests that are related to a specific project or workflow, making it easier to manage and execute them efficiently. This functionality enhances productivity and collaboration when working with APIs.
+
+Question 3:
+In Postman, what syntax is used to denote a variable in a request?
+
+Enclosing the variable name in double curly brackets, like {{baseUrl}}, is the correct syntax in Postman because it allows you to reference variables defined in your environment or collection, making your requests more dynamic and easier to manage. This understanding is essential for effectively utilizing Postman to streamline your API requests.
+
+
+In Postman, why is it useful to set the base URL as a variable?
+
+Setting the base URL as a variable in Postman is beneficial because it allows you to easily update that value in one place, thus automatically reflecting the change in all requests that use it. This simplifies the management of your API requests, especially if the API address changes frequently.
+
+What is the difference between the "Current value" and the "Initial value" of a variable in Postman?
+
+The answer you selected is correct because the "Current value" is actively used in your API requests and remains private to you, while the "Initial value" is intended for sharing, making it visible to anyone you share your collection with. This distinction is important for managing sensitive information and collaboration in Postman.

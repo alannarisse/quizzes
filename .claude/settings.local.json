@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/alanna/Sites/quizzes status)",
+      "Bash(git -C /Users/alanna/Sites/quizzes diff)",
+      "Bash(git -C /Users/alanna/Sites/quizzes log --oneline -3)"
+    ]
+  }
+}
