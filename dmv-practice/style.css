@@ -44,8 +44,8 @@ h2 {
 
 .wrapper {
   padding: 40px;
-  width: 100vw;
-  margin: auto;
+  max-width: 800px;
+  margin: 40px auto;
   background-color: #fff;
 }
 
@@ -263,6 +263,7 @@ footer a {
 
   .wrapper {
     padding: 10px 20px;
+    margin:0;
   }
 
   .qimg {
