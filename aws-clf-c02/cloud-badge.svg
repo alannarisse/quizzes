@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 132" role="img" aria-label="Cloud badge">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e8f1fc"/></linearGradient>
+    <linearGradient id="o" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb84d"/><stop offset="1" stop-color="#ff9900"/></linearGradient>
+  </defs>
+  <polygon points="60,2 116,34 116,98 60,130 4,98 4,34" fill="#232f3e"/>
+  <polygon points="60,10 109,38 109,94 60,122 11,94 11,38" fill="url(#g)"/>
+  <path d="M36 78a14 14 0 0 1 2-28 20 20 0 0 1 38-4 15 15 0 0 1 8 32z" fill="#cfe3f7" stroke="#2074d5" stroke-width="2"/>
+  <path d="M38 92q22 12 44 0" fill="none" stroke="#ff9900" stroke-width="5" stroke-linecap="round"/>
+  <path d="M79 88l5 1-1 5" fill="none" stroke="#ff9900" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="84,20 98,28 98,44 84,52 70,44 70,28" fill="url(#o)"/>
+  <path d="M77 36l5 5 9-10" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

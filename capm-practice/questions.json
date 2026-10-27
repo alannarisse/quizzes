@@ -1,0 +1,952 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main purpose of the Project Charter?",
+    "answers": [
+      "To formally authorize the project",
+      "To create the work breakdown structure",
+      "To define the budget in detail",
+      "To manage project risks"
+    ],
+    "correct_choice": "To formally authorize the project",
+    "explanation": "The project charter formally authorizes the project and gives the project manager authority to use resources.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "domain": "Fundamentals"
+  },
+  {
+    "id": 2,
+    "question": "Which process group involves monitoring project performance to ensure it stays on track?",
+    "answers": [
+      "Initiating",
+      "Planning",
+      "Executing",
+      "Monitoring and Controlling"
+    ],
+    "correct_choice": "Monitoring and Controlling",
+    "explanation": "Monitoring and Controlling ensures that project objectives are met by tracking, reviewing, and regulating progress.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "domain": "Predictive"
+  },
+  {
+    "id": 3,
+    "question": "Which knowledge area covers the creation of a Work Breakdown Structure (WBS)?",
+    "answers": [
+      "Scope Management",
+      "Schedule Management",
+      "Cost Management",
+      "Risk Management"
+    ],
+    "correct_choice": "Scope Management",
+    "explanation": "The WBS is developed as part of the Create WBS process in the Scope Management knowledge area.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "domain": "Predictive"
+  },
+  {
+    "id": 4,
+    "question": "Which document is used to identify and track risks throughout the project lifecycle?",
+    "answers": [
+      "Risk Register",
+      "Issue Log",
+      "Stakeholder Register",
+      "Project Charter"
+    ],
+    "correct_choice": "Risk Register",
+    "explanation": "The risk register contains details on identified risks, their potential impact, and response plans.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "domain": "Fundamentals"
+  },
+  {
+    "id": 5,
+    "question": "Which earned value formula calculates schedule efficiency?",
+    "answers": [
+      "CPI = EV ÷ AC",
+      "SPI = EV ÷ PV",
+      "SV = EV - PV",
+      "CV = EV - AC"
+    ],
+    "correct_choice": "SPI = EV ÷ PV",
+    "explanation": "Schedule Performance Index (SPI) = Earned Value ÷ Planned Value. It measures schedule efficiency.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "domain": "Predictive"
+  },
+  {
+    "id": 6,
+    "question": "What is the critical path in project scheduling?",
+    "answers": [
+      "The shortest path",
+      "The longest path determining project duration",
+      "The path with least resources",
+      "The path with most float"
+    ],
+    "correct_choice": "The longest path determining project duration",
+    "explanation": "The critical path is the longest path through the network diagram and defines the project duration.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "domain": "Predictive"
+  },
+  {
+    "id": 7,
+    "question": "Which stakeholder strategy involves frequent direct collaboration to address concerns and build support?",
+    "answers": [
+      "Engage Closely",
+      "Monitor",
+      "Keep Informed",
+      "Mitigate"
+    ],
+    "correct_choice": "Engage Closely",
+    "explanation": "Engaging closely with stakeholders helps reduce negative impacts and ensures their needs are considered.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "domain": "Fundamentals"
+  },
+  {
+    "id": 8,
+    "question": "Which tool is commonly used for quality control?",
+    "answers": [
+      "Pareto Chart",
+      "Monte Carlo Simulation",
+      "PERT Chart",
+      "Work Breakdown Structure"
+    ],
+    "correct_choice": "Pareto Chart",
+    "explanation": "A Pareto chart is used in quality control to identify the most significant factors in a dataset.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "domain": "Predictive"
+  },
+  {
+    "id": 9,
+    "question": "Which communication method is most effective for resolving complex project issues?",
+    "answers": [
+      "Interactive communication",
+      "Push communication",
+      "Pull communication",
+      "Email"
+    ],
+    "correct_choice": "Interactive communication",
+    "explanation": "Interactive communication, such as meetings, is best for resolving complex issues.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "domain": "Fundamentals"
+  },
+  {
+    "id": 10,
+    "question": "What type of contract places the greatest risk on the seller?",
+    "answers": [
+      "Fixed-price",
+      "Cost-plus",
+      "Time and materials",
+      "Unit price"
+    ],
+    "correct_choice": "Fixed-price",
+    "explanation": "In a fixed-price contract, the seller assumes most of the cost risk.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "domain": "Predictive"
+  },
+  {
+    "id": 11,
+    "domain": "Fundamentals",
+    "question": "Which activity is a project rather than an ongoing operation?",
+    "answers": [
+      "Implementing a new payroll system",
+      "Processing payroll every month",
+      "Answering routine support calls",
+      "Performing daily backups"
+    ],
+    "correct_choice": "Implementing a new payroll system",
+    "explanation": "A project creates a unique result within a temporary effort; recurring payroll processing is an operation.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 12,
+    "domain": "Fundamentals",
+    "question": "A program is best described as what?",
+    "answers": [
+      "Related projects coordinated to realize shared benefits",
+      "Every task assigned to one employee",
+      "Only projects using the same software",
+      "A permanent department budget"
+    ],
+    "correct_choice": "Related projects coordinated to realize shared benefits",
+    "explanation": "Program management coordinates related projects to achieve benefits unavailable from managing them separately.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 13,
+    "domain": "Fundamentals",
+    "question": "What primarily guides the selection of projects within a portfolio?",
+    "answers": [
+      "Alignment with organizational strategy",
+      "Identical start dates",
+      "Use of the same vendor",
+      "Equal team sizes"
+    ],
+    "correct_choice": "Alignment with organizational strategy",
+    "explanation": "Portfolio selection aims to advance strategic objectives; projects need not have the same schedules or resources.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 14,
+    "domain": "Fundamentals",
+    "question": "Who typically champions a project and helps secure funding?",
+    "answers": [
+      "Project sponsor",
+      "Every supplier",
+      "The end user alone",
+      "The records clerk"
+    ],
+    "correct_choice": "Project sponsor",
+    "explanation": "A sponsor provides organizational support and helps secure resources and decisions beyond the team's authority.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 15,
+    "domain": "Fundamentals",
+    "question": "A team assumes a supplier can deliver within two weeks. Where should this planning belief be recorded?",
+    "answers": [
+      "Assumption log",
+      "Final acceptance form",
+      "Completed invoice",
+      "Team vacation calendar"
+    ],
+    "correct_choice": "Assumption log",
+    "explanation": "An assumption log records planning assumptions so they can be reviewed and validated.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 16,
+    "domain": "Fundamentals",
+    "question": "How does a project risk differ from an issue?",
+    "answers": [
+      "A risk is uncertain; an issue has already occurred",
+      "Risks are always positive",
+      "Issues only concern money",
+      "A risk cannot affect objectives"
+    ],
+    "correct_choice": "A risk is uncertain; an issue has already occurred",
+    "explanation": "A risk is an uncertain event or condition; an issue is a present problem requiring attention.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 17,
+    "domain": "Fundamentals",
+    "question": "An organization sets a maximum project spend of $80,000. What is this limit?",
+    "answers": [
+      "A constraint",
+      "A deliverable",
+      "A lesson learned",
+      "An opportunity"
+    ],
+    "correct_choice": "A constraint",
+    "explanation": "A constraint limits available choices, such as budget, schedule, or resources.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 18,
+    "domain": "Fundamentals",
+    "question": "Which record tracks current problems, their owners, and resolution status?",
+    "answers": [
+      "Issue log",
+      "Product catalog",
+      "Resource histogram only",
+      "Business case only"
+    ],
+    "correct_choice": "Issue log",
+    "explanation": "An issue log helps the team assign, monitor, and resolve existing problems.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 19,
+    "domain": "Fundamentals",
+    "question": "A stakeholder requests extra work outside the approved scope. What should happen first?",
+    "answers": [
+      "Assess and route the request through the agreed change process",
+      "Perform the work without recording it",
+      "Delete an unrelated requirement",
+      "Promise a new date before analysis"
+    ],
+    "correct_choice": "Assess and route the request through the agreed change process",
+    "explanation": "A change should be evaluated for impacts and handled through the project's agreed governance process before commitment.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 20,
+    "domain": "Fundamentals",
+    "question": "A project manager learns that a reported milestone is inaccurate. What is the ethical response?",
+    "answers": [
+      "Correct the report and communicate the accurate status",
+      "Leave it unchanged to protect morale",
+      "Hide the source data",
+      "Wait until project closure"
+    ],
+    "correct_choice": "Correct the report and communicate the accurate status",
+    "explanation": "Honest reporting supports informed decisions and professional responsibility.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 21,
+    "domain": "Fundamentals",
+    "question": "A team member disagrees with a proposed solution. Which response best supports collaboration?",
+    "answers": [
+      "Ask for their reasoning and examine alternatives together",
+      "Exclude the person from planning",
+      "Treat disagreement as misconduct",
+      "End all discussion immediately"
+    ],
+    "correct_choice": "Ask for their reasoning and examine alternatives together",
+    "explanation": "Exploring concerns respectfully helps the team find solutions and surface useful information.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 22,
+    "domain": "Fundamentals",
+    "question": "When should a team capture lessons learned?",
+    "answers": [
+      "Throughout the project as well as at closure",
+      "Only before the charter is approved",
+      "Only after all team members leave",
+      "Only when the project fails"
+    ],
+    "correct_choice": "Throughout the project as well as at closure",
+    "explanation": "Capturing lessons during the work makes improvements available before the project ends.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 23,
+    "domain": "Fundamentals",
+    "question": "What is the main purpose of a project business case?",
+    "answers": [
+      "Explain the business need and expected value",
+      "List every daily assignment",
+      "Replace the project schedule",
+      "Record only team attendance"
+    ],
+    "correct_choice": "Explain the business need and expected value",
+    "explanation": "A business case supports the decision to invest by explaining the need, options, costs, and expected benefits.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 24,
+    "domain": "Fundamentals",
+    "question": "Which statement distinguishes an output from an outcome?",
+    "answers": [
+      "A new training manual is an output; improved staff performance is an outcome",
+      "Outputs are always financial",
+      "Outcomes are only documents",
+      "An output and an outcome always mean the same thing"
+    ],
+    "correct_choice": "A new training manual is an output; improved staff performance is an outcome",
+    "explanation": "Outputs are produced deliverables; outcomes are the changes or effects resulting from their use.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 25,
+    "domain": "Fundamentals",
+    "question": "A team documents meeting frequency, audiences, and reporting channels. Which plan addresses these needs?",
+    "answers": [
+      "Communications management plan",
+      "Procurement invoice",
+      "Product warranty",
+      "Equipment maintenance log"
+    ],
+    "correct_choice": "Communications management plan",
+    "explanation": "A communications plan describes what information is shared, with whom, when, and how.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 26,
+    "domain": "Fundamentals",
+    "question": "A responsibility assignment matrix uses the letters RACI. What does A represent?",
+    "answers": [
+      "Accountable",
+      "Available",
+      "Agile",
+      "Archived"
+    ],
+    "correct_choice": "Accountable",
+    "explanation": "Accountable identifies the role answerable for the result or decision; responsible identifies who performs the work.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 27,
+    "domain": "Fundamentals",
+    "question": "A leader removes blockers and helps team members succeed. Which leadership approach is illustrated?",
+    "answers": [
+      "Servant leadership",
+      "Withholding information",
+      "Micromanagement",
+      "Avoiding all decisions"
+    ],
+    "correct_choice": "Servant leadership",
+    "explanation": "Servant leadership focuses on enabling the team through support, coaching, and impediment removal.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 28,
+    "domain": "Fundamentals",
+    "question": "Why should success criteria be agreed early in a project?",
+    "answers": [
+      "To create a shared basis for evaluating results",
+      "To prevent all future learning",
+      "To eliminate stakeholder involvement",
+      "To replace all quality checks"
+    ],
+    "correct_choice": "To create a shared basis for evaluating results",
+    "explanation": "Agreed criteria align expectations and help determine whether the project delivers the intended results.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 29,
+    "domain": "Predictive",
+    "question": "A work package is decomposed into schedule activities. What is the main benefit?",
+    "answers": [
+      "Activities can be estimated, sequenced, and assigned",
+      "All project risks disappear",
+      "The charter becomes unnecessary",
+      "The budget is automatically approved"
+    ],
+    "correct_choice": "Activities can be estimated, sequenced, and assigned",
+    "explanation": "Breaking work into activities supports estimating durations, identifying dependencies, and assigning resources.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 30,
+    "domain": "Predictive",
+    "question": "A task cannot begin until its predecessor finishes. Which dependency is this?",
+    "answers": [
+      "Finish-to-start",
+      "Start-to-start",
+      "Finish-to-finish",
+      "Start-to-finish"
+    ],
+    "correct_choice": "Finish-to-start",
+    "explanation": "Finish-to-start means the successor's start depends on the predecessor's completion.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 31,
+    "domain": "Predictive",
+    "question": "Earned value is $24,000 and actual cost is $30,000. What is the cost performance index?",
+    "answers": [
+      "0.80",
+      "1.25",
+      "0.20",
+      "6.00"
+    ],
+    "correct_choice": "0.80",
+    "explanation": "CPI = EV / AC = 24,000 / 30,000 = 0.80. A value below 1 indicates cost inefficiency.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 32,
+    "domain": "Predictive",
+    "question": "A schedule network has two paths: A-B-D takes 12 days and A-C-D takes 16 days. Which path is critical if there are no other constraints?",
+    "answers": [
+      "A-C-D",
+      "A-B-D",
+      "Both paths because they start together",
+      "Neither path"
+    ],
+    "correct_choice": "A-C-D",
+    "explanation": "The longest path determines the earliest possible project finish; here it is A-C-D at 16 days.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 33,
+    "domain": "Agile",
+    "question": "An agile team demonstrates working software frequently. What is the primary benefit?",
+    "answers": [
+      "Early feedback can guide the next work",
+      "It eliminates the need for testing",
+      "It guarantees a fixed scope forever",
+      "It removes the need for stakeholder access"
+    ],
+    "correct_choice": "Early feedback can guide the next work",
+    "explanation": "Frequent delivery provides evidence and feedback that support adaptation.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 34,
+    "domain": "Agile",
+    "question": "Who is accountable for ordering a Scrum product backlog?",
+    "answers": [
+      "Product Owner",
+      "Scrum Master",
+      "An external auditor",
+      "Every vendor independently"
+    ],
+    "correct_choice": "Product Owner",
+    "explanation": "The Product Owner is accountable for effective product backlog management, including ordering its items.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 35,
+    "domain": "Agile",
+    "question": "What is the main purpose of a Sprint Retrospective?",
+    "answers": [
+      "Plan improvements to quality and team effectiveness",
+      "Accept all future scope changes",
+      "Replace the product backlog",
+      "Negotiate the annual procurement budget"
+    ],
+    "correct_choice": "Plan improvements to quality and team effectiveness",
+    "explanation": "The retrospective inspects the team's work practices and identifies useful improvements.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 36,
+    "domain": "Agile",
+    "question": "What is the focus of a Sprint Review?",
+    "answers": [
+      "Inspect the Sprint's outcome with stakeholders and adapt future plans",
+      "Privately rank individual developers",
+      "Approve every employee timesheet",
+      "Write the initial organization charter"
+    ],
+    "correct_choice": "Inspect the Sprint's outcome with stakeholders and adapt future plans",
+    "explanation": "A Sprint Review is a working session for inspecting results and considering adaptations with stakeholders.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 37,
+    "domain": "Agile",
+    "question": "What does a Definition of Done provide?",
+    "answers": [
+      "A shared description of the quality state required for an Increment",
+      "A list of employee vacation days",
+      "A guarantee that no future work exists",
+      "A substitute for the Product Goal"
+    ],
+    "correct_choice": "A shared description of the quality state required for an Increment",
+    "explanation": "A Definition of Done establishes the quality measures an Increment must meet to be considered done.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 38,
+    "domain": "Agile",
+    "question": "Why might a Kanban team limit work in progress?",
+    "answers": [
+      "To improve flow and reduce excessive multitasking",
+      "To maximize the number of unfinished items",
+      "To stop measuring lead time",
+      "To prevent all prioritization"
+    ],
+    "correct_choice": "To improve flow and reduce excessive multitasking",
+    "explanation": "WIP limits expose bottlenecks and encourage finishing work before starting more.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 39,
+    "domain": "Agile",
+    "question": "A team encounters an unfamiliar technical approach. What is a time-boxed research spike used for?",
+    "answers": [
+      "Reduce uncertainty through focused investigation",
+      "Commit to the entire solution without learning",
+      "Replace all acceptance criteria",
+      "Avoid sharing findings"
+    ],
+    "correct_choice": "Reduce uncertainty through focused investigation",
+    "explanation": "A spike explores a question or risk within a limited time so the team can make a better-informed decision.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 40,
+    "domain": "Agile",
+    "question": "What does a user story primarily describe?",
+    "answers": [
+      "A user's need and the value sought",
+      "Every implementation line of code",
+      "Only the project's total cost",
+      "Only a staff member's job title"
+    ],
+    "correct_choice": "A user's need and the value sought",
+    "explanation": "A user story expresses a need from a user's perspective and provides a starting point for conversation.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 41,
+    "domain": "Agile",
+    "question": "Which measure describes work items completed per unit of time?",
+    "answers": [
+      "Throughput",
+      "Total project budget",
+      "Team seniority",
+      "Remaining contract value"
+    ],
+    "correct_choice": "Throughput",
+    "explanation": "Throughput measures completed items over a period and can help teams understand flow.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 42,
+    "domain": "Agile",
+    "question": "A team uses relative story points. What should those estimates reflect?",
+    "answers": [
+      "Relative effort, complexity, and uncertainty",
+      "A fixed conversion of every point into one hour",
+      "Individual employee performance rankings",
+      "The customer's annual revenue"
+    ],
+    "correct_choice": "Relative effort, complexity, and uncertainty",
+    "explanation": "Relative estimates compare work items and should not be treated as universal hour conversions or productivity rankings.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 43,
+    "domain": "Agile",
+    "question": "A team combines predictive milestone governance with iterative product development. What approach is this?",
+    "answers": [
+      "Hybrid",
+      "Purely operational",
+      "Only waterfall",
+      "Unplanned work"
+    ],
+    "correct_choice": "Hybrid",
+    "explanation": "Hybrid approaches combine elements suited to the work, such as predictive governance and adaptive delivery.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 44,
+    "domain": "Agile",
+    "question": "What is the main purpose of backlog refinement?",
+    "answers": [
+      "Clarify and break down upcoming items so they are better understood",
+      "Freeze every requirement permanently",
+      "Assign blame for unfinished items",
+      "Replace all stakeholder feedback"
+    ],
+    "correct_choice": "Clarify and break down upcoming items so they are better understood",
+    "explanation": "Refinement improves the detail, sizing, and shared understanding of future backlog work.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 45,
+    "domain": "Business Analysis",
+    "question": "What should a business analyst establish before proposing a solution?",
+    "answers": [
+      "The business need or problem to solve",
+      "The vendor's preferred product",
+      "The final screen colors",
+      "The exact deployment date regardless of scope"
+    ],
+    "correct_choice": "The business need or problem to solve",
+    "explanation": "Understanding the business need prevents selecting a solution that does not address the underlying problem.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 46,
+    "domain": "Business Analysis",
+    "question": "Which elicitation technique is best for exploring one stakeholder's detailed experience through conversation?",
+    "answers": [
+      "An interview",
+      "A final invoice",
+      "A code deployment",
+      "A risk reserve calculation"
+    ],
+    "correct_choice": "An interview",
+    "explanation": "An interview allows follow-up questions and detailed exploration of a stakeholder's needs and experience.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 47,
+    "domain": "Business Analysis",
+    "question": "Several departments interpret a requirement differently. What is a useful next step?",
+    "answers": [
+      "Facilitate a workshop to clarify and reconcile their needs",
+      "Choose the loudest person's interpretation",
+      "Ignore all conflicting statements",
+      "Build all interpretations without review"
+    ],
+    "correct_choice": "Facilitate a workshop to clarify and reconcile their needs",
+    "explanation": "A facilitated workshop can expose differences and build a shared understanding among stakeholders.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 48,
+    "domain": "Business Analysis",
+    "question": "Which requirement describes system behavior?",
+    "answers": [
+      "The system shall email a receipt after payment",
+      "The report shall load within two seconds",
+      "All stored passwords shall meet the security policy",
+      "The service shall be available 99.9% of the time"
+    ],
+    "correct_choice": "The system shall email a receipt after payment",
+    "explanation": "Sending a receipt is a functional behavior; performance, security, and availability constraints describe quality attributes.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 49,
+    "domain": "Business Analysis",
+    "question": "Which requirement is a measurable performance requirement?",
+    "answers": [
+      "Search results shall display within two seconds for the agreed test load",
+      "The interface should feel nice",
+      "The system shall have a search button",
+      "The product should be popular"
+    ],
+    "correct_choice": "Search results shall display within two seconds for the agreed test load",
+    "explanation": "A measurable response-time target specifies a quality attribute that can be tested under defined conditions.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 50,
+    "domain": "Business Analysis",
+    "question": "What is the purpose of a requirements traceability matrix?",
+    "answers": [
+      "Link requirements to their origins and downstream work or tests",
+      "Replace stakeholder approval",
+      "List only team members' salaries",
+      "Guarantee that scope never changes"
+    ],
+    "correct_choice": "Link requirements to their origins and downstream work or tests",
+    "explanation": "Traceability helps assess coverage and change impacts by linking needs, requirements, deliverables, and verification.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 51,
+    "domain": "Business Analysis",
+    "question": "What do acceptance criteria define?",
+    "answers": [
+      "Conditions that must be met for a work item or deliverable to be accepted",
+      "Only the developer's preferred design",
+      "The sponsor's travel policy",
+      "All possible future enhancements"
+    ],
+    "correct_choice": "Conditions that must be met for a work item or deliverable to be accepted",
+    "explanation": "Acceptance criteria make expected behavior and acceptance conditions explicit and testable.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 52,
+    "domain": "Business Analysis",
+    "question": "Why use a prototype during requirements work?",
+    "answers": [
+      "Make ideas tangible so stakeholders can provide feedback",
+      "Prove every requirement is already complete",
+      "Eliminate the need to talk to users",
+      "Guarantee the final architecture"
+    ],
+    "correct_choice": "Make ideas tangible so stakeholders can provide feedback",
+    "explanation": "A prototype supports learning and clarification; it does not by itself prove the final product is complete.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 53,
+    "domain": "Business Analysis",
+    "question": "A diagram shows actors and how they interact with a system to achieve goals. What is it?",
+    "answers": [
+      "Use case diagram",
+      "Cost baseline",
+      "Resource calendar",
+      "Procurement ledger"
+    ],
+    "correct_choice": "Use case diagram",
+    "explanation": "Use case diagrams summarize actors and the system goals or interactions they participate in.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 54,
+    "domain": "Business Analysis",
+    "question": "What does a process flow diagram help stakeholders understand?",
+    "answers": [
+      "The sequence of activities and decisions in a process",
+      "Only the project's staff costs",
+      "A supplier's credit score",
+      "The physical size of a server"
+    ],
+    "correct_choice": "The sequence of activities and decisions in a process",
+    "explanation": "Process flows visualize steps, decisions, and handoffs to reveal gaps or improvement opportunities.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 55,
+    "domain": "Business Analysis",
+    "question": "What is the difference between verifying and validating requirements?",
+    "answers": [
+      "Verification checks requirement quality; validation checks alignment with business needs",
+      "Verification always replaces stakeholder feedback",
+      "Validation only checks spelling",
+      "They both mean approving the project budget"
+    ],
+    "correct_choice": "Verification checks requirement quality; validation checks alignment with business needs",
+    "explanation": "Verification examines whether requirements are well formed; validation asks whether they describe the right needs.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 56,
+    "domain": "Business Analysis",
+    "question": "A new law changes a reporting requirement. What should the analyst do before updating related work?",
+    "answers": [
+      "Analyze the change's impacts and use the agreed approval process",
+      "Delete all earlier requirements",
+      "Ask developers to ignore the law",
+      "Approve a new budget alone"
+    ],
+    "correct_choice": "Analyze the change's impacts and use the agreed approval process",
+    "explanation": "Impact analysis identifies affected requirements, tests, schedules, and stakeholders before controlled updates.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 57,
+    "domain": "Business Analysis",
+    "question": "Which technique ranks needs as Must, Should, Could, and Won't for a defined timeframe?",
+    "answers": [
+      "MoSCoW prioritization",
+      "Critical path analysis",
+      "Earned value analysis",
+      "Random sampling"
+    ],
+    "correct_choice": "MoSCoW prioritization",
+    "explanation": "MoSCoW distinguishes essential needs from lower-priority needs and explicitly deferred work.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 58,
+    "domain": "Business Analysis",
+    "question": "A stakeholder says a report must be 'fast.' What is the best response?",
+    "answers": [
+      "Ask for a measurable response-time target and operating conditions",
+      "Accept the word fast as a complete criterion",
+      "Remove the requirement without discussion",
+      "Promise instantaneous results"
+    ],
+    "correct_choice": "Ask for a measurable response-time target and operating conditions",
+    "explanation": "Clarifying vague language produces a shared, testable requirement.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 59,
+    "domain": "Business Analysis",
+    "question": "After release, how can an analyst help determine whether a solution met its purpose?",
+    "answers": [
+      "Compare observed results with agreed business objectives and measures",
+      "Count only the number of meetings held",
+      "Assume delivery guarantees benefits",
+      "Measure only the number of pages in the plan"
+    ],
+    "correct_choice": "Compare observed results with agreed business objectives and measures",
+    "explanation": "Solution evaluation compares actual performance and value with the need and success measures.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  },
+  {
+    "id": 60,
+    "domain": "Business Analysis",
+    "question": "What is the main purpose of a product roadmap?",
+    "answers": [
+      "Communicate product direction and anticipated evolution over time",
+      "List every developer's daily task forever",
+      "Replace all detailed requirements",
+      "Guarantee that priorities cannot change"
+    ],
+    "correct_choice": "Communicate product direction and anticipated evolution over time",
+    "explanation": "A roadmap shows direction and major planned developments while allowing learning and priority changes.",
+    "image_filename": null,
+    "web_link": "https://www.pmi.org/certifications/certified-associate-capm",
+    "original": true
+  }
+]

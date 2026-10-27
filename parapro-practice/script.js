@@ -1,7 +1,7 @@
 const questions = [
   {
     "id": 1,
-    "question": `Which of the following sentences is grammatically correct?`,
+    "question": "Which of the following sentences is grammatically correct?",
     "answers": [
       "Their going to the park later.",
       "They're going to the park later.",
@@ -11,11 +11,12 @@ const questions = [
     "correct_choice": "They're going to the park later.",
     "explanation": "The contraction 'they're' means 'they are,' which fits the sentence correctly.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Writing"
   },
   {
     "id": 2,
-    "question": `Solve: 3/4 + 2/3 = ?`,
+    "question": "Solve: 3/4 + 2/3 = ?",
     "answers": [
       "17/12",
       "13/12",
@@ -23,13 +24,14 @@ const questions = [
       "9/10"
     ],
     "correct_choice": "17/12",
-    "explanation": `<pre>Find a common denominator (12). 3/4 = 9/12, 2/3 = 8/12, sum = 17/12.</pre>`,
+    "explanation": "Find a common denominator (12). 3/4 = 9/12, 2/3 = 8/12, sum = 17/12.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Mathematics"
   },
   {
     "id": 3,
-    "question": `What is the main purpose of a topic sentence in a paragraph?`,
+    "question": "What is the main purpose of a topic sentence in a paragraph?",
     "answers": [
       "To summarize the entire essay",
       "To introduce the main idea of the paragraph",
@@ -39,11 +41,12 @@ const questions = [
     "correct_choice": "To introduce the main idea of the paragraph",
     "explanation": "The topic sentence introduces the central idea that the rest of the paragraph supports.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Writing"
   },
   {
     "id": 4,
-    "question": `Which number is equivalent to 45%?`,
+    "question": "Which number is equivalent to 45%?",
     "answers": [
       "0.045",
       "0.45",
@@ -53,11 +56,12 @@ const questions = [
     "correct_choice": "0.45",
     "explanation": "Percent means 'per hundred.' 45% = 45/100 = 0.45.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Mathematics"
   },
   {
     "id": 5,
-    "question": `In the sentence 'She quickly ran to the store,' what part of speech is 'quickly'?`,
+    "question": "In the sentence 'She quickly ran to the store,' what part of speech is 'quickly'?",
     "answers": [
       "Noun",
       "Adverb",
@@ -67,11 +71,12 @@ const questions = [
     "correct_choice": "Adverb",
     "explanation": "The word 'quickly' describes how she ran, so it is an adverb.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Writing"
   },
   {
     "id": 6,
-    "question": `Reading comprehension question 6: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
+    "question": "What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?",
     "answers": [
       "Teachers assign homework",
       "Teachers encourage student success",
@@ -81,11 +86,12 @@ const questions = [
     "correct_choice": "Teachers encourage student success",
     "explanation": "The passage emphasizes the role of teachers in encouraging students.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Reading"
   },
   {
     "id": 7,
-    "question": `Math question 7: Solve 6 \u00d7 (2 + 3).`,
+    "question": "Solve 6 × (2 + 3).",
     "answers": [
       "30",
       "12",
@@ -93,13 +99,14 @@ const questions = [
       "20"
     ],
     "correct_choice": "30",
-    "explanation": `<pre>Order of operations: (2+3)=5, then 6\u00d75=30.</pre>`,
+    "explanation": "Order of operations: (2+3)=5, then 6×5=30.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Mathematics"
   },
   {
     "id": 8,
-    "question": `Writing question 8: Which sentence is punctuated correctly?`,
+    "question": "Which sentence is punctuated correctly?",
     "answers": [
       "Its raining outside, bring your umbrella.",
       "It's raining outside; bring your umbrella.",
@@ -109,600 +116,12 @@ const questions = [
     "correct_choice": "It's raining outside; bring your umbrella.",
     "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Writing"
   },
   {
-    "id": 9,
-    "question": `Reading comprehension question 9: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 10,
-    "question": `Math question 10: Solve 6 \u00d7 (2 + 3).`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": `<pre>Order of operations: (2+3)=5, then 6\u00d75=30.</pre>`,
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 11,
-    "question": `Writing question 11: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 12,
-    "question": `Reading comprehension question 12: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 13,
-    "question": `Math question 13: Solve 6 \u00d7 <pre>(2 + 3).</pre>`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": `Order of operations: <pre>(2+3)=5, then 6\u00d75=30.</pre>`,
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 14,
-    "question": `Writing question 14: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 15,
-    "question": `Reading comprehension question 15: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 16,
-    "question": `Math question 16: <pre>Solve 6 \u00d7 (2 + 3).</pre>`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": `Order of operations: <pre>(2+3)=5, then 6\u00d75=30.</pre>`,
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 17,
-    "question": `Writing question 17: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 18,
-    "question": `Reading comprehension question 18: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 19,
-    "question": `Math question 19: <pre>Solve 6 \u00d7 (2 + 3).</pre>`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": `Order of operations: <pre>(2+3)=5, then 6\u00d75=30.</pre>`,
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 20,
-    "question": `Writing question 20: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 21,
-    "question": `Reading comprehension question 21: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 22,
-    "question": `Math question 22: <pre>Solve 6 \u00d7 (2 + 3).</pre>`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": `Order of operations: <pre>(2+3)=5, then 6\u00d75=30.</pre>`,
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 23,
-    "question": `Writing question 23: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 24,
-    "question": `Reading comprehension question 24: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 25,
-    "question": `Math question 25: <pre>Solve 6 \u00d7 (2 + 3).</pre>`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": `Order of operations: <pre>(2+3)=5, then 6\u00d75=30.</pre>`,
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 26,
-    "question": `Writing question 26: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 27,
-    "question": `Reading comprehension question 27: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 28,
-    "question": `Math question 28: <pre>Solve 6 \u00d7 (2 + 3).</pre>`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": `Order of operations: <pre>(2+3)=5, then 6\u00d75=30.</pre>`,
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 29,
-    "question": `Writing question 29: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 30,
-    "question": `Reading comprehension question 30: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 31,
-    "question": `Math question 31: <pre>Solve 6 \u00d7 (2 + 3).</pre>`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": `Order of operations: <pre>(2+3)=5, then 6\u00d75=30.</pre>`,
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 32,
-    "question": `Writing question 32: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 33,
-    "question": `Reading comprehension question 33: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 34,
-    "question": `Math question 34: <pre>Solve 6 \u00d7 (2 + 3).</pre>`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": `Order of operations: <pre>(2+3)=5, then 6\u00d75=30.</pre>`,
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 35,
-    "question": `Writing question 35: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 36,
-    "question": `Reading comprehension question 36: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 37,
-    "question": `Math question 37: Solve 6 \u00d7 (2 + 3).`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": "Order of operations: (2+3)=5, then 6\u00d75=30.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 38,
-    "question": `Writing question 38: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 39,
-    "question": `Reading comprehension question 39: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 40,
-    "question": `Math question 40: Solve 6 \u00d7 (2 + 3).`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": "Order of operations: (2+3)=5, then 6\u00d75=30.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 41,
-    "question": `Writing question 41: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 42,
-    "question": `Reading comprehension question 42: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 43,
-    "question": `Math question 43: Solve 6 \u00d7 (2 + 3).`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": "Order of operations: (2+3)=5, then 6\u00d75=30.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 44,
-    "question": `Writing question 44: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 45,
-    "question": `Reading comprehension question 45: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 46,
-    "question": `Math question 46: Solve 6 \u00d7 (2 + 3).`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": "Order of operations: (2+3)=5, then 6\u00d75=30.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 47,
-    "question": `Writing question 47: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 48,
-    "question": `Reading comprehension question 48: What is the main idea of the passage 'Teachers help students succeed by providing guidance and encouragement.'?`,
-    "answers": [
-      "Teachers assign homework",
-      "Teachers encourage student success",
-      "Students must work alone",
-      "Teachers focus only on rules"
-    ],
-    "correct_choice": "Teachers encourage student success",
-    "explanation": "The passage emphasizes the role of teachers in encouraging students.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 49,
-    "question": `Math question 49: Solve 6 \u00d7 (2 + 3).`,
-    "answers": [
-      "30",
-      "12",
-      "15",
-      "20"
-    ],
-    "correct_choice": "30",
-    "explanation": "Order of operations: (2+3)=5, then 6\u00d75=30.",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  {
-    "id": 50,
-    "question": `Writing question 50: Which sentence is punctuated correctly?`,
-    "answers": [
-      "Its raining outside, bring your umbrella.",
-      "It's raining outside; bring your umbrella.",
-      "Its raining outside bring your umbrella.",
-      "It's raining outside bring your umbrella"
-    ],
-    "correct_choice": "It's raining outside; bring your umbrella.",
-    "explanation": "The semicolon correctly joins two independent clauses and 'it's' means 'it is.'",
-    "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },
-  //my questions
-    {
     "id": 51,
-    "question": `is .3 x .9 greater or less than .4 x .7?`,
+    "question": "is .3 x .9 greater or less than .4 x .7?",
     "answers": [
       ">",
       "<",
@@ -710,13 +129,14 @@ const questions = [
       "!="
     ],
     "correct_choice": "<",
-    "explanation": ".3x.9 = .27 and .4 x .7 = .28",
+    "explanation": "Multiply each pair: 0.3 × 0.9 = 0.27, while 0.4 × 0.7 = 0.28. Since 0.27 is less than 0.28, the correct comparison symbol is <.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
-  },    
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Mathematics"
+  },
   {
     "id": 52,
-    "question": `What is the place value of 2 in 14,208.7`,
+    "question": "What is the place value of 2 in 14,208.7",
     "answers": [
       "thousands",
       "tens",
@@ -726,12 +146,12 @@ const questions = [
     "correct_choice": "hundreds",
     "explanation": "fourteen thousand, two hundred and eight, and 7 tenths",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Mathematics"
   },
-  // \u2303 is an upcarrot aka power of symbol
-    {
+  {
     "id": 53,
-    "question": `Simplify: 3 \u2303 2 x 3 \u2303 4 = `,
+    "question": "Simplify: 3 ⌃ 2 x 3 ⌃ 4 =",
     "answers": [
       "3 to the 6th power",
       "3 to the 5th power",
@@ -739,13 +159,14 @@ const questions = [
       "none"
     ],
     "correct_choice": "3 to the 6th power",
-    "explanation": "fourteen thousand, two hundred and eight, and 7 tenths",
+    "explanation": "When multiplying powers with the same base, add the exponents: 3² × 3⁴ = 3⁽²⁺⁴⁾ = 3⁶.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Mathematics"
   },
   {
     "id": 54,
-    "question": `Order of operations: (6 \u2303 2 - 6) / (5\u23032 + 10 - 8 x2) = `,
+    "question": "Order of operations: (6 ⌃ 2 - 6) / (5⌃2 + 10 - 8 x2) =",
     "answers": [
       "30 over 19",
       "6 over -6",
@@ -753,13 +174,14 @@ const questions = [
       "none"
     ],
     "correct_choice": "30 over 19",
-    "explanation": "pemdas and numbers squared are times themselves 5x5 is 5 squared",
+    "explanation": "Evaluate powers first: (36 − 6) ÷ (25 + 10 − 16) = 30 ÷ 19 = 30/19.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Mathematics"
   },
   {
     "id": 55,
-    "question": `In a math class, there are 238 girls and 244 boys. The teacher rounds the total number of students to the nearest hundred for a report. What toal does she report?`,
+    "question": "In a math class, there are 238 girls and 244 boys. The teacher rounds the total number of students to the nearest hundred for a report. What toal does she report?",
     "answers": [
       "500 students",
       "450 students",
@@ -767,13 +189,14 @@ const questions = [
       "none"
     ],
     "correct_choice": "500 students",
-    "explanation": "482 is closest to 500 if rounding up to nearest hundred",
+    "explanation": "238 + 244 = 482. To round to the nearest hundred, compare 482 with 400 and 500; it is closer to 500.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Mathematics"
   },
   {
     "id": 56,
-    "question": `One-step, single variable line y - 5/8 = 3/4`,
+    "question": "One-step, single variable line y - 5/8 = 3/4",
     "answers": [
       "y = 11/8",
       "y = 2/8",
@@ -781,119 +204,747 @@ const questions = [
       "y = 0"
     ],
     "correct_choice": "y = 11/8",
-    "explanation": "482 is closest to 500 if rounding up to nearest hundred",
+    "explanation": "Add 5/8 to both sides: y = 3/4 + 5/8 = 6/8 + 5/8 = 11/8.",
     "image_filename": null,
-    "web_link": "https://www.ets.org/parapro"
+    "web_link": "https://www.ets.org/parapro",
+    "domain": "Mathematics"
+  },
+  {
+    "id": 57,
+    "domain": "Mathematics",
+    "question": "A rectangle is 9 cm long and 4 cm wide. What is its perimeter?",
+    "answers": [
+      "26 cm",
+      "36 cm",
+      "13 cm",
+      "18 cm"
+    ],
+    "correct_choice": "26 cm",
+    "explanation": "Perimeter is the distance around the rectangle: 2 × (9 + 4) = 26 cm. Multiplying 9 by 4 gives area instead.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 58,
+    "domain": "Mathematics",
+    "question": "A classroom rug measures 7 feet by 5 feet. What is its area?",
+    "answers": [
+      "35 square feet",
+      "24 square feet",
+      "12 square feet",
+      "70 square feet"
+    ],
+    "correct_choice": "35 square feet",
+    "explanation": "Area of a rectangle is length × width: 7 × 5 = 35 square feet.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 59,
+    "domain": "Mathematics",
+    "question": "What is the mean of 6, 8, 10, and 12?",
+    "answers": [
+      "9",
+      "8",
+      "10",
+      "36"
+    ],
+    "correct_choice": "9",
+    "explanation": "Add the values to get 36, then divide by the four values: 36 ÷ 4 = 9.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 60,
+    "domain": "Mathematics",
+    "question": "What is the median of 3, 7, 8, 12, and 20?",
+    "answers": [
+      "8",
+      "7",
+      "10",
+      "20"
+    ],
+    "correct_choice": "8",
+    "explanation": "The ordered list has five values, so its middle, third value is the median: 8.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 61,
+    "domain": "Mathematics",
+    "question": "A bag contains 3 red counters and 5 blue counters. What is the probability of randomly drawing a red counter?",
+    "answers": [
+      "3/8",
+      "3/5",
+      "5/8",
+      "1/3"
+    ],
+    "correct_choice": "3/8",
+    "explanation": "There are 3 favorable outcomes among 8 counters total, so the probability is 3/8.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 62,
+    "domain": "Mathematics",
+    "question": "What is 15% of 80?",
+    "answers": [
+      "12",
+      "15",
+      "8",
+      "20"
+    ],
+    "correct_choice": "12",
+    "explanation": "Convert 15% to 0.15 and multiply: 0.15 × 80 = 12.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 63,
+    "domain": "Mathematics",
+    "question": "Solve 4x + 3 = 19.",
+    "answers": [
+      "x = 4",
+      "x = 5.5",
+      "x = 16",
+      "x = 3"
+    ],
+    "correct_choice": "x = 4",
+    "explanation": "Subtract 3 from each side to obtain 4x = 16, then divide by 4.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 64,
+    "domain": "Mathematics",
+    "question": "A student says 1/6 is greater than 1/3 because 6 is greater than 3. Which explanation best addresses the error?",
+    "answers": [
+      "When equal wholes are divided into more equal pieces, each piece is smaller",
+      "A larger denominator always makes a fraction larger",
+      "The numerator never matters",
+      "All unit fractions have the same size"
+    ],
+    "correct_choice": "When equal wholes are divided into more equal pieces, each piece is smaller",
+    "explanation": "For equal wholes, sixths are smaller than thirds. A fraction model can demonstrate why 1/6 is less than 1/3.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 65,
+    "domain": "Mathematics",
+    "question": "A class uses 24 sheets of paper for 6 projects at the same rate. How many sheets are needed for 10 projects?",
+    "answers": [
+      "40",
+      "30",
+      "60",
+      "144"
+    ],
+    "correct_choice": "40",
+    "explanation": "Each project uses 24 ÷ 6 = 4 sheets. Ten projects require 4 × 10 = 40 sheets.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 66,
+    "domain": "Mathematics",
+    "question": "A lesson begins at 10:35 a.m. and lasts 50 minutes. When does it end?",
+    "answers": [
+      "11:25 a.m.",
+      "11:15 a.m.",
+      "10:85 a.m.",
+      "12:25 p.m."
+    ],
+    "correct_choice": "11:25 a.m.",
+    "explanation": "Twenty-five minutes reach 11:00, and the remaining twenty-five minutes reach 11:25.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 67,
+    "domain": "Mathematics",
+    "question": "A student aligns decimal points to add 3.6 and 0.47. Which result is correct?",
+    "answers": [
+      "4.07",
+      "0.83",
+      "8.3",
+      "3.107"
+    ],
+    "correct_choice": "4.07",
+    "explanation": "Write 3.6 as 3.60, then add 0.47 to get 4.07. Aligning decimal points keeps place values matched.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 68,
+    "domain": "Writing",
+    "question": "Which sentence uses subject-verb agreement correctly?",
+    "answers": [
+      "The basket of markers is on the shelf.",
+      "The basket of markers are on the shelf.",
+      "The basket of markers were on the shelf.",
+      "The basket of markers be on the shelf."
+    ],
+    "correct_choice": "The basket of markers is on the shelf.",
+    "explanation": "The singular subject basket takes is. The phrase of markers does not change the subject's number.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 69,
+    "domain": "Writing",
+    "question": "Which sentence correctly uses a plural possessive for several students?",
+    "answers": [
+      "The students' projects filled the hallway.",
+      "The student's projects filled the hallway.",
+      "The students projects' filled the hallway.",
+      "The students's projects filled the hallway."
+    ],
+    "correct_choice": "The students' projects filled the hallway.",
+    "explanation": "The plural students already ends in s, so an apostrophe after that s marks possession by multiple students.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 70,
+    "domain": "Writing",
+    "question": "Which sentence correctly joins two independent clauses with a conjunction?",
+    "answers": [
+      "The rain stopped, and the class went outside.",
+      "The rain stopped and, the class went outside.",
+      "The rain stopped, the class went outside.",
+      "The rain stopped the class went outside."
+    ],
+    "correct_choice": "The rain stopped, and the class went outside.",
+    "explanation": "A comma before the coordinating conjunction and correctly joins the two complete clauses.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 71,
+    "domain": "Writing",
+    "question": "Which option is a complete sentence?",
+    "answers": [
+      "After lunch, the students returned to class.",
+      "Because the bell rang.",
+      "Walking toward the library.",
+      "The books on the table."
+    ],
+    "correct_choice": "After lunch, the students returned to class.",
+    "explanation": "The correct option has a subject and a complete predicate; the others are fragments without a complete independent clause.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 72,
+    "domain": "Writing",
+    "question": "Which revision removes an unnecessary repetition from 'The students returned back to their seats'?",
+    "answers": [
+      "The students returned to their seats.",
+      "The students returned back again to their seats.",
+      "The students went and returned back.",
+      "The students did a return back to their seats."
+    ],
+    "correct_choice": "The students returned to their seats.",
+    "explanation": "Returned already conveys going back, so removing back makes the sentence more concise.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 73,
+    "domain": "Writing",
+    "question": "Which word completes the sentence: 'Please put the books over ___'?",
+    "answers": [
+      "there",
+      "their",
+      "they're",
+      "theirs"
+    ],
+    "correct_choice": "there",
+    "explanation": "There refers to a place. Their and theirs indicate possession; they're means they are.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 74,
+    "domain": "Writing",
+    "question": "Which sentence uses the correct past tense?",
+    "answers": [
+      "Yesterday, Maya brought her notebook.",
+      "Yesterday, Maya bring her notebook.",
+      "Yesterday, Maya brings her notebook.",
+      "Yesterday, Maya bringing her notebook."
+    ],
+    "correct_choice": "Yesterday, Maya brought her notebook.",
+    "explanation": "Brought is the past tense of bring and matches the time word yesterday.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 75,
+    "domain": "Writing",
+    "question": "Which sentence avoids a misplaced modifier?",
+    "answers": [
+      "Wearing a red coat, the teacher greeted the class.",
+      "Wearing a red coat, the classroom was greeted.",
+      "Wearing a red coat, the bell rang loudly.",
+      "Wearing a red coat, the lesson began."
+    ],
+    "correct_choice": "Wearing a red coat, the teacher greeted the class.",
+    "explanation": "The opening phrase must describe the subject immediately following it. The teacher can wear a coat; a classroom, bell, or lesson cannot.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 76,
+    "domain": "Writing",
+    "question": "A paragraph explains how plants grow. Which sentence is least relevant?",
+    "answers": [
+      "My favorite game is soccer.",
+      "Roots take up water from the soil.",
+      "Leaves capture energy from sunlight.",
+      "Seeds can sprout when conditions are suitable."
+    ],
+    "correct_choice": "My favorite game is soccer.",
+    "explanation": "A preference for soccer does not support the paragraph's topic of plant growth.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 77,
+    "domain": "Writing",
+    "question": "A student has many ideas but cannot organize an essay. Which support is most useful before drafting?",
+    "answers": [
+      "Help the student group related ideas in an outline",
+      "Correct only the final punctuation",
+      "Write the essay for the student",
+      "Ask the student to copy a classmate's essay"
+    ],
+    "correct_choice": "Help the student group related ideas in an outline",
+    "explanation": "An outline organizes related ideas and their sequence while preserving the student's ownership of the writing.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 78,
+    "domain": "Writing",
+    "question": "During revision, which question best focuses on organization rather than spelling?",
+    "answers": [
+      "Do the ideas follow a clear, logical order?",
+      "Is every word spelled correctly?",
+      "Does each sentence end with a period?",
+      "Are all names capitalized?"
+    ],
+    "correct_choice": "Do the ideas follow a clear, logical order?",
+    "explanation": "Organization concerns the arrangement and connection of ideas; spelling and punctuation are editing concerns.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 79,
+    "domain": "Writing",
+    "question": "Which feedback most helps a student add supporting details?",
+    "answers": [
+      "Can you give an example that explains this point?",
+      "Your paragraph is bad.",
+      "Add more words anywhere.",
+      "Copy the topic sentence three times."
+    ],
+    "correct_choice": "Can you give an example that explains this point?",
+    "explanation": "A request for a relevant example gives a specific way to develop and support an idea.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 80,
+    "domain": "Writing",
+    "question": "Which sentence uses capitalization correctly?",
+    "answers": [
+      "Our class visited Oregon in April.",
+      "Our Class visited oregon in April.",
+      "Our class visited Oregon in april.",
+      "our class visited Oregon in April."
+    ],
+    "correct_choice": "Our class visited Oregon in April.",
+    "explanation": "The first word, the proper name Oregon, and the month April are capitalized.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 81,
+    "domain": "Writing",
+    "question": "Which word correctly completes 'The new route is ___ than the old one'?",
+    "answers": [
+      "shorter",
+      "shortest",
+      "most short",
+      "more shorter"
+    ],
+    "correct_choice": "shorter",
+    "explanation": "The comparative shorter compares two routes. Shortest is superlative, and more shorter repeats the comparison.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 82,
+    "domain": "Writing",
+    "question": "A student asks what to do after completing a first draft. Which response best supports revision?",
+    "answers": [
+      "Reread for meaning and improve unclear ideas before proofreading",
+      "Submit it without rereading",
+      "Change every word to a longer word",
+      "Focus only on handwriting"
+    ],
+    "correct_choice": "Reread for meaning and improve unclear ideas before proofreading",
+    "explanation": "Revision improves content and clarity; proofreading then checks surface errors such as spelling and punctuation.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 83,
+    "domain": "Writing",
+    "question": "Which sentence correctly punctuates a direct quotation?",
+    "answers": [
+      "The teacher said, \"Please begin.\"",
+      "The teacher said \"Please begin\"",
+      "The teacher, said \"Please begin.\"",
+      "The teacher said, Please begin."
+    ],
+    "correct_choice": "The teacher said, \"Please begin.\"",
+    "explanation": "The correct option introduces the spoken words with a comma, encloses them in quotation marks, and places the period inside the closing quotation mark.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 84,
+    "domain": "Reading",
+    "question": "Read: 'The library extended its hours during exam week. More students could then use the quiet study rooms after work.' What is the main idea?",
+    "answers": [
+      "Longer library hours improved students' access to study space",
+      "Every student works at night",
+      "The library stopped lending books",
+      "Exams were held inside the library"
+    ],
+    "correct_choice": "Longer library hours improved students' access to study space",
+    "explanation": "The two sentences connect extended hours with improved access to quiet rooms. The other claims are not stated.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 85,
+    "domain": "Reading",
+    "question": "Read: 'Nia packed an umbrella after seeing dark clouds gather.' What can reasonably be inferred?",
+    "answers": [
+      "Nia thought it might rain",
+      "Nia knew it would snow all day",
+      "Nia dislikes all outdoor activities",
+      "Nia had already lost her coat"
+    ],
+    "correct_choice": "Nia thought it might rain",
+    "explanation": "Dark clouds and an umbrella support an inference about possible rain, not certainty about unrelated events.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 86,
+    "domain": "Reading",
+    "question": "Read: 'The trail was steep, so the hikers paused frequently to rest.' What caused the frequent pauses?",
+    "answers": [
+      "The steep trail",
+      "A closed visitor center",
+      "A missing map",
+      "A broken tent"
+    ],
+    "correct_choice": "The steep trail",
+    "explanation": "The word so links the trail's steepness to the hikers' need for frequent rest.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 87,
+    "domain": "Reading",
+    "question": "Read: 'First rinse the jar. Next add soil. Finally plant the seed.' How is the passage organized?",
+    "answers": [
+      "Sequence of steps",
+      "Comparison of opinions",
+      "Problem without a solution",
+      "Description of unrelated places"
+    ],
+    "correct_choice": "Sequence of steps",
+    "explanation": "First, next, and finally signal instructions in chronological order.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 88,
+    "domain": "Reading",
+    "question": "Read: 'Unlike the noisy cafeteria, the courtyard was tranquil.' What does tranquil mean here?",
+    "answers": [
+      "Peaceful",
+      "Crowded",
+      "Expensive",
+      "Confusing"
+    ],
+    "correct_choice": "Peaceful",
+    "explanation": "The contrast with noisy indicates that tranquil means calm or peaceful.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 89,
+    "domain": "Reading",
+    "question": "Which statement presents an opinion rather than a verifiable fact?",
+    "answers": [
+      "The school garden is the most beautiful place in town.",
+      "The garden has four raised beds.",
+      "The class planted beans on Tuesday.",
+      "The garden gate is two meters wide."
+    ],
+    "correct_choice": "The school garden is the most beautiful place in town.",
+    "explanation": "Most beautiful expresses a personal judgment. The other statements can be checked through observation or records.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 90,
+    "domain": "Reading",
+    "question": "Read: 'Buses leave at 8:10, 8:40, and 9:10.' A student arrives at 8:25. What is the next listed departure?",
+    "answers": [
+      "8:40",
+      "8:10",
+      "9:25",
+      "8:25"
+    ],
+    "correct_choice": "8:40",
+    "explanation": "8:40 is the earliest listed departure after 8:25.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 91,
+    "domain": "Reading",
+    "question": "Read: 'Although the team lost its first game, it practiced every afternoon and won the next two.' Which summary is best?",
+    "answers": [
+      "The team improved after regular practice",
+      "The team won every game",
+      "The team stopped practicing after a loss",
+      "The team played only one game"
+    ],
+    "correct_choice": "The team improved after regular practice",
+    "explanation": "The summary includes the initial setback, continued effort, and improved results without contradicting the passage.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 92,
+    "domain": "Reading",
+    "question": "Which word is an antonym of scarce?",
+    "answers": [
+      "Abundant",
+      "Rare",
+      "Limited",
+      "Insufficient"
+    ],
+    "correct_choice": "Abundant",
+    "explanation": "Scarce means in short supply; abundant means plentiful. The other choices have meanings similar to scarce.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 93,
+    "domain": "Reading",
+    "question": "In the word reread, what does the prefix re- mean?",
+    "answers": [
+      "Again",
+      "Before",
+      "Without",
+      "Below"
+    ],
+    "correct_choice": "Again",
+    "explanation": "Reread means read again, so re- contributes the meaning again.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 94,
+    "domain": "Reading",
+    "question": "Which pair of words rhymes?",
+    "answers": [
+      "Light and night",
+      "Book and back",
+      "Tree and tray",
+      "Rain and run"
+    ],
+    "correct_choice": "Light and night",
+    "explanation": "Light and night share the same final stressed vowel sound and following consonant sound.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 95,
+    "domain": "Reading",
+    "question": "Which list is in alphabetical order?",
+    "answers": [
+      "Candle, canyon, carpet, castle",
+      "Castle, carpet, canyon, candle",
+      "Canyon, candle, castle, carpet",
+      "Carpet, candle, canyon, castle"
+    ],
+    "correct_choice": "Candle, canyon, carpet, castle",
+    "explanation": "After ca, compare the next letters: n comes before r and s. Within can, candle comes before canyon because d precedes y.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 96,
+    "domain": "Reading",
+    "question": "Before students read an article titled 'How Bees Help Gardens,' which activity best supports prediction?",
+    "answers": [
+      "Ask what the title and pictures suggest the article will explain",
+      "Require students to memorize every sentence first",
+      "Tell students the article has no main idea",
+      "Skip the title and ask for unrelated facts"
+    ],
+    "correct_choice": "Ask what the title and pictures suggest the article will explain",
+    "explanation": "Using titles and illustrations activates relevant knowledge and helps students make predictions they can check while reading.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 97,
+    "domain": "Reading",
+    "question": "A student reads a paragraph accurately but cannot explain it. What is the best next prompt?",
+    "answers": [
+      "What happened in this paragraph, in your own words?",
+      "Can you read it faster without stopping?",
+      "Can you spell every word backward?",
+      "Can you skip to the final page?"
+    ],
+    "correct_choice": "What happened in this paragraph, in your own words?",
+    "explanation": "Retelling in the student's own words checks comprehension rather than speed or unrelated spelling skills.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 98,
+    "domain": "Reading",
+    "question": "Directions say, 'Circle the animals, then underline the plants.' What should a student do first?",
+    "answers": [
+      "Circle the animals",
+      "Underline the plants",
+      "Draw a new plant",
+      "Cross out all the words"
+    ],
+    "correct_choice": "Circle the animals",
+    "explanation": "The word then shows that underlining follows circling the animals.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 99,
+    "domain": "Reading",
+    "question": "Read: 'Omar closed the window because the wind was scattering his papers.' Why did Omar close the window?",
+    "answers": [
+      "To stop the wind from scattering his papers",
+      "To make the room colder",
+      "To invite more wind inside",
+      "To look for a missing book"
+    ],
+    "correct_choice": "To stop the wind from scattering his papers",
+    "explanation": "The reason is explicitly introduced by because; no inference about temperature or a missing book is supported.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 100,
+    "domain": "Reading",
+    "question": "Read: 'Both bicycles and scooters can be used for short trips, but bicycles usually have larger wheels.' What structure is used?",
+    "answers": [
+      "Compare and contrast",
+      "A list of instructions",
+      "A timeline of historical events",
+      "A question with no answer"
+    ],
+    "correct_choice": "Compare and contrast",
+    "explanation": "Both identifies a similarity, and but introduces a difference.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 101,
+    "domain": "Reading",
+    "question": "A reading chart shows 12 books finished in September, 18 in October, and 15 in November. In which month were the most books finished?",
+    "answers": [
+      "October",
+      "September",
+      "November",
+      "All three were equal"
+    ],
+    "correct_choice": "October",
+    "explanation": "October's total of 18 exceeds September's 12 and November's 15.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
+  },
+  {
+    "id": 102,
+    "domain": "Reading",
+    "question": "A student does not recognize the word helpful. Which prompt best supports analyzing its parts?",
+    "answers": [
+      "Do you recognize help, and what might the ending -ful add?",
+      "Guess a word based only on the first letter",
+      "Ignore the whole sentence forever",
+      "Replace every unfamiliar word with thing"
+    ],
+    "correct_choice": "Do you recognize help, and what might the ending -ful add?",
+    "explanation": "Identifying a familiar base and a meaningful suffix helps students decode and interpret an unfamiliar word.",
+    "image_filename": null,
+    "web_link": "https://www.ets.org/pdfs/parapro/1755.pdf",
+    "original": true
   }
-]
+];
 
-
-let savedState = JSON.parse(localStorage.getItem("paraQuizState"));
-let currentQuestion = savedState ? savedState.currentQuestion : 0;
-let score = savedState ? savedState.score : 0;
-let wrong = savedState ? savedState.wrong : 0;
-let answersGiven = savedState ? savedState.answersGiven : {}; // store chosen answers
-
-function saveState() {
-  localStorage.setItem("paraQuizState", JSON.stringify({ currentQuestion, score, wrong, answersGiven }));
-}
-
-function updateProgress() {
-  const progress = ((currentQuestion) / questions.length) * 100;
-  document.getElementById("progressBar").style.width = progress + "%";
-  document.getElementById("place").innerHTML = `
-  Question ${currentQuestion} of ${questions.length}<br>
-  Wrong: ${wrong}` 
-}
-
-function showQuestion() {
-  if (currentQuestion >= questions.length) {
-    document.getElementById("quiz").innerHTML = 
-      `<h2>Quiz Complete!</h2>
-       <p>You got <b>${score}</b> right and <b>${wrong}</b> wrong.</p>`;
-    document.getElementById("restart").style.display = "inline-block";
-    document.getElementById("nextBtn").style.display = "none";
-    document.getElementById("prevBtn").style.display = "none";
-    localStorage.removeItem("paraQuizState");
-    return;
-  }
-
-  const q = questions[currentQuestion];
-  const shuffledAnswers = [...q.answers].sort(() => Math.random() - 0.5);
-  const chosen = answersGiven[q.id] || null;
-
-  document.getElementById("quiz").innerHTML = `
-    <div class="question">Q${q.id}: ${q.question}</div>
-    <div class="answers">
-      ${shuffledAnswers.map(ans => `
-        <button 
-          onclick="checkAnswer('${ans}')" 
-          ${chosen ? "disabled" : ""} 
-          style="${chosen === ans ? 'border:2px solid blue;' : ''}">
-          ${ans}
-        </button>`).join("")}
-    </div>
-    <div id="feedback"></div>
-  `;
-
-  if (chosen) {
-    showFeedback(q, chosen);
-  }
-
-  document.getElementById("prevBtn").style.display = currentQuestion > 0 ? "inline-block" : "none";
-  document.getElementById("nextBtn").style.display = currentQuestion < questions.length - 1 ? "inline-block" : "none";
-
-  updateProgress();
-}
-
-function checkAnswer(choice) {
-  const q = questions[currentQuestion];
-  if (!answersGiven[q.id]) {
-    answersGiven[q.id] = choice;
-    if (choice === q.correct_choice) {
-      score++;
-    } else {
-      wrong++;
-    }
-    saveState();
-  }
-  showFeedback(q, choice);
-}
-
-function showFeedback(q, choice) {
-  let feedbackDiv = document.getElementById("feedback");
-  if (choice === q.correct_choice) {
-    feedbackDiv.innerHTML = `<div class="feedback correct">✅ Correct!<br>${q.explanation}</div>`;
-  } else {
-    feedbackDiv.innerHTML = `<div class="feedback wrong">❌ Wrong. You chose: <b>${choice}</b><br>
-    Correct answer: <b>${q.correct_choice}</b><br>${q.explanation}</div>`;
-  }
-}
-
-document.getElementById("nextBtn").onclick = () => {
-  if (currentQuestion < questions.length - 1) {
-    currentQuestion++;
-    saveState();
-    showQuestion();
-  }
-};
-
-document.getElementById("prevBtn").onclick = () => {
-  if (currentQuestion > 0) {
-    currentQuestion--;
-    saveState();
-    showQuestion();
-  }
-};
-
-document.getElementById("restart").onclick = () => {
-  currentQuestion = 0;
-  score = 0;
-  wrong = 0;
-  answersGiven = {};
-  localStorage.removeItem("dmvQuizState");
-  document.getElementById("restart").style.display = "none";
-  showQuestion();
-};
-
-showQuestion();
+initializePracticeQuiz({ questions, storageKey: "paraQuizState" });

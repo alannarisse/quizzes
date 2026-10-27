@@ -89,3 +89,4 @@ button:hover {
     width: 90vw;
   }
 }
+.answers button.selected-answer{border:3px solid #175a78;font-weight:bold}.answers button:disabled{cursor:default;opacity:1;color:#222}.nav-buttons button:disabled{opacity:.5;cursor:default}button:focus-visible{outline:3px solid #175a78;outline-offset:3px}.bank-note,#score{font-size:.9rem} .question{overflow-wrap:anywhere}
