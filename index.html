@@ -2,81 +2,88 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quizes! Oregon DMV Practice Test, CAPM, ParaPro, and Wine Pairing</title>
-  <meta property="og:title"
-    content="Quizes and Practice Tests! Oregon DMV Practice Test, CAPM, ParaPro, and Wine and Food Pairing" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz-O-Rama! | Alanna's Quizzes</title>
+  <meta name="description" content="Pick a door and play! Practice quizzes and games, presented 1960s game-show style.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Commissioner:wght@100..900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
-  <meta name="author" content="" />
-  <meta name="keywords" content="" />
-  <link rel="canonical" href="https://alannarisse.com" />
-  <meta property="og:url" content="https://alannarisse.com" />
-  <meta name="description"
-    content="A collection of quizzes created by Alanna Risse. They include: anOregon DMV practice test, a CAPM practice test, a wine and food pairing questionaire, and a ParaPro practice test. They were created in order to practice coding with ChatGPT and to get a little javascript practice in. More reasons: my daughter is 15 and needs to get her learner's permit, I was studying for the PMI CAPM exam, and I am considering being a substitute ParaPro in Portland Public Schools and the surrounding metro area." />
-  <meta property="og:description"
-    content="A collection of quizzes created by Alanna Risse. They include: anOregon DMV practice test, a CAPM practice test, a wine and food pairing questionaire, and a ParaPro practice test." />
-  <!-- <meta property="og:image" content="https://www.example.com/sample.jpg" /> -->
-  <meta name="robots" content="index, follow">
-
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="container grainy-body">
-    <header>
-      <h1><span class="big">Quizzes</span>
-        <span class="indent">of all sorts!</span>
-      </h1>
-    </header>
+  <div class="rays" aria-hidden="true"></div>
 
-    <main>
-      <section class="cards">
-        <div class="card grainy-gradient">
-          <p><a href="dmv-practice/"><img src="images/oregon-dmv-logo.png" alt="Oregon DMV Learner's Permit test"><br>
-              Oregon DMV Practice Quiz</a></p>
-        </div>
-        <div class="card grainy-gradient">
-          <p><a href="istqb-found/">
-              <img src="images/istqb.svg"><br>
-              ISTQB Certified Tester Foundation Level</a></p>
-        </div>
-        <div class="card grainy-gradient">
-          <p><a href="wine-and-food-pairing/">
-              <img src="images/food-wine-pairing.jpeg"><br>
-              Wine and Food Pairing</a></p>
-        </div>
-        <div class="card grainy-gradient">
-          <p><a href="capm-practice/">
-              <img src="images/capm-logo.png" alt="PMI CAPM practice quiz"><br>
-              CAPM Practice Quiz</a></p>
-        </div>
-        <div class="card grainy-gradient">
-          <p><a href="parapro-practice/">
-              <img src="images/parapro.png" alt="Para Professional quiz practice for education test"><br>
-              Para Professional Practice Quiz</a></p>
-        </div>
-        <div class="card grainy-gradient">
-          <p><a href="kanban-todo/">
-              <img src="images/kanban.svg" alt="Kanban Todo List App"><br>
-              Kanban Todo List</a></p>
-        </div>
-        <div class="card grainy-gradient">
-          <p><a href="shelf-game/">
-              <img src="images/shelf-game.png" alt="Shelf game"><br>
-              Food Shelf Board Design</a></p>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <p>@copyright Alanna Risse 2026</p>
-      <p class="by">Appreciate this app? <a href="https://ko-fi.com/alannarisse" target="_blank">Please leave me a tip
-          at Kofi!</a></p>
-    </footer>
+  <header class="marquee">
+    <div class="bulbs" id="bulbs" aria-hidden="true"></div>
+    <p class="tagline">Recorded Live! in front of a studio audience &mdash; It's</p>
+    <h1 class="title">Quiz-O-Rama!</h1>
+    <p class="subtitle">Pick a door &bull; win more smarts!</p>
+  </header>
+
+  <div class="controls">
+    <button class="applause" id="applause" type="button" title="Play applause">Applause</button>
+    <button class="pick" id="pick" type="button">Pick a door!</button>
   </div>
+
+  <main class="doors" id="doors">
+    <a class="door" href="aws-clf-c02/">
+      <span class="num">Door 1</span>
+      <span class="window"><img src="images/aws-clf-c02-badge.png"
+          alt="Oregon DMV"></span>
+      <span class="name">AWS CLF-C02 Practice Quiz</span>
+      <span class="play">Play!</span>
+    </a>
+    <a class="door" href="https://alannarisse.github.io/quizzes/dmv-practice/">
+      <span class="num">Door 2</span>
+      <span class="window"><img src="https://alannarisse.github.io/quizzes/images/oregon-dmv-logo.png"
+          alt="Oregon DMV"></span>
+      <span class="name">Oregon DMV Practice Quiz</span>
+      <span class="play">Play!</span>
+    </a>
+    <a class="door" href="https://alannarisse.github.io/quizzes/istqb-found/">
+      <span class="num">Door 3</span>
+      <span class="window"><img src="https://alannarisse.github.io/quizzes/images/istqb.svg" alt="ISTQB"></span>
+      <span class="name">ISTQB Certified Tester Foundation Level</span>
+      <span class="play">Play!</span>
+    </a>
+    <!-- <a class="door" href="https://alannarisse.github.io/quizzes/wine-and-food-pairing/">
+      <span class="num">Door 3</span>
+      <span class="window"><img src="https://alannarisse.github.io/quizzes/images/food-wine-pairing.jpeg"
+          alt="Wine and food"></span>
+      <span class="name">Wine and Food Pairing</span>
+      <span class="play">Play!</span>
+    </a> -->
+    <a class="door" href="https://alannarisse.github.io/quizzes/capm-practice/">
+      <span class="num">Door 4</span>
+      <span class="window"><img src="https://alannarisse.github.io/quizzes/images/capm-logo.png" alt="PMI CAPM"></span>
+      <span class="name">CAPM Practice Quiz</span>
+      <span class="play">Play!</span>
+    </a>
+    <a class="door" href="https://alannarisse.github.io/quizzes/parapro-practice/">
+      <span class="num">Door 5</span>
+      <span class="window"><img src="https://alannarisse.github.io/quizzes/images/parapro.png" alt="ParaPro"></span>
+      <span class="name">Para Professional Practice Quiz</span>
+      <span class="play">Play!</span>
+    </a>
+    <!-- <a class="door" href="https://alannarisse.github.io/quizzes/kanban-todo/">
+      <span class="num">Door 6</span>
+      <span class="window"><img src="https://alannarisse.github.io/quizzes/images/kanban.svg" alt="Kanban board"></span>
+      <span class="name">Kanban Todo List</span>
+      <span class="play">Play!</span>
+    </a> -->
+    <!-- <a class="door" href="https://alannarisse.github.io/quizzes/shelf-game/">
+      <span class="num">Door 7</span>
+      <span class="window"><img src="https://alannarisse.github.io/quizzes/images/shelf-game.png"
+          alt="Shelf game"></span>
+      <span class="name">Food Shelf Board Design</span>
+      <span class="play">Play!</span>
+    </a> -->
+  </main>
+
+  <footer class="footer">Stay tuned &mdash; more prizes after these messages!</footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

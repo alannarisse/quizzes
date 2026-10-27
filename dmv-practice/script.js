@@ -116,13 +116,12 @@ const questions = [
     "question": "If your vehicle begins to skid, you should:",
     "answers": [
       "Slam on the brakes",
-      "Ease up on the gas pedal and steer in the direction of the skid to regain control",
+      "Turn the steering wheel in the direction you want the car to go",
       "Turn opposite the skid",
       "Accelerate quickly"
     ],
     "correct_choice": "Turn the steering wheel in the direction you want the car to go",
-    "explanation": "Steer in the direction of the skid to regain control.",
-    "image_filename": "skid_control.png",
+    "explanation": "Ease off the accelerator and steer in the direction you want the vehicle to travel. Avoid sudden braking or steering.",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   {
@@ -136,7 +135,7 @@ const questions = [
     ],
     "correct_choice": "Yield",
     "explanation": "An upside-down triangle means yield to other traffic.",
-    "image_filename": "yield_sign.png",
+    "image_filename": "yield-sign.jpg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
   {
@@ -169,7 +168,7 @@ const questions = [
   },
   {
     "id": 13,
-    "question": "A yellow sign with a black X through it and the letters R and R is wanring that you are approaching ...",
+    "question": "A yellow sign with a black X through it and the letters R and R is warning that you are approaching ...",
     "answers": [
       "An intersection",
       "A crosswalk",
@@ -183,7 +182,7 @@ const questions = [
   },
   {
     "id": 14,
-    "question": "What does driving do to your driving skills and judgement?",
+    "question": "What does drinking alcohol do to your driving skills and judgment?",
     "answers": [
       "It helps driving skills but harms your judgement",
       "It harms both driving skills and judgement",
@@ -201,8 +200,8 @@ const questions = [
     "answers": [
       "Wait until the other car clears the intersection",
       "Move ahead only if you can go around the other vehicles safely",
-      "Enter the intersetion and wait for traffic to clear",
-      "Honk your horn to warn other sdrivers of your presence and then enter the intersection"
+      "Enter the intersection and wait for traffic to clear",
+      "Honk your horn to warn other drivers of your presence and then enter the intersection"
     ],
     "correct_choice": "Wait until the other car clears the intersection",
     "explanation": "Give the right-of-way to any vehicle, bicyclist, or pedestrian already in the intersection. While the green signal certainly means go, vehicles that entered the intersection before the light turned green have the right-of-way over you.",
@@ -214,11 +213,11 @@ const questions = [
     "question": "What does a triangular sign with the word YIELD on it mean?",
     "answers": [
       "Stop until all cars around you are a distance of 100 feet or more.",
-      "Reduce speed and yeild the right of way.",
+      "Reduce speed and yield the right of way.",
       "Scan the road ahead and slow down if there are other cars approaching.",
       "This area of the road profits heavily from traffic tickets."
     ],
-    "correct_choice": "Reduce speed and yeild the right of way.",
+    "correct_choice": "Reduce speed and yield the right of way.",
     "explanation": "This sign means you should reduce speed and yield right of way. If needed, stop the same as you would for a stop sign. page 7",
     "image_filename": "yield-sign.jpg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
@@ -302,8 +301,8 @@ const questions = [
       "Can only turn on the red light if a left turn sign is posted",
       "Can turn on the red light after yielding to other traffic"
     ],
-    "correct_choice": "OptionA",
-    "explanation": "Approach the turn in the traffic lane that is nearest to the direction of the turn. Turn into the nearest lane for traffic on the road you are entering. You may make this turn against a red light after stopping andyielding to traffic and pedestrians. page 39",
+    "correct_choice": "Can turn on the red light after yielding to other traffic",
+    "explanation": "Approach the turn in the traffic lane that is nearest to the direction of the turn. Turn into the nearest lane for traffic on the road you are entering. You may make this turn against a red light after stopping and yielding to traffic and pedestrians. page 39",
     "image_filename": "turn-onto-one-way.svg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
@@ -349,7 +348,7 @@ const questions = [
     "image_filename": "truck-turn.png",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
- {
+  {
     "id": 26,
     "question": "A person on a bicycle is riding in front of you within a travel lane. You are driving 45 mph and your lane is marked with a broken yellow center line. You",
     "answers": [
@@ -457,7 +456,7 @@ const questions = [
       "requires any open bottles or containers to be in the trunk."
     ],
     "correct_choice": "requires any open bottles or containers to be in the trunk.",
-    "explanation": "Oregon's Open Container law says it is illegal to have an open bottle or other container with alcohol in it while you are in a vehicle on any road. A container is considered to be open if its seal is broken, even if it has been reclosed. Any open bottles or containers should be in the trunk. page 81",
+    "explanation": "Oregon's Open Container law says it is illegal to have an open bottle or other container with alcohol in it while you are in a vehicle on any road. A container is considered to be open if its seal is broken, even if it has been re-closed. Any open bottles or containers should be in the trunk. page 81",
     "image_filename": "alcohol-beer-pour.webp",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
@@ -488,8 +487,7 @@ const questions = [
     "explanation": "Deer often cross the road in this area. Be alert. Slow down if you see deer or other wildlife. page 12",
     "image_filename": "deer-crossing.jpg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
-    }
-    ,
+  },
   {
     "id": 36,
     "question": "How loud can you legally play your car stereo?",
@@ -542,7 +540,7 @@ const questions = [
       "Caution, Windy road for the next 4 miles"
     ],
     "correct_choice": "Caution, Windy road for the next 4 miles",
-    "explanation": "Explanation placeholder.",
+    "explanation": "The winding-road sign warns of curves continuing for the distance shown on the supplemental plaque.",
     "image_filename": "windy-road.jpeg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
   },
@@ -555,7 +553,7 @@ const questions = [
       "Divided highway ends",
       "Earth's magnetic polarity switches ahead."
     ],
-    "correct_choice": "OptionA",
+    "correct_choice": "Two-way traffic ahead",
     "explanation": "The one-way road joins a two-way road ahead. You will be facing oncoming traffic.",
     "image_filename": "two-way.jpeg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
@@ -569,7 +567,7 @@ const questions = [
       "Dangerous driver, preprae for erradic behavior",
       "Secret rave location, inquire with the driver."
     ],
-    "correct_choice": "OptionA",
+    "correct_choice": "Slow moving vehicle, be prepared to slow down or adjust your position",
     "explanation": "Slow moving vehicles, such as farm equipment, must display the SLOW MOVING VEHICLE emblem when using a public highway. The emblem contains a reflective, red border and a fluorescent orange center. Be prepared to slow down or adjust your position when you see this sign.",
     "image_filename": "slow-moving-vehicle.jpg",
     "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
@@ -586,120 +584,7 @@ const questions = [
     "correct_choice": "May enter an intersection without stopping",
     "explanation": "Funeral processions are exempt from certain rules of the road. Vehicles in a funeral procession may enter an intersection without stopping and do not have to obey traffic control devices. Other vehicles must yield right of way to funeral processions. If you are not a member of the funeral procession, it is against the law for you to join or drive between vehicles in the procession."
   }
-  // {
-  //   "id": 43,
-  //   "question": "Sample question 43?",
-  //   "answers": [
-  //     "OptionA",
-  //     "OptionB",
-  //     "OptionC",
-  //     "OptionD"
-  //   ],
-  //   "correct_choice": "OptionA",
-  //   "explanation": "Explanation placeholder.",
-  //   "image_filename": "image_43.png",
-  //   "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
-  // },
-  // {
-  //   "id": 44,
-  //   "question": "Sample question 44?",
-  //   "answers": [
-  //     "OptionA",
-  //     "OptionB",
-  //     "OptionC",
-  //     "OptionD"
-  //   ],
-  //   "correct_choice": "OptionA",
-  //   "explanation": "Explanation placeholder.",
-  //   "image_filename": "image_44.png",
-  //   "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
-  // },
-  // {
-  //   "id": 45,
-  //   "question": "Sample question 45?",
-  //   "answers": [
-  //     "OptionA",
-  //     "OptionB",
-  //     "OptionC",
-  //     "OptionD"
-  //   ],
-  //   "correct_choice": "OptionA",
-  //   "explanation": "Explanation placeholder.",
-  //   "image_filename": "placeholder.png",
-  //   "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
-  // },
-  // {
-  //   "id": 46,
-  //   "question": "Sample question 46?",
-  //   "answers": [
-  //     "OptionA",
-  //     "OptionB",
-  //     "OptionC",
-  //     "OptionD"
-  //   ],
-  //   "correct_choice": "OptionA",
-  //   "explanation": "Explanation placeholder.",
-  //   "image_filename": "placeholder.png",
-  //   "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
-  // },
-  // {
-  //   "id": 47,
-  //   "question": "Sample question 47?",
-  //   "answers": [
-  //     "OptionA",
-  //     "OptionB",
-  //     "OptionC",
-  //     "OptionD"
-  //   ],
-  //   "correct_choice": "OptionA",
-  //   "explanation": "Explanation placeholder.",
-  //   "image_filename": "placeholder.png",
-  //   "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
-  // },
-  // {
-  //   "id": 48,
-  //   "question": "Sample question 48?",
-  //   "answers": [
-  //     "OptionA",
-  //     "OptionB",
-  //     "OptionC",
-  //     "OptionD"
-  //   ],
-  //   "correct_choice": "OptionA",
-  //   "explanation": "Explanation placeholder.",
-  //   "image_filename": "placeholder.png",
-  //   "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
-  // },
-  // {
-  //   "id": 49,
-  //   "question": "Sample question 49?",
-  //   "answers": [
-  //     "OptionA",
-  //     "OptionB",
-  //     "OptionC",
-  //     "OptionD"
-  //   ],
-  //   "correct_choice": "OptionA",
-  //   "explanation": "Explanation placeholder.",
-  //   "image_filename": "image_49.png",
-  //   "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
-  // },
-  // {
-  //   "id": 50,
-  //   "question": "Sample question 50?",
-  //   "answers": [
-  //     "OptionA",
-  //     "OptionB",
-  //     "OptionC",
-  //     "OptionD"
-  //   ],
-  //   "correct_choice": "OptionA",
-  //   "explanation": "Explanation placeholder.",
-  //   "image_filename": "image_50.png",
-  //   "web_link": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
-  // }
-]
-
+];
 
 const TOTAL_QUESTIONS = 35;
 const MAX_WRONG = 7;
@@ -766,187 +651,90 @@ function shuffleArray(array) {
   return shuffled;
 }
 
+const STORAGE_KEY = 'dmvQuizState';
+const STATE_VERSION = 2;
+const escapeHTML = text => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let selectedQuestions = [];
+let currentQuestion = 0;
+let answersGiven = {};
+let score = 0;
+let wrong = 0;
+let finished = false;
+let storageNotice = '';
+
 function selectRandomQuestions() {
-  const shuffled = shuffleArray(questions);
-  return shuffled.slice(0, Math.min(TOTAL_QUESTIONS, questions.length));
+  return shuffleArray(questions).slice(0,TOTAL_QUESTIONS).map(q => ({...q,answers:shuffleArray(q.answers)}));
 }
-
-let savedState = JSON.parse(localStorage.getItem("dmvQuizState"));
-let selectedQuestions = savedState ? savedState.selectedQuestions : selectRandomQuestions();
-let currentQuestion = savedState ? savedState.currentQuestion : 0;
-let score = savedState ? savedState.score : 0;
-let wrong = savedState ? savedState.wrong : 0;
-let answersGiven = savedState ? savedState.answersGiven : {};
-let failed = savedState ? savedState.failed : false;
-
+function updateTotals() {
+  score = selectedQuestions.filter(q => answersGiven[q.id] === q.correct_choice).length;
+  wrong = selectedQuestions.filter(q => answersGiven[q.id] !== undefined && answersGiven[q.id] !== q.correct_choice).length;
+}
 function saveState() {
-  localStorage.setItem("dmvQuizState", JSON.stringify({
-    currentQuestion,
-    score,
-    wrong,
-    answersGiven,
-    selectedQuestions,
-    failed
-  }));
+  try {localStorage.setItem(STORAGE_KEY,JSON.stringify({version:STATE_VERSION,selectedQuestions:selectedQuestions.map(q=>({id:q.id,answers:q.answers})),currentQuestion,answersGiven,finished}));}
+  catch {storageNotice='Progress cannot be saved in this browser. You can still finish this quiz.';}
 }
-
+function restoreState() {
+  try {
+    const raw=localStorage.getItem(STORAGE_KEY);
+    if(!raw)return false;
+    const saved=JSON.parse(raw);
+    if(saved.version!==STATE_VERSION || !Array.isArray(saved.selectedQuestions) || saved.selectedQuestions.length!==TOTAL_QUESTIONS || new Set(saved.selectedQuestions.map(q=>q.id)).size!==TOTAL_QUESTIONS || !Number.isInteger(saved.currentQuestion) || saved.currentQuestion<0 || saved.currentQuestion>=TOTAL_QUESTIONS || typeof saved.finished!=='boolean' || !saved.answersGiven || typeof saved.answersGiven!=='object' || Array.isArray(saved.answersGiven))throw Error('Invalid state');
+    const restored=saved.selectedQuestions.map(item=>{
+      const q=questions.find(q=>q.id===item.id);
+      if(!q || !Array.isArray(item.answers) || item.answers.length!==q.answers.length || new Set(item.answers).size!==q.answers.length || !item.answers.every(a=>q.answers.includes(a)))throw Error('Invalid answers');
+      return {...q,answers:item.answers};
+    });
+    for(const [id,choice] of Object.entries(saved.answersGiven)){
+      const q=restored.find(q=>String(q.id)===id);
+      if(!q || !q.answers.includes(choice))throw Error('Invalid choice');
+    }
+    const answered=Object.keys(saved.answersGiven).length;
+    const misses=restored.filter(q=>saved.answersGiven[q.id]!==undefined && saved.answersGiven[q.id]!==q.correct_choice).length;
+    if(saved.finished && answered!==TOTAL_QUESTIONS && misses<=MAX_WRONG)throw Error('Invalid completion');
+    selectedQuestions=restored;currentQuestion=saved.currentQuestion;answersGiven=saved.answersGiven;finished=saved.finished;updateTotals();return true;
+  }catch{storageNotice='An older or invalid saved attempt was reset so questions and answers stay matched.';return false;}
+}
 function updateProgress() {
-  const progress = ((currentQuestion + 1) / selectedQuestions.length) * 100;
-  document.getElementById("progressBar").style.width = progress + "%";
-  document.getElementById("place").innerHTML = `
-  Question ${currentQuestion + 1} of ${selectedQuestions.length}<br>
-  Correct: ${score} | Wrong: ${wrong} of ${MAX_WRONG} allowed`;
+  const answered=Object.keys(answersGiven).length;
+  document.getElementById('progressBar').style.width=`${answered/selectedQuestions.length*100}%`;
+  document.getElementById('place').textContent=`${finished?'Quiz complete':`Question ${currentQuestion+1} of ${selectedQuestions.length}`} · Answered: ${answered} · Correct: ${score} · Wrong: ${wrong} (${MAX_WRONG} allowed)`;
+  document.getElementById('score').textContent=storageNotice;
 }
-
-function showFailScreen() {
-  failed = true;
-  saveState();
-  document.getElementById("quiz").innerHTML = `
-    <div class="fail-screen">
-      <h2>❌ Sorry, you did not pass</h2>
-      <p>You got <b>${MAX_WRONG}</b> wrong answers.</p>
-      <p>On the official test, you need to get at least ${TOTAL_QUESTIONS - MAX_WRONG + 1} out of ${TOTAL_QUESTIONS} correct to pass.</p>
-      <p>Your score: <b>${score}</b> correct, <b>${wrong}</b> wrong</p>
-      <button onclick="restartQuiz()" class="retry-btn">Try Again with New Questions</button>
-    </div>
-  `;
-  document.getElementById("nextBtn").style.display = "none";
-  document.getElementById("prevBtn").style.display = "none";
-  document.getElementById("restart").style.display = "none";
+function showFeedback(q,choice) {
+  document.getElementById('feedback').innerHTML=`<div class="feedback ${choice===q.correct_choice?'correct':'wrong'}"><h3>${choice===q.correct_choice?'✅ Correct!':'❌ Incorrect'}</h3><p><strong>Your answer:</strong> ${escapeHTML(choice)}</p><p><strong>Correct answer:</strong> ${escapeHTML(q.correct_choice)}</p><p>${escapeHTML(q.explanation)}</p></div>`;
 }
-
-function showPassScreen() {
-  document.getElementById("quiz").innerHTML = `
-    <div class="pass-screen">
-      <h2>🎉 Congratulations! You Passed!</h2>
-      <p>You got <b>${score}</b> correct out of ${selectedQuestions.length}!</p>
-      <p>Wrong answers: <b>${wrong}</b> (${MAX_WRONG} allowed)</p>
-      <button onclick="restartQuiz()" class="retry-btn">Try Again with New Questions</button>
-    </div>
-  `;
-  document.getElementById("nextBtn").style.display = "none";
-  document.getElementById("prevBtn").style.display = "none";
-  document.getElementById("restart").style.display = "none";
-  localStorage.removeItem("dmvQuizState");
+function showResults(){
+  updateTotals();finished=true;saveState();updateProgress();
+  const passed=wrong<=MAX_WRONG && Object.keys(answersGiven).length===selectedQuestions.length;
+  document.getElementById('quiz').innerHTML=`<div class="${passed?'pass-screen':'fail-screen'}"><h2>${passed?'🎉 You passed!':'Keep practicing'}</h2><p>${score} correct, ${wrong} incorrect, ${selectedQuestions.length-Object.keys(answersGiven).length} unanswered.</p><p>This practice quiz requires ${TOTAL_QUESTIONS-MAX_WRONG} of ${TOTAL_QUESTIONS} correct (${MAX_WRONG} wrong answers allowed).</p></div>`;
+  document.getElementById('prevBtn').style.display='none';document.getElementById('nextBtn').style.display='none';document.getElementById('restart').style.display='inline-block';
 }
-
-function showQuestion() {
-  // Check if already failed
-  if (failed) {
-    showFailScreen();
-    return;
-  }
-
-  // Check if quiz is complete
-  if (currentQuestion >= selectedQuestions.length) {
-    showPassScreen();
-    return;
-  }
-
-  const q = selectedQuestions[currentQuestion];
-  const shuffledAnswers = [...q.answers].sort(() => Math.random() - 0.5);
-  const chosen = answersGiven[q.id] || null;
-
-  document.getElementById("quiz").innerHTML = `
-    <div class="question">
-    <img class="qimg" id="qimg" src="images/${q.image_filename}"><br class="break"/>
-    <h2 class="qcopy">${q.question}</h2>
-    </div>
-    <div class="answers">
-      ${shuffledAnswers.map(ans => `
-        <button
-          onclick="checkAnswer('${ans.replace(/'/g, "\\'")}')"
-          style="${chosen === ans ? 'border:2px solid blue;' : ''}">
-          ${ans}
-        </button>`).join("")}
-    </div>
-    <div id="feedback"></div>
-  `;
-
-  if (chosen) {
-    showFeedback(q, chosen);
-  }
-
-  document.getElementById("prevBtn").style.display = currentQuestion > 0 ? "inline-block" : "none";
-  document.getElementById("nextBtn").style.display = currentQuestion < selectedQuestions.length - 1 ? "inline-block" : "none";
-  document.getElementById("restart").style.display = "inline-block";
-
-  updateProgress();
+function showQuestion(){
+  if(finished)return showResults();
+  const q=selectedQuestions[currentQuestion];const chosen=answersGiven[q.id];
+  document.getElementById('quiz').innerHTML=`<div class="question">${q.image_filename?`<img class="qimg" src="images/${escapeHTML(q.image_filename)}" alt="Road sign or driving situation for this question">`:''}<h2 class="qcopy">${escapeHTML(q.question)}</h2></div><div class="answers">${q.answers.map((a,i)=>`<button data-answer="${i}" ${chosen!==undefined?'disabled':''} ${chosen===a?'class="selected-answer" aria-pressed="true"':''}>${escapeHTML(a)}</button>`).join('')}</div><div id="feedback" aria-live="polite"></div>`;
+  document.querySelectorAll('[data-answer]').forEach(button=>button.onclick=()=>checkAnswer(q.id,q.answers[Number(button.dataset.answer)]));
+  if(chosen!==undefined)showFeedback(q,chosen);
+  document.getElementById('prevBtn').style.display=currentQuestion>0?'inline-block':'none';
+  const next=document.getElementById('nextBtn');next.style.display='inline-block';next.disabled=chosen===undefined;next.textContent=wrong>MAX_WRONG||currentQuestion===selectedQuestions.length-1?'See results':'Next >>';
+  document.getElementById('restart').style.display='inline-block';updateProgress();
 }
-function checkAnswer(choice) {
-  const q = selectedQuestions[currentQuestion];
-  if (!answersGiven[q.id]) {
-    answersGiven[q.id] = choice;
-    const isCorrect = choice === q.correct_choice;
-
-    if (isCorrect) {
-      score++;
-      playSound(true);
-    } else {
-      wrong++;
-      playSound(false);
-    }
-    saveState();
-
-    // Check if failed (7 wrong answers)
-    if (wrong >= MAX_WRONG) {
-      showFeedback(q, choice);
-      setTimeout(() => {
-        showFailScreen();
-      }, 1500);
-      return;
-    }
-  }
-  showFeedback(q, choice);
+function checkAnswer(questionId,choice){
+  const q=selectedQuestions[currentQuestion];
+  if(finished||q.id!==questionId||answersGiven[q.id]!==undefined||!q.answers.includes(choice))return;
+  answersGiven[q.id]=choice;updateTotals();saveState();showQuestion();
+  document.getElementById('nextBtn').focus();
+  // Optional audio must not interfere with recording an answer.
+  try{playSound(choice===q.correct_choice);}catch{}
 }
-
-function showFeedback(q, choice) {
-  let feedbackDiv = document.getElementById("feedback");
-  if (choice === q.correct_choice) {
-    feedbackDiv.innerHTML = `<div class="feedback correct">
-    <h3>✅ Correct!</h3>
-    <p>${q.explanation}</p>
-    </div>`;
-  } else {
-    feedbackDiv.innerHTML = `<div class="feedback wrong">
-    <h3>❌ Wrong. You chose:</h3>
-    <p><b>${choice}</b></p>
-    <h3>Correct answer:</h3>
-    <p><b>${q.correct_choice}</b></p>
-    <p><b>Explanation</b> ${q.explanation}</p>
-    </div>`;
-  }
-}
-
-document.getElementById("nextBtn").onclick = () => {
-  if (currentQuestion < selectedQuestions.length - 1) {
-    currentQuestion++;
-    saveState();
-    showQuestion();
-  }
+document.getElementById('nextBtn').onclick=()=>{
+  if(finished||answersGiven[selectedQuestions[currentQuestion].id]===undefined)return;
+  if(wrong>MAX_WRONG || currentQuestion===selectedQuestions.length-1){showResults();return;}
+  currentQuestion++;saveState();showQuestion();
 };
-
-document.getElementById("prevBtn").onclick = () => {
-  if (currentQuestion > 0) {
-    currentQuestion--;
-    saveState();
-    showQuestion();
-
-  }
-};
-
-function restartQuiz() {
-  currentQuestion = 0;
-  score = 0;
-  wrong = 0;
-  answersGiven = {};
-  failed = false;
-  selectedQuestions = selectRandomQuestions();
-  localStorage.removeItem("dmvQuizState");
-  document.getElementById("restart").style.display = "inline-block";
-  showQuestion();
+document.getElementById('prevBtn').onclick=()=>{if(!finished&&currentQuestion>0){currentQuestion--;saveState();showQuestion();}};
+function restartQuiz(){
+  selectedQuestions=selectRandomQuestions();currentQuestion=0;answersGiven={};finished=false;updateTotals();saveState();showQuestion();
 }
-
-document.getElementById("restart").onclick = restartQuiz;
-
-showQuestion();
+document.getElementById('restart').onclick=restartQuiz;
+if(restoreState())showQuestion();else restartQuiz();
