@@ -26,8 +26,7 @@ npm run dev
 
 ## Static build
 
-Sound effects default to off. Use the intro checkbox or the volume button between
-Previous and Next to mute/unmute; the preference is remembered in this browser.
+Sound effects default to off. Use the intro checkbox or a volume button to mute/unmute; the preference is remembered in this browser.
 Mock exams play answer feedback when a complete answer is selected (all requested
 choices for multiple-response questions). Study mode plays feedback on Check
 answer. Passing a submitted attempt plays `public/quiz/sounds/passed-test.m4a`.
@@ -52,6 +51,7 @@ index.html
 style.css
 script.js
 engine.mjs
+exam.mjs
 questions.json
 cloud-badge.svg
 images/
@@ -77,3 +77,17 @@ python3 -m http.server 8000 --directory dist
 
 Open `http://localhost:8000/`. Serve over HTTP rather than opening `index.html`
 directly because the quiz fetches `questions.json`.
+
+## Mock exam flow
+
+Answers lock as soon as a full selection is made. Multiple-response questions
+lock after the requested number of choices. Review answer opens a separate
+explanation screen; Next continues to the next question. Unanswered questions
+can be skipped and completed in order at the end. Finish & review appears only after every question has a complete answer.
+Skipped questions are listed automatically at the end. Ten wrong
+answers end the attempt; completing all 65 with at most nine wrong passes.
+The completion screen includes retry, study mode, more quizzes, and copy-link
+actions. Study mode retains its existing navigation and checking behavior.
+
+This flow uses a new saved-attempt key; older attempts are not resumed. The
+sound preference is preserved.

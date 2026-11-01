@@ -4,10 +4,10 @@ A dependency-free static quiz with 108 original practice questions. Each attempt
 
 The practice passing target is **85%: 56 of 65 correct**. All questions count; unanswered and partially correct multiple-response questions count as incorrect. This differs from the real exam's 50 scored and 15 unscored items and scaled 700/1,000 passing score.
 
-- Mock exam: answered questions are marked in the jump grid immediately. Select an answered question in the grid to open its correct answer and explanation above the question. Submission shows a full review.
+- Mock exam: complete answers lock permanently. Review answer opens a separate explanation screen. Skip unanswered questions for completion at the end. Ten wrong answers end the attempt; all 65 questions must be completed to pass.
 - Study mode: check an answer to reveal feedback and its image. Checked responses are locked.
 - The question grid marks graded answers green (✓) or red (×). Clicking any box jumps to that question and opens an inline answer review above it. Answered questions show the correct answer and explanation; unanswered questions prompt you to answer first. No modal overlay is used.
-- Navigate freely, flag questions, and review every question after submission. No timer or early failure cutoff.
+- Navigate freely, flag questions, and review every question after submission. No timer; mock exams end at ten wrong answers.
 - A Study guide link in each active quiz opens the official AWS exam guide in a new tab without changing the saved attempt.
 - Progress and finished attempts resume from localStorage. New quiz replaces the current attempt and draws a new sample. Storage failures do not prevent use.
 - Each incorrect option has a separate explanation in study feedback and submitted exam review.

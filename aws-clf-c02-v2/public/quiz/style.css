@@ -236,3 +236,11 @@ footer { margin-top: 24px; text-align: center; font-size: .85rem; color: var(--w
 .nav { flex-wrap: nowrap; align-items: center; gap: 6px; }
 .nav button { padding-inline: clamp(6px, 2vw, 20px); }
 .sound-toggle { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; flex-shrink: 0; padding: 6px; }
+
+.exam-correct .answer:has(input:checked) { box-shadow: inset 0 0 0 3px var(--ok); }
+.exam-verdict.verdict-correct { color: var(--ok); }
+.exam-verdict.verdict-wrong { color: #ff776d; }
+.pending-list button { text-align: left; text-transform: none; letter-spacing: normal; }
+.pending-list li { margin-block: 12px; }
+.completion-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.completion-actions a { color: var(--ink); }

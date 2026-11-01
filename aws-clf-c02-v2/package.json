@@ -13,7 +13,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "build:static": "node scripts/build-static.mjs",
-    "test:quiz": "node --test public/quiz/engine.test.mjs"
+    "test:quiz": "node --test public/quiz/*.test.mjs"
   },
   "overrides": {
     "rolldown": "1.2.1"
