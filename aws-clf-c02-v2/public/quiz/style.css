@@ -1,0 +1,231 @@
+/* 1976 Family Feud set: orange studio wall, turquoise bulb-dotted board,
+   cream answer panel, black flip-strips with white blocky letters. */
+:root {
+  --wall: #d9661f;
+  --wall-dk: #a8420f;
+  --teal: #3d93a8;
+  --teal-dk: #1f5f70;
+  --teal-hi: #6cc0d0;
+  --bulb: #fff4c8;
+  --frame: #8a5a2b;
+  --cream: #efe0b8;
+  --cream-dk: #c9b17c;
+  --strip: #111111;
+  --strip-hi: #2a2a2a;
+  --white: #f5f1e4;
+  --red: #d0261c;
+  --ok: #4fd06a;
+  --carpet: #1f6a62;
+  --ink: #1a1208;
+  --matrix: "Doto", "VT323", monospace;
+  --block: "VT323", "Courier New", monospace;
+  --body: "Nunito", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--white);
+  font: 17px/1.55 var(--body);
+  background:
+    linear-gradient(180deg, transparent 78%, var(--carpet) 78%, #154d47) fixed,
+    radial-gradient(80% 60% at 50% 20%, #f08a3a, var(--wall) 55%, var(--wall-dk)) fixed;
+}
+
+a { color: var(--bulb); }
+a:hover { color: #fff; }
+:focus-visible { outline: 3px solid var(--bulb); outline-offset: 3px; }
+
+.stage { max-width: 900px; margin: 0 auto; padding: 24px 16px 40px; }
+
+/* Header: black scoreboard strip with dot-matrix title */
+.marquee {
+  text-align: center;
+  padding: 18px 20px 20px;
+  background: var(--strip);
+  border: 6px solid var(--frame);
+  border-radius: 6px;
+  box-shadow: 0 0 0 3px var(--ink), 0 10px 24px #0007;
+}
+.bulbs { display: none; }
+.eyebrow {
+  margin: 0 0 4px;
+  font: 1.15rem var(--block); letter-spacing: .18em;
+  color: var(--cream);
+}
+h1 {
+  margin: 4px 0;
+  font: 900 clamp(2.2rem, 7vw, 3.8rem)/1.05 var(--matrix);
+  color: #ffd84a;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  text-shadow: 0 0 10px #ffd84a99;
+}
+h1 span { color: #ffd84a; }
+.tagline { margin: 6px 0 0; font: 1.25rem var(--block); color: var(--white); }
+
+/* Board: turquoise with bulb dots, framed in brown trim */
+.board {
+  margin-top: 22px;
+  padding: 30px 32px 20px;
+  border-radius: 40px;
+  background-color: var(--teal);
+  background-image: radial-gradient(circle, #ffffffaa 0 1.6px, transparent 2.4px);
+  background-size: 16px 16px;
+  border: 10px solid var(--frame);
+  box-shadow: 0 0 0 4px var(--ink), inset 0 0 0 4px var(--teal-dk), 0 24px 40px -18px #000b;
+}
+
+/* Main content sits on a cream panel, like the answer board */
+#app {
+  background: var(--cream);
+  color: var(--ink);
+  border: 6px solid var(--cream-dk);
+  border-radius: 6px;
+  padding: 20px 24px;
+  box-shadow: inset 0 0 0 2px #fff8, 0 6px 0 #0003;
+}
+
+h2 {
+  font: 1.9rem/1.2 var(--block);
+  color: var(--white);
+  background: var(--strip);
+  padding: 10px 16px;
+  border-radius: 3px;
+  margin: 14px 0;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+h2:focus { outline: none; }
+h3 { font: 1.6rem var(--block); color: var(--ink); text-transform: uppercase; margin: 18px 0 8px; }
+h4 { font: 1.3rem var(--block); color: var(--ink); text-transform: uppercase; margin: 14px 0 4px; }
+
+.meta {
+  display: inline-block; margin: 2px 0;
+  font: 1.15rem var(--block); letter-spacing: .08em; text-transform: uppercase;
+  color: var(--ink);
+}
+
+/* Buttons: plain black strips with white letters */
+button {
+  font: 1.3rem var(--block);
+  letter-spacing: .08em; text-transform: uppercase;
+  cursor: pointer;
+  color: var(--white);
+  background: var(--strip);
+  border: 3px solid var(--frame);
+  border-radius: 4px;
+  padding: 6px 20px;
+}
+button:hover:not(:disabled) { background: var(--strip-hi); color: #ffd84a; }
+button:disabled { opacity: .4; cursor: default; }
+.secondary { background: var(--wall-dk); }
+
+progress {
+  width: 100%; height: 14px; border: 2px solid var(--strip); border-radius: 2px;
+  background: var(--strip); appearance: none;
+}
+progress::-webkit-progress-bar { background: var(--strip); }
+progress::-webkit-progress-value { background: var(--wall); }
+progress::-moz-progress-bar { background: var(--wall); }
+
+/* Answers: numbered black strips */
+fieldset { border: 0; padding: 0; margin: 14px 0; counter-reset: tile; }
+legend { font: 1.2rem var(--block); color: var(--ink); text-transform: uppercase; margin-bottom: 8px; }
+.answer {
+  counter-increment: tile;
+  display: flex; gap: 12px; align-items: center;
+  margin: 8px 0; padding: 6px 14px;
+  cursor: pointer;
+  font: 1.45rem/1.2 var(--block); color: var(--white);
+  text-transform: uppercase; letter-spacing: .04em;
+  background: var(--strip);
+  border-radius: 3px;
+}
+.answer::after {
+  content: counter(tile);
+  margin-left: auto; order: 3;
+  min-width: 1.6em; text-align: center;
+  font: 1.3rem var(--block); color: var(--ink);
+  background: var(--cream); border-radius: 2px;
+}
+.answer:hover { background: var(--strip-hi); }
+.answer:has(input:checked) { color: #ffd84a; box-shadow: inset 0 0 0 3px var(--wall); }
+.answer input { flex-shrink: 0; width: 18px; height: 18px; accent-color: var(--wall); }
+fieldset:disabled .answer { cursor: default; }
+
+.nav, .actions { display: flex; justify-content: space-between; gap: 12px; margin: 20px 0; flex-wrap: wrap; }
+.flag { display: inline-flex; gap: 8px; align-items: center; margin-top: 14px; font: 1.2rem var(--block); text-transform: uppercase; }
+.flag input { accent-color: var(--wall); }
+
+details { margin: 16px 0; }
+summary { cursor: pointer; padding: 8px 0; font: 1.25rem var(--block); text-transform: uppercase; color: var(--ink); }
+
+/* Question grid: little X-grid tally like the board */
+.question-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); gap: 6px; padding: 10px 0; }
+.question-grid button { font-size: 1.1rem; padding: 4px 2px; border-width: 2px; }
+[aria-current] { outline: 3px solid var(--wall); outline-offset: 2px; }
+.question-grid .question-answered { color: #ffd84a; }
+.question-grid .question-correct { color: var(--ok); }
+.question-grid .question-incorrect { color: #fff; background: var(--red); }
+
+/* Feedback & results */
+.feedback, .result {
+  position: relative;
+  padding: 16px 20px; border-radius: 4px; margin: 18px 0;
+  background: var(--strip); color: var(--white);
+  border: 4px solid;
+}
+.feedback h3, .feedback h4, .result h2, .feedback dt { color: var(--white); }
+.correct { border-color: var(--ok); }
+.wrong { border-color: var(--red); }
+.feedback h3 { margin-top: 0; font-size: 2rem; }
+.wrong > h3::before, .result.wrong h2::before {
+  content: "X"; display: inline-grid; place-items: center;
+  width: 1.3em; height: 1.3em; margin-right: 10px;
+  font: 900 1.4em/1 var(--matrix); color: var(--red);
+  border: 3px solid var(--red); border-radius: 4px;
+  text-shadow: 0 0 8px var(--red);
+}
+.correct > h3::before { content: "Survey says… "; color: #ffd84a; }
+.review-close { position: absolute; top: 8px; right: 8px; padding: 0 10px; }
+.option-explanations dt { font-weight: 800; margin-top: 12px; }
+.option-explanations dd { margin: 4px 0 0; }
+.answer-image { display: block; width: 200px; max-width: 100%; max-height: 180px; object-fit: contain; margin: 18px auto; background: var(--cream); border-radius: 4px; }
+
+.result { text-align: center; }
+.result h2 { background: none; font-size: 2.4rem; }
+.result-score {
+  display: inline-block; margin: 8px auto;
+  font: 900 clamp(2.4rem, 8vw, 3.6rem)/1 var(--matrix);
+  color: #ffd84a; padding: 10px 24px;
+  background: #000; border: 4px solid var(--frame);
+  text-shadow: 0 0 12px #ffd84aaa;
+}
+.review { background: #fff6; border: 2px solid var(--cream-dk); border-radius: 4px; padding: 0 12px; }
+ul li { margin: 4px 0; font: 1.25rem var(--block); text-transform: uppercase; }
+
+/* Home: two family podiums in cream with wood trim */
+.intro > h2 { text-align: center; }
+.mode-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0; }
+.mode-grid section {
+  padding: 18px; text-align: center;
+  background: #f7eccc;
+  border: 4px solid var(--frame);
+  border-radius: 4px;
+  box-shadow: 0 6px 0 var(--frame);
+}
+.mode-grid h3 { margin-top: 0; }
+
+#storage-note:empty { display: none; }
+footer { margin-top: 24px; text-align: center; font-size: .85rem; color: var(--white); text-shadow: 0 1px 2px #000; }
+
+@media (max-width: 640px) {
+  .board { padding: 16px 10px; border-width: 6px; border-radius: 22px; }
+  #app { padding: 14px; }
+  .mode-grid { grid-template-columns: 1fr; }
+  .answer { font-size: 1.25rem; }
+}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

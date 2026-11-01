@@ -1,0 +1,2496 @@
+[
+  {
+    "id": 1,
+    "domain": 1,
+    "question": "A retailer adds servers during a sale and removes them afterward. Which cloud benefit is this?",
+    "answers": [
+      "Elasticity",
+      "Data sovereignty",
+      "Dedicated tenancy",
+      "Long-term archiving"
+    ],
+    "correct_answers": [
+      "Elasticity"
+    ],
+    "explanation": "Elasticity matches resource capacity to changes in demand.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Data sovereignty": "Data sovereignty concerns where data is governed or stored, rather than adjusting capacity.",
+      "Dedicated tenancy": "Dedicated tenancy concerns hardware isolation, rather than changing capacity with demand.",
+      "Long-term archiving": "Archiving preserves data over time; it does not add or remove compute capacity."
+    }
+  },
+  {
+    "id": 2,
+    "domain": 1,
+    "question": "A startup provisions test environments in minutes rather than waiting for hardware. What benefit does this illustrate?",
+    "answers": [
+      "Agility",
+      "Fixed capacity",
+      "Physical isolation",
+      "License portability"
+    ],
+    "correct_answers": [
+      "Agility"
+    ],
+    "explanation": "Agility helps teams experiment and deliver quickly through on-demand resources.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Fixed capacity": "Fixed capacity cannot expand on demand and does not describe faster provisioning.",
+      "Physical isolation": "Physical isolation separates hardware; it does not describe how quickly teams can experiment.",
+      "License portability": "License portability concerns moving software licenses, not provisioning speed."
+    }
+  },
+  {
+    "id": 3,
+    "domain": 1,
+    "question": "Which change replaces large upfront server purchases with usage-based charges?",
+    "answers": [
+      "Trading capital expense for variable expense",
+      "Purchasing more data centers",
+      "Signing perpetual hardware leases",
+      "Overprovisioning every workload"
+    ],
+    "correct_answers": [
+      "Trading capital expense for variable expense"
+    ],
+    "explanation": "Cloud consumption shifts many infrastructure costs from upfront investment to variable spending.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Purchasing more data centers": "Buying more data centers adds capital investment rather than replacing it.",
+      "Signing perpetual hardware leases": "A hardware lease is a continuing contractual commitment, rather than charging for cloud resource consumption.",
+      "Overprovisioning every workload": "Overprovisioning reserves more capacity than needed and can increase waste."
+    }
+  },
+  {
+    "id": 4,
+    "domain": 1,
+    "question": "Why can AWS offer economies of scale?",
+    "answers": [
+      "Aggregated customer demand spreads infrastructure costs",
+      "Every customer buys its own data center",
+      "All services are free at scale",
+      "Customers maintain AWS hardware"
+    ],
+    "correct_answers": [
+      "Aggregated customer demand spreads infrastructure costs"
+    ],
+    "explanation": "Large-scale purchasing and operations can reduce per-unit infrastructure costs.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Every customer buys its own data center": "Requiring each customer to own a data center would lose the benefit of shared large-scale purchasing.",
+      "All services are free at scale": "Economies of scale can lower unit costs, but do not make all services free.",
+      "Customers maintain AWS hardware": "AWS maintains its physical infrastructure; customers do not perform AWS hardware maintenance."
+    }
+  },
+  {
+    "id": 5,
+    "domain": 1,
+    "question": "An application must remain available when one data center fails. Which design helps?",
+    "answers": [
+      "Deploy across multiple Availability Zones",
+      "Use one larger instance",
+      "Store all backups on the application server",
+      "Disable health checks"
+    ],
+    "correct_answers": [
+      "Deploy across multiple Availability Zones"
+    ],
+    "explanation": "Multiple Availability Zones reduce dependence on a single isolated location.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Use one larger instance": "A larger single instance is still dependent on one location and can remain a single point of failure.",
+      "Store all backups on the application server": "Backups on the same server can be lost with that server; they do not provide independent recovery.",
+      "Disable health checks": "Disabling health checks makes failure detection and traffic routing less effective."
+    }
+  },
+  {
+    "id": 6,
+    "domain": 1,
+    "question": "Which Well-Architected pillar focuses on recovering from disruptions?",
+    "answers": [
+      "Reliability",
+      "Sustainability",
+      "Cost optimization",
+      "Performance efficiency"
+    ],
+    "correct_answers": [
+      "Reliability"
+    ],
+    "explanation": "Reliability addresses dependable operation and recovery from failures.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Sustainability": "Sustainability focuses on environmental impact and resource consumption, rather than recovery.",
+      "Cost optimization": "Cost optimization focuses on avoiding unnecessary spending, rather than recovery.",
+      "Performance efficiency": "Performance efficiency focuses on appropriate and efficient computing resources, rather than recovery."
+    }
+  },
+  {
+    "id": 7,
+    "domain": 1,
+    "question": "Which pillar focuses on selecting the right resource types as requirements evolve?",
+    "answers": [
+      "Performance efficiency",
+      "Security",
+      "Operational excellence",
+      "Sustainability"
+    ],
+    "correct_answers": [
+      "Performance efficiency"
+    ],
+    "explanation": "Performance efficiency concerns efficient use of computing resources to meet requirements.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Security": "Security focuses on protecting data and systems, rather than selecting resources for performance.",
+      "Operational excellence": "Operational excellence focuses on running and improving operations, rather than the resource selection emphasized here.",
+      "Sustainability": "Sustainability focuses on environmental impact, rather than matching resources to performance requirements."
+    }
+  },
+  {
+    "id": 8,
+    "domain": 1,
+    "question": "A team automates deployments and improves procedures after incidents. Which pillar fits?",
+    "answers": [
+      "Operational excellence",
+      "Cost optimization",
+      "Security",
+      "Sustainability"
+    ],
+    "correct_answers": [
+      "Operational excellence"
+    ],
+    "explanation": "Operational excellence includes automation, observability, and continual operational improvement.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Cost optimization": "Cost optimization focuses on spending efficiency; the scenario emphasizes improving operational procedures.",
+      "Security": "Security focuses on protecting systems and information; the scenario emphasizes deployment and incident learning.",
+      "Sustainability": "Sustainability focuses on environmental impact, rather than improving operational processes."
+    }
+  },
+  {
+    "id": 9,
+    "domain": 1,
+    "question": "Which pillar focuses on reducing environmental impact?",
+    "answers": [
+      "Sustainability",
+      "Reliability",
+      "Security",
+      "Operational excellence"
+    ],
+    "correct_answers": [
+      "Sustainability"
+    ],
+    "explanation": "Sustainability considers resource consumption and environmental impact over a workload's lifetime.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Reliability": "Reliability focuses on dependable operation and recovery from failures.",
+      "Security": "Security focuses on protecting information and systems.",
+      "Operational excellence": "Operational excellence focuses on running and improving operations; environmental impact is the sustainability pillar's focus."
+    }
+  },
+  {
+    "id": 10,
+    "domain": 1,
+    "question": "Removing unused resources most directly supports which pillar?",
+    "answers": [
+      "Cost optimization",
+      "Security",
+      "Reliability",
+      "Operational excellence"
+    ],
+    "correct_answers": [
+      "Cost optimization"
+    ],
+    "explanation": "Cost optimization avoids unnecessary expenditure while meeting business needs.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Security": "Removing resources may reduce exposure, but the direct benefit in this question is avoiding their cost.",
+      "Reliability": "Reliability concerns dependable operation and recovery; removing resources alone does not ensure that.",
+      "Operational excellence": "Operational excellence concerns operating and improving workloads; eliminating unnecessary charges most directly targets cost optimization."
+    }
+  },
+  {
+    "id": 11,
+    "domain": 1,
+    "question": "Which pillar includes protecting information and managing permissions?",
+    "answers": [
+      "Security",
+      "Sustainability",
+      "Performance efficiency",
+      "Cost optimization"
+    ],
+    "correct_answers": [
+      "Security"
+    ],
+    "explanation": "The security pillar covers protection of data, systems, and assets.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Sustainability": "Sustainability focuses on environmental impact, rather than information protection.",
+      "Performance efficiency": "Performance efficiency focuses on efficient resource selection and use, rather than permissions.",
+      "Cost optimization": "Cost optimization focuses on spending, rather than access control and information protection."
+    }
+  },
+  {
+    "id": 12,
+    "domain": 1,
+    "question": "What does rightsizing mean?",
+    "answers": [
+      "Matching resource types and sizes to workload needs",
+      "Always choosing the largest instance",
+      "Keeping idle capacity indefinitely",
+      "Moving every workload to one server"
+    ],
+    "correct_answers": [
+      "Matching resource types and sizes to workload needs"
+    ],
+    "explanation": "Rightsizing uses measured requirements to avoid underprovisioning and waste.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Always choosing the largest instance": "The largest instance may waste money and need not match the workload's actual requirements.",
+      "Keeping idle capacity indefinitely": "Indefinitely retaining idle capacity wastes resources instead of matching supply to demand.",
+      "Moving every workload to one server": "Consolidating everything onto one server can create bottlenecks and failure risks; rightsizing is based on each workload's needs."
+    }
+  },
+  {
+    "id": 13,
+    "domain": 1,
+    "question": "What should a total cost of ownership comparison include?",
+    "answers": [
+      "Hardware, facilities, staffing, and operating costs",
+      "Only the price of virtual machines",
+      "Only database license fees",
+      "Only internet bandwidth"
+    ],
+    "correct_answers": [
+      "Hardware, facilities, staffing, and operating costs"
+    ],
+    "explanation": "A fair comparison includes both direct and indirect costs of operating infrastructure.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Only the price of virtual machines": "Virtual machine prices omit facilities, staff, storage, networking, and other ownership costs.",
+      "Only database license fees": "Database licenses are only one part of total cost of ownership.",
+      "Only internet bandwidth": "Bandwidth is only one operating cost and omits infrastructure, staffing, and facilities."
+    }
+  },
+  {
+    "id": 14,
+    "domain": 1,
+    "question": "A company moves an application to EC2 with minimal changes. Which migration strategy is this?",
+    "answers": [
+      "Rehosting",
+      "Retiring",
+      "Repurchasing",
+      "Refactoring"
+    ],
+    "correct_answers": [
+      "Rehosting"
+    ],
+    "explanation": "Rehosting is often called lift and shift because the application changes little.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Retiring": "Retiring removes an application from use instead of moving it.",
+      "Repurchasing": "Repurchasing replaces the application with another product instead of moving the same application.",
+      "Refactoring": "Refactoring changes application architecture; this scenario specifies minimal changes."
+    }
+  },
+  {
+    "id": 15,
+    "domain": 1,
+    "question": "A company redesigns a monolith into cloud-native services. Which migration strategy fits?",
+    "answers": [
+      "Refactoring",
+      "Retaining",
+      "Rehosting",
+      "Retiring"
+    ],
+    "correct_answers": [
+      "Refactoring"
+    ],
+    "explanation": "Refactoring changes application architecture to take advantage of cloud capabilities.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Retaining": "Retaining leaves the workload in its existing environment instead of redesigning it.",
+      "Rehosting": "Rehosting moves the workload with minimal changes; this scenario calls for an architectural redesign.",
+      "Retiring": "Retiring stops using the workload instead of transforming it."
+    }
+  },
+  {
+    "id": 16,
+    "domain": 1,
+    "question": "A company replaces a custom CRM with a SaaS product. Which migration strategy fits?",
+    "answers": [
+      "Repurchasing",
+      "Rehosting",
+      "Retaining",
+      "Relocating"
+    ],
+    "correct_answers": [
+      "Repurchasing"
+    ],
+    "explanation": "Repurchasing replaces an existing product with a different solution, often SaaS.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Rehosting": "Rehosting moves the existing application instead of replacing it with a SaaS product.",
+      "Retaining": "Retaining keeps the existing workload in place instead of replacing it.",
+      "Relocating": "Relocating moves an environment with little change; it does not describe replacing the CRM with SaaS."
+    }
+  },
+  {
+    "id": 17,
+    "domain": 1,
+    "question": "Which framework helps organizations plan cloud transformation across business and technical perspectives?",
+    "answers": [
+      "AWS Cloud Adoption Framework",
+      "Amazon CloudFront",
+      "AWS IAM policy simulator",
+      "Amazon Route 53"
+    ],
+    "correct_answers": [
+      "AWS Cloud Adoption Framework"
+    ],
+    "explanation": "AWS CAF helps organizations identify capabilities and readiness for cloud adoption.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Amazon CloudFront": "CloudFront caches and delivers content at edge locations. The question instead calls for AWS Cloud Adoption Framework.",
+      "AWS IAM policy simulator": "The IAM policy simulator tests the effects of permissions policies. The question instead calls for AWS Cloud Adoption Framework.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for AWS Cloud Adoption Framework."
+    }
+  },
+  {
+    "id": 18,
+    "domain": 1,
+    "question": "Which deployment model combines on-premises infrastructure and cloud resources?",
+    "answers": [
+      "Hybrid cloud",
+      "Cloud-only",
+      "Single-tenant hosting",
+      "Edge caching"
+    ],
+    "correct_answers": [
+      "Hybrid cloud"
+    ],
+    "explanation": "Hybrid deployments integrate on-premises environments with cloud resources.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Cloud-only": "A cloud-only model does not include the on-premises component specified here.",
+      "Single-tenant hosting": "Single tenancy describes isolation for one customer, not the combination of cloud and on-premises environments.",
+      "Edge caching": "Edge caching stores content near users; it is not a deployment model combining on-premises and cloud systems."
+    }
+  },
+  {
+    "id": 19,
+    "domain": 1,
+    "question": "How does automation help cloud operations?",
+    "answers": [
+      "It makes repeatable tasks more consistent",
+      "It eliminates all security responsibilities",
+      "It guarantees zero cost",
+      "It removes every service quota"
+    ],
+    "correct_answers": [
+      "It makes repeatable tasks more consistent"
+    ],
+    "explanation": "Automation reduces manual effort and inconsistency in repeated operations.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "It eliminates all security responsibilities": "Customers retain security responsibilities even when provisioning and operations are automated.",
+      "It guarantees zero cost": "Automation can save effort, but the resources it creates and runs may still incur charges.",
+      "It removes every service quota": "Service quotas still apply; automation does not remove those limits."
+    }
+  },
+  {
+    "id": 20,
+    "domain": 1,
+    "question": "What is a benefit of deploying in Regions near customers?",
+    "answers": [
+      "Lower application network latency",
+      "Automatic exemption from regulations",
+      "Unlimited free data transfer",
+      "Elimination of access control"
+    ],
+    "correct_answers": [
+      "Lower application network latency"
+    ],
+    "explanation": "Geographic proximity can reduce network round-trip times.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Automatic exemption from regulations": "Geographic proximity does not exempt a workload from legal or regulatory obligations.",
+      "Unlimited free data transfer": "Data transfer pricing still applies; a nearby Region does not grant unlimited free transfer.",
+      "Elimination of access control": "Access controls are still necessary regardless of where the application is hosted."
+    }
+  },
+  {
+    "id": 21,
+    "domain": 2,
+    "question": "Who is responsible for physical security of AWS data centers?",
+    "answers": [
+      "AWS",
+      "The customer's developers",
+      "The customer's auditors",
+      "Each IAM user"
+    ],
+    "correct_answers": [
+      "AWS"
+    ],
+    "explanation": "AWS secures the facilities and physical infrastructure of the cloud.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "The customer's developers": "Customer developers secure application code and configurations; AWS controls physical access to its facilities.",
+      "The customer's auditors": "Customer auditors assess controls and evidence; they do not operate AWS facility security.",
+      "Each IAM user": "IAM users have account permissions, not responsibility for AWS facility security."
+    }
+  },
+  {
+    "id": 22,
+    "domain": 2,
+    "question": "Who normally patches the guest operating system on an EC2 instance?",
+    "answers": [
+      "The customer",
+      "AWS data center staff",
+      "Amazon Route 53",
+      "AWS Artifact"
+    ],
+    "correct_answers": [
+      "The customer"
+    ],
+    "explanation": "With EC2, customers manage the guest OS and installed applications.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS data center staff": "AWS staff maintain the underlying infrastructure, but EC2 guest OS patching belongs to the customer.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for The customer.",
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for The customer."
+    }
+  },
+  {
+    "id": 23,
+    "domain": 2,
+    "question": "When using Amazon RDS, which task remains the customer's responsibility?",
+    "answers": [
+      "Configuring database access permissions",
+      "Replacing physical disks",
+      "Maintaining data center power",
+      "Patching the underlying host OS"
+    ],
+    "correct_answers": [
+      "Configuring database access permissions"
+    ],
+    "explanation": "Managed databases reduce infrastructure tasks, but customers still control data and access.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Replacing physical disks": "AWS replaces the physical disks underlying the managed database service.",
+      "Maintaining data center power": "AWS operates the data center's power infrastructure.",
+      "Patching the underlying host OS": "AWS manages the underlying RDS host OS; customers still manage database access and their data."
+    }
+  },
+  {
+    "id": 24,
+    "domain": 2,
+    "question": "What is the principle of least privilege?",
+    "answers": [
+      "Grant only permissions required for a task",
+      "Give every user administrator access",
+      "Share one root password",
+      "Allow all actions until an incident occurs"
+    ],
+    "correct_answers": [
+      "Grant only permissions required for a task"
+    ],
+    "explanation": "Least privilege limits access to what an identity needs.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Give every user administrator access": "Administrator access grants more privileges than most users need.",
+      "Share one root password": "Sharing root credentials prevents individual accountability and exposes highly privileged access.",
+      "Allow all actions until an incident occurs": "Allowing every action until an incident grants excessive permissions rather than restricting access in advance."
+    }
+  },
+  {
+    "id": 25,
+    "domain": 2,
+    "question": "What is the best way for an EC2 application to access S3 without stored access keys?",
+    "answers": [
+      "Use an IAM role attached through an instance profile",
+      "Embed the root key in code",
+      "Put an access key in a public repository",
+      "Share a developer's password"
+    ],
+    "correct_answers": [
+      "Use an IAM role attached through an instance profile"
+    ],
+    "explanation": "IAM roles supply temporary credentials without hardcoded long-term keys.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Embed the root key in code": "Root keys are highly privileged, and embedding them in code exposes long-term credentials.",
+      "Put an access key in a public repository": "A public repository exposes the key to unauthorized users.",
+      "Share a developer's password": "A developer's password is not an appropriate application credential; applications should use roles and temporary credentials."
+    }
+  },
+  {
+    "id": 26,
+    "domain": 2,
+    "question": "Which action helps protect the root user?",
+    "answers": [
+      "Enable multi-factor authentication",
+      "Share root credentials with all staff",
+      "Create root access keys for every application",
+      "Use root for routine deployments"
+    ],
+    "correct_answers": [
+      "Enable multi-factor authentication"
+    ],
+    "explanation": "MFA adds a factor beyond a password; root credentials should be protected and used sparingly.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Share root credentials with all staff": "Sharing root credentials broadens exposure and removes individual accountability.",
+      "Create root access keys for every application": "Applications should use narrowly scoped roles rather than highly privileged root access keys.",
+      "Use root for routine deployments": "Routine work should use appropriately scoped identities; root access should be reserved for tasks that require it."
+    }
+  },
+  {
+    "id": 27,
+    "domain": 2,
+    "question": "A team needs common permissions for several IAM users. What should it use?",
+    "answers": [
+      "An IAM group with attached policies",
+      "One shared root account",
+      "A Route 53 hosted zone",
+      "A CloudFront distribution"
+    ],
+    "correct_answers": [
+      "An IAM group with attached policies"
+    ],
+    "explanation": "IAM groups simplify applying permissions to multiple IAM users.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "One shared root account": "A shared root identity grants excessive privileges and does not manage permissions for individual IAM users.",
+      "A Route 53 hosted zone": "A hosted zone stores DNS records, not user permissions.",
+      "A CloudFront distribution": "A distribution delivers cached content; it does not group users or attach IAM permissions."
+    }
+  },
+  {
+    "id": 28,
+    "domain": 2,
+    "question": "Which service provides workforce access to multiple AWS accounts and applications?",
+    "answers": [
+      "AWS IAM Identity Center",
+      "Amazon Cognito user pools",
+      "Amazon GuardDuty",
+      "AWS WAF"
+    ],
+    "correct_answers": [
+      "AWS IAM Identity Center"
+    ],
+    "explanation": "IAM Identity Center centralizes workforce sign-in and access across accounts and applications.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon Cognito user pools": "Cognito user pools provide sign-up and sign-in for application users. The question instead calls for AWS IAM Identity Center.",
+      "Amazon GuardDuty": "GuardDuty detects potential threats from supported activity and security data sources. The question instead calls for AWS IAM Identity Center.",
+      "AWS WAF": "WAF filters web requests using application-layer rules. The question instead calls for AWS IAM Identity Center."
+    }
+  },
+  {
+    "id": 29,
+    "domain": 2,
+    "question": "Which service records AWS API activity for auditing?",
+    "answers": [
+      "AWS CloudTrail",
+      "Amazon CloudWatch metrics",
+      "Amazon EFS",
+      "AWS Pricing Calculator"
+    ],
+    "correct_answers": [
+      "AWS CloudTrail"
+    ],
+    "explanation": "CloudTrail records account activity, including supported API actions, for auditing.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon CloudWatch metrics": "CloudWatch metrics are numerical monitoring measurements, rather than a record of individual API actions. The question instead calls for AWS CloudTrail.",
+      "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for AWS CloudTrail.",
+      "AWS Pricing Calculator": "Pricing Calculator estimates costs for planned resource usage. The question instead calls for AWS CloudTrail."
+    }
+  },
+  {
+    "id": 30,
+    "domain": 2,
+    "question": "Which service evaluates resource configurations against rules?",
+    "answers": [
+      "AWS Config",
+      "Amazon SQS",
+      "Amazon Route 53",
+      "Amazon Translate"
+    ],
+    "correct_answers": [
+      "AWS Config"
+    ],
+    "explanation": "AWS Config tracks resource configurations and evaluates compliance with rules.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon SQS": "SQS queues messages between application components. The question instead calls for AWS Config.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for AWS Config.",
+      "Amazon Translate": "Translate translates text between languages. The question instead calls for AWS Config."
+    }
+  },
+  {
+    "id": 31,
+    "domain": 2,
+    "question": "Where can a company obtain AWS compliance reports?",
+    "answers": [
+      "AWS Artifact",
+      "AWS Certificate Manager",
+      "Amazon Inspector",
+      "Amazon EC2"
+    ],
+    "correct_answers": [
+      "AWS Artifact"
+    ],
+    "explanation": "Artifact provides access to AWS compliance reports and agreements.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS Certificate Manager": "Certificate Manager provisions and manages TLS certificates for supported services. The question instead calls for AWS Artifact.",
+      "Amazon Inspector": "Inspector scans supported workloads for software vulnerabilities. The question instead calls for AWS Artifact.",
+      "Amazon EC2": "EC2 provides virtual servers whose guest operating systems the customer manages. The question instead calls for AWS Artifact."
+    }
+  },
+  {
+    "id": 32,
+    "domain": 2,
+    "question": "Which service detects suspicious activity using AWS data sources and threat intelligence?",
+    "answers": [
+      "Amazon GuardDuty",
+      "Amazon Athena",
+      "AWS Budgets",
+      "Amazon Polly"
+    ],
+    "correct_answers": [
+      "Amazon GuardDuty"
+    ],
+    "explanation": "GuardDuty analyzes supported data sources to identify potential threats.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon Athena": "Athena runs serverless SQL queries against supported data sources, including S3. The question instead calls for Amazon GuardDuty.",
+      "AWS Budgets": "Budgets tracks cost or usage thresholds and sends alerts. The question instead calls for Amazon GuardDuty.",
+      "Amazon Polly": "Polly converts text to speech. The question instead calls for Amazon GuardDuty."
+    }
+  },
+  {
+    "id": 33,
+    "domain": 2,
+    "question": "Which service scans supported compute workloads for software vulnerabilities?",
+    "answers": [
+      "Amazon Inspector",
+      "Amazon CloudFront",
+      "AWS Artifact",
+      "Amazon SNS"
+    ],
+    "correct_answers": [
+      "Amazon Inspector"
+    ],
+    "explanation": "Inspector provides automated vulnerability management for supported workloads.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon CloudFront": "CloudFront caches and delivers content at edge locations. The question instead calls for Amazon Inspector.",
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for Amazon Inspector.",
+      "Amazon SNS": "SNS publishes notifications to subscribers. The question instead calls for Amazon Inspector."
+    }
+  },
+  {
+    "id": 34,
+    "domain": 2,
+    "question": "Which service discovers sensitive data in S3?",
+    "answers": [
+      "Amazon Macie",
+      "Amazon ElastiCache",
+      "Amazon SQS",
+      "AWS CloudFormation"
+    ],
+    "correct_answers": [
+      "Amazon Macie"
+    ],
+    "explanation": "Macie helps discover and protect sensitive data stored in Amazon S3.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon ElastiCache": "ElastiCache provides in-memory caching. The question instead calls for Amazon Macie.",
+      "Amazon SQS": "SQS queues messages between application components. The question instead calls for Amazon Macie.",
+      "AWS CloudFormation": "CloudFormation provisions resources from infrastructure templates. The question instead calls for Amazon Macie."
+    }
+  },
+  {
+    "id": 35,
+    "domain": 2,
+    "question": "Which service filters HTTP requests based on web access rules?",
+    "answers": [
+      "AWS WAF",
+      "AWS KMS",
+      "AWS Direct Connect",
+      "Amazon EBS"
+    ],
+    "correct_answers": [
+      "AWS WAF"
+    ],
+    "explanation": "WAF protects web applications using rules that inspect web requests.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS KMS": "KMS manages cryptographic keys used for encryption. The question instead calls for AWS WAF.",
+      "AWS Direct Connect": "Direct Connect provides dedicated network connectivity to AWS. The question instead calls for AWS WAF.",
+      "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for AWS WAF."
+    }
+  },
+  {
+    "id": 36,
+    "domain": 2,
+    "question": "Which AWS service is designed for DDoS protection?",
+    "answers": [
+      "AWS Shield",
+      "AWS Secrets Manager",
+      "Amazon RDS",
+      "AWS Glue"
+    ],
+    "correct_answers": [
+      "AWS Shield"
+    ],
+    "explanation": "Shield provides protection against distributed denial-of-service attacks.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS Secrets Manager": "Secrets Manager stores secrets and supports credential rotation. The question instead calls for AWS Shield.",
+      "Amazon RDS": "RDS manages relational database instances. The question instead calls for AWS Shield.",
+      "AWS Glue": "Glue catalogs and transforms data for analytics. The question instead calls for AWS Shield."
+    }
+  },
+  {
+    "id": 37,
+    "domain": 2,
+    "question": "Which service manages encryption keys used by integrated AWS services?",
+    "answers": [
+      "AWS Key Management Service",
+      "AWS Config",
+      "Amazon CloudWatch",
+      "AWS IAM Identity Center"
+    ],
+    "correct_answers": [
+      "AWS Key Management Service"
+    ],
+    "explanation": "AWS KMS creates and controls cryptographic keys for supported encryption workflows.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS Config": "Config tracks resource configurations and evaluates compliance rules. The question instead calls for AWS Key Management Service.",
+      "Amazon CloudWatch": "CloudWatch collects monitoring metrics and logs and supports alarms. The question instead calls for AWS Key Management Service.",
+      "AWS IAM Identity Center": "IAM Identity Center centralizes workforce sign-in and account access. The question instead calls for AWS Key Management Service."
+    }
+  },
+  {
+    "id": 38,
+    "domain": 2,
+    "question": "Which service stores and helps rotate database credentials?",
+    "answers": [
+      "AWS Secrets Manager",
+      "Amazon Route 53",
+      "AWS Artifact",
+      "Amazon CloudFront"
+    ],
+    "correct_answers": [
+      "AWS Secrets Manager"
+    ],
+    "explanation": "Secrets Manager manages secrets and supports automated rotation for supported integrations.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for AWS Secrets Manager.",
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS Secrets Manager.",
+      "Amazon CloudFront": "CloudFront caches and delivers content at edge locations. The question instead calls for AWS Secrets Manager."
+    }
+  },
+  {
+    "id": 39,
+    "domain": 2,
+    "question": "Which service provisions and manages public TLS certificates for supported AWS integrations?",
+    "answers": [
+      "AWS Certificate Manager",
+      "AWS Cost Explorer",
+      "AWS CloudTrail",
+      "Amazon GuardDuty"
+    ],
+    "correct_answers": [
+      "AWS Certificate Manager"
+    ],
+    "explanation": "ACM handles certificate provisioning and lifecycle management for supported services.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS Cost Explorer": "Cost Explorer analyzes historical spending and usage trends. The question instead calls for AWS Certificate Manager.",
+      "AWS CloudTrail": "CloudTrail records account and API activity for auditing. The question instead calls for AWS Certificate Manager.",
+      "Amazon GuardDuty": "GuardDuty detects potential threats from supported activity and security data sources. The question instead calls for AWS Certificate Manager."
+    }
+  },
+  {
+    "id": 40,
+    "domain": 2,
+    "question": "What protects data while it travels between a browser and a web application?",
+    "answers": [
+      "TLS encryption",
+      "S3 lifecycle rules",
+      "Cost allocation tags",
+      "An EC2 instance type"
+    ],
+    "correct_answers": [
+      "TLS encryption"
+    ],
+    "explanation": "TLS encrypts data in transit; storage encryption addresses data at rest.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "S3 lifecycle rules": "Lifecycle rules transition or expire stored objects; they do not encrypt network traffic.",
+      "Cost allocation tags": "Cost allocation tags categorize costs; they do not protect transmitted data.",
+      "An EC2 instance type": "An instance type determines compute characteristics; it does not itself encrypt browser traffic."
+    }
+  },
+  {
+    "id": 41,
+    "domain": 2,
+    "question": "Which control acts as a stateful virtual firewall for associated resources such as EC2 network interfaces?",
+    "answers": [
+      "Security group",
+      "Network ACL",
+      "Route table",
+      "Internet gateway"
+    ],
+    "correct_answers": [
+      "Security group"
+    ],
+    "explanation": "Security groups track connections and permit return traffic for allowed flows.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Network ACL": "A network ACL is stateless and applies at the subnet boundary.",
+      "Route table": "A route table directs packets to destinations; it does not provide stateful access filtering.",
+      "Internet gateway": "An internet gateway provides VPC internet connectivity, not a stateful firewall for a network interface."
+    }
+  },
+  {
+    "id": 42,
+    "domain": 2,
+    "question": "Which VPC control is stateless and can allow or deny traffic at the subnet boundary?",
+    "answers": [
+      "Network ACL",
+      "Security group",
+      "IAM group",
+      "CloudFront cache policy"
+    ],
+    "correct_answers": [
+      "Network ACL"
+    ],
+    "explanation": "Network ACLs apply subnet-level allow and deny rules; return traffic needs matching rules.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Security group": "Security groups are stateful, use allow rules, and apply to associated resources rather than the subnet boundary.",
+      "IAM group": "IAM groups collect users for permissions management, not packet filtering.",
+      "CloudFront cache policy": "A CloudFront cache policy controls caching behavior, not VPC subnet traffic."
+    }
+  },
+  {
+    "id": 43,
+    "domain": 2,
+    "question": "What does an explicit deny do in IAM policy evaluation?",
+    "answers": [
+      "Overrides an applicable allow",
+      "Grants temporary administrator access",
+      "Disables MFA",
+      "Applies only to the root password"
+    ],
+    "correct_answers": [
+      "Overrides an applicable allow"
+    ],
+    "explanation": "An applicable explicit deny takes precedence over an allow.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Grants temporary administrator access": "A deny prevents an action; it does not grant administrative privileges.",
+      "Disables MFA": "An explicit deny affects authorization and does not disable an authentication factor.",
+      "Applies only to the root password": "Explicit denies can apply to many resource actions; they are not limited to root password changes."
+    }
+  },
+  {
+    "id": 44,
+    "domain": 2,
+    "question": "What do service control policies in AWS Organizations do?",
+    "answers": [
+      "Set permission guardrails for member accounts",
+      "Directly grant all required user permissions",
+      "Encrypt all S3 objects",
+      "Replace every IAM policy"
+    ],
+    "correct_answers": [
+      "Set permission guardrails for member accounts"
+    ],
+    "explanation": "SCPs limit maximum available permissions; identities still need applicable grants.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Directly grant all required user permissions": "SCPs limit available permissions but do not grant identities permission to perform actions.",
+      "Encrypt all S3 objects": "SCPs can restrict actions but do not themselves encrypt objects.",
+      "Replace every IAM policy": "SCPs complement IAM policies; identities still need applicable permission grants."
+    }
+  },
+  {
+    "id": 45,
+    "domain": 2,
+    "question": "Which service aggregates security findings from supported AWS services?",
+    "answers": [
+      "AWS Security Hub",
+      "Amazon EFS",
+      "AWS CodeBuild",
+      "Amazon Translate"
+    ],
+    "correct_answers": [
+      "AWS Security Hub"
+    ],
+    "explanation": "Security Hub brings together findings and security posture information.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for AWS Security Hub.",
+      "AWS CodeBuild": "CodeBuild compiles code and runs build tasks and tests. The question instead calls for AWS Security Hub.",
+      "Amazon Translate": "Translate translates text between languages. The question instead calls for AWS Security Hub."
+    }
+  },
+  {
+    "id": 46,
+    "domain": 2,
+    "question": "A company wants employees to use their existing corporate identity provider for AWS access. Which approach fits?",
+    "answers": [
+      "Identity federation",
+      "Sharing root credentials",
+      "Disabling authentication",
+      "Hardcoding access keys"
+    ],
+    "correct_answers": [
+      "Identity federation"
+    ],
+    "explanation": "Federation lets trusted external identities access AWS using temporary credentials.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Sharing root credentials": "Shared root credentials do not integrate corporate identities and create excessive exposure.",
+      "Disabling authentication": "Disabling authentication removes identity verification rather than trusting an external identity provider.",
+      "Hardcoding access keys": "Hardcoded access keys are long-term application secrets, not a federation mechanism."
+    }
+  },
+  {
+    "id": 47,
+    "domain": 2,
+    "question": "Which service centrally manages firewall policies across accounts?",
+    "answers": [
+      "AWS Firewall Manager",
+      "Amazon DynamoDB",
+      "AWS DMS",
+      "Amazon WorkSpaces"
+    ],
+    "correct_answers": [
+      "AWS Firewall Manager"
+    ],
+    "explanation": "Firewall Manager helps centrally administer supported protection policies across an organization.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for AWS Firewall Manager.",
+      "AWS DMS": "Database Migration Service migrates and replicates databases. The question instead calls for AWS Firewall Manager.",
+      "Amazon WorkSpaces": "WorkSpaces provides managed virtual desktops. The question instead calls for AWS Firewall Manager."
+    }
+  },
+  {
+    "id": 48,
+    "domain": 2,
+    "question": "Does using a compliant AWS service automatically make every customer workload compliant?",
+    "answers": [
+      "No, customers must configure and operate their workloads appropriately",
+      "Yes, every configuration is certified",
+      "Yes, if the root password is long",
+      "Only when using Spot Instances"
+    ],
+    "correct_answers": [
+      "No, customers must configure and operate their workloads appropriately"
+    ],
+    "explanation": "Customers remain responsible for their own configurations, data handling, and compliance obligations.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Yes, every configuration is certified": "Compliance depends on the customer's workload and configuration; service eligibility is not automatic workload certification.",
+      "Yes, if the root password is long": "A strong password is only one control and does not satisfy every compliance requirement.",
+      "Only when using Spot Instances": "Spot is a compute purchasing option, not a way to achieve automatic compliance."
+    }
+  },
+  {
+    "id": 49,
+    "domain": 3,
+    "question": "Which service provides virtual servers with control of the guest OS?",
+    "answers": [
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon Route 53"
+    ],
+    "correct_answers": [
+      "Amazon EC2"
+    ],
+    "explanation": "EC2 provides configurable virtual machines and guest operating system control.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Lambda": "Lambda runs functions without customer management of the underlying servers. The question instead calls for Amazon EC2.",
+      "Amazon S3": "S3 stores objects in buckets. The question instead calls for Amazon EC2.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for Amazon EC2."
+    }
+  },
+  {
+    "id": 50,
+    "domain": 3,
+    "question": "Which service runs event-driven code without provisioning servers?",
+    "answers": [
+      "AWS Lambda",
+      "Amazon EBS",
+      "Amazon VPC",
+      "AWS Artifact"
+    ],
+    "correct_answers": [
+      "AWS Lambda"
+    ],
+    "explanation": "Lambda executes functions while AWS manages the underlying server infrastructure.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for AWS Lambda.",
+      "Amazon VPC": "VPC provides logically isolated virtual networks. The question instead calls for AWS Lambda.",
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS Lambda."
+    }
+  },
+  {
+    "id": 51,
+    "domain": 3,
+    "question": "Which option runs containers without managing EC2 worker servers?",
+    "answers": [
+      "AWS Fargate",
+      "Amazon Route 53",
+      "Amazon EBS snapshots",
+      "AWS CloudTrail"
+    ],
+    "correct_answers": [
+      "AWS Fargate"
+    ],
+    "explanation": "Fargate provides serverless compute for supported ECS and EKS container workloads.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for AWS Fargate.",
+      "Amazon EBS snapshots": "EBS snapshots back up block storage volumes. The question instead calls for AWS Fargate.",
+      "AWS CloudTrail": "CloudTrail records account and API activity for auditing. The question instead calls for AWS Fargate."
+    }
+  },
+  {
+    "id": 52,
+    "domain": 3,
+    "question": "Which service provides managed Kubernetes?",
+    "answers": [
+      "Amazon EKS",
+      "Amazon ECS",
+      "Amazon SQS",
+      "AWS Elastic Beanstalk"
+    ],
+    "correct_answers": [
+      "Amazon EKS"
+    ],
+    "explanation": "EKS manages the Kubernetes control plane; ECS uses AWS-native container orchestration.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon ECS": "ECS is AWS-native container orchestration rather than Kubernetes. The question instead calls for Amazon EKS.",
+      "Amazon SQS": "SQS queues messages between application components. The question instead calls for Amazon EKS.",
+      "AWS Elastic Beanstalk": "Elastic Beanstalk deploys and manages applications using supported platforms; it is not a managed Kubernetes control plane. The question instead calls for Amazon EKS."
+    }
+  },
+  {
+    "id": 53,
+    "domain": 3,
+    "question": "Which service is AWS-native container orchestration?",
+    "answers": [
+      "Amazon ECS",
+      "Amazon EFS",
+      "Amazon RDS",
+      "Amazon Macie"
+    ],
+    "correct_answers": [
+      "Amazon ECS"
+    ],
+    "explanation": "ECS schedules and manages containerized applications.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for Amazon ECS.",
+      "Amazon RDS": "RDS manages relational database instances. The question instead calls for Amazon ECS.",
+      "Amazon Macie": "Macie discovers sensitive data in S3. The question instead calls for Amazon ECS."
+    }
+  },
+  {
+    "id": 54,
+    "domain": 3,
+    "question": "What does Elastic Load Balancing do?",
+    "answers": [
+      "Distributes traffic among healthy targets",
+      "Stores long-term database backups",
+      "Creates encryption keys",
+      "Registers IAM users"
+    ],
+    "correct_answers": [
+      "Distributes traffic among healthy targets"
+    ],
+    "explanation": "Load balancers route incoming traffic to healthy application targets.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Stores long-term database backups": "Long-term backup retention belongs to backup and storage services, not traffic distribution.",
+      "Creates encryption keys": "Encryption key creation belongs to key management services such as KMS.",
+      "Registers IAM users": "IAM identity management, not a load balancer, manages users."
+    }
+  },
+  {
+    "id": 55,
+    "domain": 3,
+    "question": "Which capability adjusts the number of EC2 instances to match demand?",
+    "answers": [
+      "Amazon EC2 Auto Scaling",
+      "AWS Artifact",
+      "Amazon Macie",
+      "AWS Certificate Manager"
+    ],
+    "correct_answers": [
+      "Amazon EC2 Auto Scaling"
+    ],
+    "explanation": "EC2 Auto Scaling changes instance capacity based on policies and health.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for Amazon EC2 Auto Scaling.",
+      "Amazon Macie": "Macie discovers sensitive data in S3. The question instead calls for Amazon EC2 Auto Scaling.",
+      "AWS Certificate Manager": "Certificate Manager provisions and manages TLS certificates for supported services. The question instead calls for Amazon EC2 Auto Scaling."
+    }
+  },
+  {
+    "id": 56,
+    "domain": 3,
+    "question": "A workload performs intensive numerical calculations. Which EC2 family category is a good starting point?",
+    "answers": [
+      "Compute optimized",
+      "Storage optimized",
+      "Memory optimized",
+      "General purpose only"
+    ],
+    "correct_answers": [
+      "Compute optimized"
+    ],
+    "explanation": "Compute optimized instances suit workloads that need high processor performance.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Storage optimized": "Storage optimized instances emphasize storage throughput or I/O for data-intensive workloads.",
+      "Memory optimized": "Memory optimized instances emphasize RAM for memory-intensive workloads.",
+      "General purpose only": "General purpose instances balance resources; a CPU-heavy workload points more directly to compute optimized instances."
+    }
+  },
+  {
+    "id": 57,
+    "domain": 3,
+    "question": "What is an AWS Region?",
+    "answers": [
+      "A geographic area containing multiple Availability Zones",
+      "A single physical server",
+      "A billing department",
+      "A CloudFront cache object"
+    ],
+    "correct_answers": [
+      "A geographic area containing multiple Availability Zones"
+    ],
+    "explanation": "Regions are separate geographic areas with multiple isolated Availability Zones.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "A single physical server": "A Region includes multiple Availability Zones and many servers, rather than one server.",
+      "A billing department": "A billing department is an organizational function, not a geographic infrastructure area.",
+      "A CloudFront cache object": "A cached object is a piece of content, not an infrastructure geography."
+    }
+  },
+  {
+    "id": 58,
+    "domain": 3,
+    "question": "What is an Availability Zone?",
+    "answers": [
+      "One or more discrete data centers with independent infrastructure in a Region",
+      "A collection of all AWS Regions",
+      "An IAM permission boundary",
+      "A global billing account"
+    ],
+    "correct_answers": [
+      "One or more discrete data centers with independent infrastructure in a Region"
+    ],
+    "explanation": "An AZ comprises one or more data centers and is isolated from failures in other AZs.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "A collection of all AWS Regions": "Regions contain Availability Zones; an Availability Zone does not contain all Regions.",
+      "An IAM permission boundary": "A permission boundary limits IAM permissions and has no data center role.",
+      "A global billing account": "A billing account handles charges; it is not an isolated infrastructure location."
+    }
+  },
+  {
+    "id": 59,
+    "domain": 3,
+    "question": "Which service uses edge locations to cache content near users?",
+    "answers": [
+      "Amazon CloudFront",
+      "Amazon RDS",
+      "Amazon EBS",
+      "AWS Config"
+    ],
+    "correct_answers": [
+      "Amazon CloudFront"
+    ],
+    "explanation": "CloudFront is a content delivery network that caches content at edge locations.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon RDS": "RDS manages relational database instances. The question instead calls for Amazon CloudFront.",
+      "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for Amazon CloudFront.",
+      "AWS Config": "Config tracks resource configurations and evaluates compliance rules. The question instead calls for Amazon CloudFront."
+    }
+  },
+  {
+    "id": 60,
+    "domain": 3,
+    "question": "Which service provides DNS and domain routing?",
+    "answers": [
+      "Amazon Route 53",
+      "Amazon S3 Glacier",
+      "AWS Lambda",
+      "Amazon Inspector"
+    ],
+    "correct_answers": [
+      "Amazon Route 53"
+    ],
+    "explanation": "Route 53 provides DNS, domain registration, and routing capabilities.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon S3 Glacier": "S3 Glacier storage classes are designed for archive data. The question instead calls for Amazon Route 53.",
+      "AWS Lambda": "Lambda runs functions without customer management of the underlying servers. The question instead calls for Amazon Route 53.",
+      "Amazon Inspector": "Inspector scans supported workloads for software vulnerabilities. The question instead calls for Amazon Route 53."
+    }
+  },
+  {
+    "id": 61,
+    "domain": 3,
+    "question": "Which service creates a logically isolated network in AWS?",
+    "answers": [
+      "Amazon VPC",
+      "Amazon SNS",
+      "Amazon Athena",
+      "AWS Artifact"
+    ],
+    "correct_answers": [
+      "Amazon VPC"
+    ],
+    "explanation": "A VPC gives customers control over a virtual network, including subnets and routing.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon SNS": "SNS publishes notifications to subscribers. The question instead calls for Amazon VPC.",
+      "Amazon Athena": "Athena runs serverless SQL queries against supported data sources, including S3. The question instead calls for Amazon VPC.",
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for Amazon VPC."
+    }
+  },
+  {
+    "id": 62,
+    "domain": 3,
+    "question": "Which connectivity option provides a dedicated private connection from a customer location to AWS?",
+    "answers": [
+      "AWS Direct Connect",
+      "AWS Site-to-Site VPN",
+      "Amazon CloudFront",
+      "Amazon SQS"
+    ],
+    "correct_answers": [
+      "AWS Direct Connect"
+    ],
+    "explanation": "Direct Connect establishes dedicated network connectivity; a VPN uses encrypted tunnels.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Site-to-Site VPN": "Site-to-Site VPN uses encrypted IPsec tunnels, commonly over the internet, rather than a dedicated private connection. The question instead calls for AWS Direct Connect.",
+      "Amazon CloudFront": "CloudFront caches and delivers content at edge locations. The question instead calls for AWS Direct Connect.",
+      "Amazon SQS": "SQS queues messages between application components. The question instead calls for AWS Direct Connect."
+    }
+  },
+  {
+    "id": 63,
+    "domain": 3,
+    "question": "Which option creates an encrypted tunnel between an on-premises network and a VPC over the internet?",
+    "answers": [
+      "AWS Site-to-Site VPN",
+      "Amazon EFS",
+      "AWS Artifact",
+      "AWS Pricing Calculator"
+    ],
+    "correct_answers": [
+      "AWS Site-to-Site VPN"
+    ],
+    "explanation": "Site-to-Site VPN provides IPsec tunnels for network connectivity.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for AWS Site-to-Site VPN.",
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS Site-to-Site VPN.",
+      "AWS Pricing Calculator": "Pricing Calculator estimates costs for planned resource usage. The question instead calls for AWS Site-to-Site VPN."
+    }
+  },
+  {
+    "id": 64,
+    "domain": 3,
+    "question": "Which service is designed for object storage?",
+    "answers": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon EFS",
+      "Amazon RDS"
+    ],
+    "correct_answers": [
+      "Amazon S3"
+    ],
+    "explanation": "S3 stores objects in buckets rather than exposing block devices or shared file systems.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for Amazon S3.",
+      "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for Amazon S3.",
+      "Amazon RDS": "RDS manages relational database instances. The question instead calls for Amazon S3."
+    }
+  },
+  {
+    "id": 65,
+    "domain": 3,
+    "question": "Which storage service supplies persistent block volumes for EC2?",
+    "answers": [
+      "Amazon EBS",
+      "Amazon S3",
+      "Amazon Route 53",
+      "Amazon SNS"
+    ],
+    "correct_answers": [
+      "Amazon EBS"
+    ],
+    "explanation": "EBS provides block storage volumes used with EC2 instances.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon S3": "S3 stores objects in buckets. The question instead calls for Amazon EBS.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for Amazon EBS.",
+      "Amazon SNS": "SNS publishes notifications to subscribers. The question instead calls for Amazon EBS."
+    }
+  },
+  {
+    "id": 66,
+    "domain": 3,
+    "question": "Which service offers an elastic shared NFS file system for Linux workloads?",
+    "answers": [
+      "Amazon EFS",
+      "Amazon EBS",
+      "Amazon DynamoDB",
+      "Amazon SQS"
+    ],
+    "correct_answers": [
+      "Amazon EFS"
+    ],
+    "explanation": "EFS provides shared file storage that multiple clients can access.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for Amazon EFS.",
+      "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for Amazon EFS.",
+      "Amazon SQS": "SQS queues messages between application components. The question instead calls for Amazon EFS."
+    }
+  },
+  {
+    "id": 67,
+    "domain": 3,
+    "question": "Which S3 feature automatically transitions objects to other storage classes over time?",
+    "answers": [
+      "S3 Lifecycle rules",
+      "Security groups",
+      "Route tables",
+      "EC2 key pairs"
+    ],
+    "correct_answers": [
+      "S3 Lifecycle rules"
+    ],
+    "explanation": "Lifecycle rules transition or expire objects based on configured conditions.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Security groups": "Security groups filter network traffic and do not transition stored objects.",
+      "Route tables": "Route tables determine network paths and do not manage object storage tiers.",
+      "EC2 key pairs": "EC2 key pairs support authentication and do not manage S3 object lifecycles."
+    }
+  },
+  {
+    "id": 68,
+    "domain": 3,
+    "question": "Which storage class fits rarely accessed archives that can tolerate retrieval delays of hours?",
+    "answers": [
+      "S3 Glacier Deep Archive",
+      "S3 Standard",
+      "S3 Express One Zone",
+      "EBS Provisioned IOPS"
+    ],
+    "correct_answers": [
+      "S3 Glacier Deep Archive"
+    ],
+    "explanation": "Deep Archive trades slower retrieval for low-cost long-term archive storage.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "S3 Standard": "S3 Standard targets frequently accessed data and is not the low-cost deep archival choice.",
+      "S3 Express One Zone": "S3 Express One Zone targets high-performance, low-latency access, rather than delayed archive retrieval.",
+      "EBS Provisioned IOPS": "Provisioned IOPS EBS volumes target block storage performance and are not an S3 archive class."
+    }
+  },
+  {
+    "id": 69,
+    "domain": 3,
+    "question": "Which service connects on-premises applications to cloud-backed storage interfaces?",
+    "answers": [
+      "AWS Storage Gateway",
+      "AWS CloudTrail",
+      "Amazon Route 53",
+      "Amazon Cognito"
+    ],
+    "correct_answers": [
+      "AWS Storage Gateway"
+    ],
+    "explanation": "Storage Gateway supports hybrid storage through file, volume, and tape gateway options.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS CloudTrail": "CloudTrail records account and API activity for auditing. The question instead calls for AWS Storage Gateway.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for AWS Storage Gateway.",
+      "Amazon Cognito": "Cognito manages application user authentication and access. The question instead calls for AWS Storage Gateway."
+    }
+  },
+  {
+    "id": 70,
+    "domain": 3,
+    "question": "Which service centralizes backup policies across supported AWS resources?",
+    "answers": [
+      "AWS Backup",
+      "AWS WAF",
+      "Amazon Polly",
+      "AWS Cost Explorer"
+    ],
+    "correct_answers": [
+      "AWS Backup"
+    ],
+    "explanation": "AWS Backup centrally manages backup policies and recovery points for supported resources.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS WAF": "WAF filters web requests using application-layer rules. The question instead calls for AWS Backup.",
+      "Amazon Polly": "Polly converts text to speech. The question instead calls for AWS Backup.",
+      "AWS Cost Explorer": "Cost Explorer analyzes historical spending and usage trends. The question instead calls for AWS Backup."
+    }
+  },
+  {
+    "id": 71,
+    "domain": 3,
+    "question": "Which service manages relational databases such as PostgreSQL and MySQL?",
+    "answers": [
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "Amazon S3",
+      "Amazon SQS"
+    ],
+    "correct_answers": [
+      "Amazon RDS"
+    ],
+    "explanation": "RDS manages common relational database engines and many routine administrative tasks.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for Amazon RDS.",
+      "Amazon S3": "S3 stores objects in buckets. The question instead calls for Amazon RDS.",
+      "Amazon SQS": "SQS queues messages between application components. The question instead calls for Amazon RDS."
+    }
+  },
+  {
+    "id": 72,
+    "domain": 3,
+    "question": "Which AWS relational database is compatible with MySQL and PostgreSQL?",
+    "answers": [
+      "Amazon Aurora",
+      "Amazon DynamoDB",
+      "Amazon ElastiCache",
+      "Amazon Neptune"
+    ],
+    "correct_answers": [
+      "Amazon Aurora"
+    ],
+    "explanation": "Aurora is a cloud-optimized relational database compatible with MySQL and PostgreSQL.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for Amazon Aurora.",
+      "Amazon ElastiCache": "ElastiCache provides in-memory caching. The question instead calls for Amazon Aurora.",
+      "Amazon Neptune": "Neptune is a graph database rather than a relational database. The question instead calls for Amazon Aurora."
+    }
+  },
+  {
+    "id": 73,
+    "domain": 3,
+    "question": "Which service is a serverless key-value and document database?",
+    "answers": [
+      "Amazon DynamoDB",
+      "Amazon RDS",
+      "Amazon Redshift",
+      "Amazon EFS"
+    ],
+    "correct_answers": [
+      "Amazon DynamoDB"
+    ],
+    "explanation": "DynamoDB is a managed NoSQL database for key-value and document data.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon RDS": "RDS manages relational database instances. The question instead calls for Amazon DynamoDB.",
+      "Amazon Redshift": "Redshift is an analytical data warehouse. The question instead calls for Amazon DynamoDB.",
+      "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for Amazon DynamoDB."
+    }
+  },
+  {
+    "id": 74,
+    "domain": 3,
+    "question": "Which service provides managed in-memory caching?",
+    "answers": [
+      "Amazon ElastiCache",
+      "Amazon S3 Glacier",
+      "AWS Artifact",
+      "Amazon Route 53"
+    ],
+    "correct_answers": [
+      "Amazon ElastiCache"
+    ],
+    "explanation": "ElastiCache speeds access to frequently used data with in-memory caching.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon S3 Glacier": "S3 Glacier storage classes are designed for archive data. The question instead calls for Amazon ElastiCache.",
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for Amazon ElastiCache.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for Amazon ElastiCache."
+    }
+  },
+  {
+    "id": 75,
+    "domain": 3,
+    "question": "Which service helps migrate databases with ongoing replication to reduce downtime?",
+    "answers": [
+      "AWS Database Migration Service",
+      "AWS WAF",
+      "Amazon CloudFront",
+      "AWS IAM Identity Center"
+    ],
+    "correct_answers": [
+      "AWS Database Migration Service"
+    ],
+    "explanation": "DMS supports database migration and ongoing replication for supported source and target engines.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS WAF": "WAF filters web requests using application-layer rules. The question instead calls for AWS Database Migration Service.",
+      "Amazon CloudFront": "CloudFront caches and delivers content at edge locations. The question instead calls for AWS Database Migration Service.",
+      "AWS IAM Identity Center": "IAM Identity Center centralizes workforce sign-in and account access. The question instead calls for AWS Database Migration Service."
+    }
+  },
+  {
+    "id": 76,
+    "domain": 3,
+    "question": "Which service collects metrics and logs and supports alarms?",
+    "answers": [
+      "Amazon CloudWatch",
+      "AWS Artifact",
+      "AWS Pricing Calculator",
+      "Amazon Route 53"
+    ],
+    "correct_answers": [
+      "Amazon CloudWatch"
+    ],
+    "explanation": "CloudWatch monitors resources and applications using metrics, logs, dashboards, and alarms.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for Amazon CloudWatch.",
+      "AWS Pricing Calculator": "Pricing Calculator estimates costs for planned resource usage. The question instead calls for Amazon CloudWatch.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for Amazon CloudWatch."
+    }
+  },
+  {
+    "id": 77,
+    "domain": 3,
+    "question": "Which service provisions infrastructure from templates?",
+    "answers": [
+      "AWS CloudFormation",
+      "Amazon Inspector",
+      "Amazon Macie",
+      "AWS Cost Explorer"
+    ],
+    "correct_answers": [
+      "AWS CloudFormation"
+    ],
+    "explanation": "CloudFormation defines and provisions resources as infrastructure as code.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon Inspector": "Inspector scans supported workloads for software vulnerabilities. The question instead calls for AWS CloudFormation.",
+      "Amazon Macie": "Macie discovers sensitive data in S3. The question instead calls for AWS CloudFormation.",
+      "AWS Cost Explorer": "Cost Explorer analyzes historical spending and usage trends. The question instead calls for AWS CloudFormation."
+    }
+  },
+  {
+    "id": 78,
+    "domain": 3,
+    "question": "Which tool lets an administrator manage AWS services from a terminal?",
+    "answers": [
+      "AWS CLI",
+      "AWS Artifact",
+      "Amazon WorkSpaces",
+      "Amazon Quick Sight"
+    ],
+    "correct_answers": [
+      "AWS CLI"
+    ],
+    "explanation": "The AWS CLI provides command-line access to AWS service APIs.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS CLI.",
+      "Amazon WorkSpaces": "WorkSpaces provides managed virtual desktops. The question instead calls for AWS CLI.",
+      "Amazon Quick Sight": "Quick Sight provides business intelligence dashboards and visualizations. The question instead calls for AWS CLI."
+    }
+  },
+  {
+    "id": 79,
+    "domain": 3,
+    "question": "Which service provides a queue to decouple application components?",
+    "answers": [
+      "Amazon SQS",
+      "Amazon SNS",
+      "Amazon Route 53",
+      "Amazon EBS"
+    ],
+    "correct_answers": [
+      "Amazon SQS"
+    ],
+    "explanation": "SQS buffers messages so producers and consumers can operate independently.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon SNS": "SNS publishes notifications to subscribers. The question instead calls for Amazon SQS.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for Amazon SQS.",
+      "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for Amazon SQS."
+    }
+  },
+  {
+    "id": 80,
+    "domain": 3,
+    "question": "Which service publishes notifications to multiple subscribers?",
+    "answers": [
+      "Amazon SNS",
+      "Amazon EBS",
+      "Amazon VPC",
+      "Amazon RDS"
+    ],
+    "correct_answers": [
+      "Amazon SNS"
+    ],
+    "explanation": "SNS uses publish-subscribe messaging to distribute messages to subscribers.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for Amazon SNS.",
+      "Amazon VPC": "VPC provides logically isolated virtual networks. The question instead calls for Amazon SNS.",
+      "Amazon RDS": "RDS manages relational database instances. The question instead calls for Amazon SNS."
+    }
+  },
+  {
+    "id": 81,
+    "domain": 3,
+    "question": "Which service routes events from AWS services and applications to targets?",
+    "answers": [
+      "Amazon EventBridge",
+      "Amazon EFS",
+      "AWS Artifact",
+      "AWS Direct Connect"
+    ],
+    "correct_answers": [
+      "Amazon EventBridge"
+    ],
+    "explanation": "EventBridge routes events using event buses and rules.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for Amazon EventBridge.",
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for Amazon EventBridge.",
+      "AWS Direct Connect": "Direct Connect provides dedicated network connectivity to AWS. The question instead calls for Amazon EventBridge."
+    }
+  },
+  {
+    "id": 82,
+    "domain": 3,
+    "question": "Which service queries data in S3 using SQL without managing query servers?",
+    "answers": [
+      "Amazon Athena",
+      "Amazon RDS",
+      "Amazon EC2",
+      "Amazon ElastiCache"
+    ],
+    "correct_answers": [
+      "Amazon Athena"
+    ],
+    "explanation": "Athena provides serverless SQL queries over supported data sources, commonly S3.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon RDS": "RDS manages relational database instances. The question instead calls for Amazon Athena.",
+      "Amazon EC2": "EC2 provides virtual servers whose guest operating systems the customer manages. The question instead calls for Amazon Athena.",
+      "Amazon ElastiCache": "ElastiCache provides in-memory caching. The question instead calls for Amazon Athena."
+    }
+  },
+  {
+    "id": 83,
+    "domain": 3,
+    "question": "Which service prepares and catalogs data for analytics with managed ETL?",
+    "answers": [
+      "AWS Glue",
+      "AWS Shield",
+      "Amazon Route 53",
+      "Amazon SNS"
+    ],
+    "correct_answers": [
+      "AWS Glue"
+    ],
+    "explanation": "Glue supports data integration, catalogs, and extract-transform-load jobs.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Shield": "Shield protects against distributed denial-of-service attacks. The question instead calls for AWS Glue.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for AWS Glue.",
+      "Amazon SNS": "SNS publishes notifications to subscribers. The question instead calls for AWS Glue."
+    }
+  },
+  {
+    "id": 84,
+    "domain": 3,
+    "question": "Which service is designed for a cloud data warehouse?",
+    "answers": [
+      "Amazon Redshift",
+      "Amazon DynamoDB",
+      "Amazon EFS",
+      "AWS Secrets Manager"
+    ],
+    "correct_answers": [
+      "Amazon Redshift"
+    ],
+    "explanation": "Redshift is designed for analytical warehouse queries across large datasets.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for Amazon Redshift.",
+      "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for Amazon Redshift.",
+      "AWS Secrets Manager": "Secrets Manager stores secrets and supports credential rotation. The question instead calls for Amazon Redshift."
+    }
+  },
+  {
+    "id": 85,
+    "domain": 3,
+    "question": "Which service converts text into lifelike speech?",
+    "answers": [
+      "Amazon Polly",
+      "Amazon Transcribe",
+      "Amazon Translate",
+      "Amazon Rekognition"
+    ],
+    "correct_answers": [
+      "Amazon Polly"
+    ],
+    "explanation": "Polly synthesizes speech from text; Transcribe converts audio to text.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon Transcribe": "Transcribe converts speech audio to text, reversing the direction requested here. The question instead calls for Amazon Polly.",
+      "Amazon Translate": "Translate translates text between languages. The question instead calls for Amazon Polly.",
+      "Amazon Rekognition": "Rekognition analyzes images and video rather than synthesizing speech. The question instead calls for Amazon Polly."
+    }
+  },
+  {
+    "id": 86,
+    "domain": 3,
+    "question": "Which service extracts text and structured data from scanned documents?",
+    "answers": [
+      "Amazon Textract",
+      "Amazon Polly",
+      "Amazon Route 53",
+      "AWS CodeBuild"
+    ],
+    "correct_answers": [
+      "Amazon Textract"
+    ],
+    "explanation": "Textract uses machine learning to extract text, forms, and tables from documents.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon Polly": "Polly converts text to speech. The question instead calls for Amazon Textract.",
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for Amazon Textract.",
+      "AWS CodeBuild": "CodeBuild compiles code and runs build tasks and tests. The question instead calls for Amazon Textract."
+    }
+  },
+  {
+    "id": 87,
+    "domain": 3,
+    "question": "Which service supports conversational voice and text interfaces?",
+    "answers": [
+      "Amazon Lex",
+      "Amazon EBS",
+      "AWS CloudTrail",
+      "Amazon Redshift"
+    ],
+    "correct_answers": [
+      "Amazon Lex"
+    ],
+    "explanation": "Lex provides tools for building conversational bots and interfaces.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for Amazon Lex.",
+      "AWS CloudTrail": "CloudTrail records account and API activity for auditing. The question instead calls for Amazon Lex.",
+      "Amazon Redshift": "Redshift is an analytical data warehouse. The question instead calls for Amazon Lex."
+    }
+  },
+  {
+    "id": 88,
+    "domain": 3,
+    "question": "Which service provides virtual cloud desktops for users?",
+    "answers": [
+      "Amazon WorkSpaces",
+      "Amazon S3",
+      "AWS Glue",
+      "Amazon GuardDuty"
+    ],
+    "correct_answers": [
+      "Amazon WorkSpaces"
+    ],
+    "explanation": "WorkSpaces provides managed virtual desktop environments.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon S3": "S3 stores objects in buckets. The question instead calls for Amazon WorkSpaces.",
+      "AWS Glue": "Glue catalogs and transforms data for analytics. The question instead calls for Amazon WorkSpaces.",
+      "Amazon GuardDuty": "GuardDuty detects potential threats from supported activity and security data sources. The question instead calls for Amazon WorkSpaces."
+    }
+  },
+  {
+    "id": 89,
+    "domain": 4,
+    "question": "Which tool estimates the cost of a proposed architecture before deployment?",
+    "answers": [
+      "AWS Pricing Calculator",
+      "AWS CloudTrail",
+      "Amazon Inspector",
+      "Amazon CloudWatch Logs"
+    ],
+    "correct_answers": [
+      "AWS Pricing Calculator"
+    ],
+    "explanation": "Pricing Calculator models estimated costs based on planned service usage.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "AWS CloudTrail": "CloudTrail records account and API activity for auditing. The question instead calls for AWS Pricing Calculator.",
+      "Amazon Inspector": "Inspector scans supported workloads for software vulnerabilities. The question instead calls for AWS Pricing Calculator.",
+      "Amazon CloudWatch Logs": "CloudWatch Logs collects and analyzes operational log data. The question instead calls for AWS Pricing Calculator."
+    }
+  },
+  {
+    "id": 90,
+    "domain": 4,
+    "question": "Which tool visualizes historical AWS spending and usage trends?",
+    "answers": [
+      "AWS Cost Explorer",
+      "AWS Artifact",
+      "AWS WAF",
+      "AWS DMS"
+    ],
+    "correct_answers": [
+      "AWS Cost Explorer"
+    ],
+    "explanation": "Cost Explorer helps analyze costs, usage, and trends over time.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS Cost Explorer.",
+      "AWS WAF": "WAF filters web requests using application-layer rules. The question instead calls for AWS Cost Explorer.",
+      "AWS DMS": "Database Migration Service migrates and replicates databases. The question instead calls for AWS Cost Explorer."
+    }
+  },
+  {
+    "id": 91,
+    "domain": 4,
+    "question": "Which service alerts a team when spending exceeds a configured threshold?",
+    "answers": [
+      "AWS Budgets",
+      "Amazon Route 53",
+      "AWS Certificate Manager",
+      "Amazon EFS"
+    ],
+    "correct_answers": [
+      "AWS Budgets"
+    ],
+    "explanation": "Budgets tracks configured cost or usage thresholds and sends notifications.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for AWS Budgets.",
+      "AWS Certificate Manager": "Certificate Manager provisions and manages TLS certificates for supported services. The question instead calls for AWS Budgets.",
+      "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for AWS Budgets."
+    }
+  },
+  {
+    "id": 92,
+    "domain": 4,
+    "question": "Which feature combines charges from multiple accounts into one bill?",
+    "answers": [
+      "AWS Organizations consolidated billing",
+      "S3 versioning",
+      "EC2 Auto Scaling",
+      "VPC peering"
+    ],
+    "correct_answers": [
+      "AWS Organizations consolidated billing"
+    ],
+    "explanation": "Consolidated billing combines organization account charges and can share qualifying discounts.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "S3 versioning": "S3 versioning retains object versions and does not combine account bills.",
+      "EC2 Auto Scaling": "Auto Scaling adjusts compute capacity and does not aggregate billing accounts.",
+      "VPC peering": "VPC peering connects virtual networks and does not consolidate charges."
+    }
+  },
+  {
+    "id": 93,
+    "domain": 4,
+    "question": "How can a team attribute supported resource costs to projects?",
+    "answers": [
+      "Activate cost allocation tags",
+      "Use one shared root password",
+      "Disable all logs",
+      "Put every resource in a single subnet"
+    ],
+    "correct_answers": [
+      "Activate cost allocation tags"
+    ],
+    "explanation": "Activated cost allocation tags categorize supported usage in billing tools.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Use one shared root password": "Sharing root credentials is a security risk and does not categorize costs by project.",
+      "Disable all logs": "Disabling logs removes operational evidence; it does not allocate billing costs to projects.",
+      "Put every resource in a single subnet": "A shared subnet does not label each project's usage and can make attribution harder."
+    }
+  },
+  {
+    "id": 94,
+    "domain": 4,
+    "question": "A short experiment has unpredictable usage and no long-term commitment. Which EC2 option fits?",
+    "answers": [
+      "On-Demand Instances",
+      "Three-year Reserved Instances",
+      "Dedicated Hosts only",
+      "A fixed Savings Plans commitment"
+    ],
+    "correct_answers": [
+      "On-Demand Instances"
+    ],
+    "explanation": "On-Demand charges for usage without a long-term purchasing commitment.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Three-year Reserved Instances": "A three-year commitment is poorly matched to a short experiment with uncertain usage.",
+      "Dedicated Hosts only": "Dedicated Hosts address physical isolation and licensing needs that are not required by this experiment.",
+      "A fixed Savings Plans commitment": "A fixed spend commitment can leave unused committed spend when short-term demand is uncertain."
+    }
+  },
+  {
+    "id": 95,
+    "domain": 4,
+    "question": "A batch job can handle interruptions and retry work. Which EC2 option can lower cost?",
+    "answers": [
+      "Spot Instances",
+      "On-Demand Instances only",
+      "Dedicated Hosts only",
+      "Reserved capacity for every Region"
+    ],
+    "correct_answers": [
+      "Spot Instances"
+    ],
+    "explanation": "Spot uses spare EC2 capacity at discounted rates but can be interrupted.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "On-Demand Instances only": "On-Demand does not take advantage of discounted spare capacity, even though the job can tolerate interruptions.",
+      "Dedicated Hosts only": "Dedicated Hosts address isolation and licensing; they do not use the spare-capacity pricing model sought here.",
+      "Reserved capacity for every Region": "Reserving capacity everywhere is unrelated to this job's needs and can add unnecessary commitments or costs."
+    }
+  },
+  {
+    "id": 96,
+    "domain": 4,
+    "question": "Which option discounts eligible compute usage in exchange for a consistent hourly spending commitment?",
+    "answers": [
+      "Savings Plans",
+      "AWS Budgets",
+      "AWS Artifact",
+      "Amazon CloudWatch"
+    ],
+    "correct_answers": [
+      "Savings Plans"
+    ],
+    "explanation": "Savings Plans exchange a one- or three-year usage-spend commitment for discounted eligible compute rates.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "AWS Budgets": "Budgets tracks cost or usage thresholds and sends alerts. The question instead calls for Savings Plans.",
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for Savings Plans.",
+      "Amazon CloudWatch": "CloudWatch collects monitoring metrics and logs and supports alarms. The question instead calls for Savings Plans."
+    }
+  },
+  {
+    "id": 97,
+    "domain": 4,
+    "question": "Which EC2 option provides a physical server dedicated to a customer and can help with host-bound licensing?",
+    "answers": [
+      "Dedicated Hosts",
+      "Spot Instances",
+      "Shared-tenancy On-Demand Instances",
+      "Lambda functions"
+    ],
+    "correct_answers": [
+      "Dedicated Hosts"
+    ],
+    "explanation": "Dedicated Hosts provide dedicated physical servers and host-level visibility for licensing needs.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Spot Instances": "Spot Instances use spare capacity and do not provide control over an entire dedicated physical server.",
+      "Shared-tenancy On-Demand Instances": "Shared-tenancy instances do not provide a physical server dedicated to this customer.",
+      "Lambda functions": "Lambda abstracts the servers away, so it does not provide host-level licensing control."
+    }
+  },
+  {
+    "id": 98,
+    "domain": 4,
+    "question": "Which resource offers AWS best-practice recommendations across areas including cost and security?",
+    "answers": [
+      "AWS Trusted Advisor",
+      "AWS Artifact",
+      "Amazon SQS",
+      "AWS DMS"
+    ],
+    "correct_answers": [
+      "AWS Trusted Advisor"
+    ],
+    "explanation": "Trusted Advisor checks workloads against supported best practices and provides recommendations.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS Trusted Advisor.",
+      "Amazon SQS": "SQS queues messages between application components. The question instead calls for AWS Trusted Advisor.",
+      "AWS DMS": "Database Migration Service migrates and replicates databases. The question instead calls for AWS Trusted Advisor."
+    }
+  },
+  {
+    "id": 99,
+    "domain": 4,
+    "question": "Where can a customer see AWS events specific to their account and resources?",
+    "answers": [
+      "AWS Health Dashboard",
+      "AWS Pricing Calculator",
+      "Amazon S3 inventory",
+      "Amazon Lex"
+    ],
+    "correct_answers": [
+      "AWS Health Dashboard"
+    ],
+    "explanation": "AWS Health provides visibility into service events and scheduled changes affecting an account.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "AWS Pricing Calculator": "Pricing Calculator estimates costs for planned resource usage. The question instead calls for AWS Health Dashboard.",
+      "Amazon S3 inventory": "S3 Inventory lists objects and their metadata. The question instead calls for AWS Health Dashboard.",
+      "Amazon Lex": "Lex builds conversational voice and text interfaces. The question instead calls for AWS Health Dashboard."
+    }
+  },
+  {
+    "id": 100,
+    "domain": 4,
+    "question": "Which resource hosts AWS community questions and expert answers?",
+    "answers": [
+      "AWS re:Post",
+      "Amazon EBS",
+      "AWS Config",
+      "Amazon Macie"
+    ],
+    "correct_answers": [
+      "AWS re:Post"
+    ],
+    "explanation": "AWS re:Post is a community knowledge and question-and-answer resource.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for AWS re:Post.",
+      "AWS Config": "Config tracks resource configurations and evaluates compliance rules. The question instead calls for AWS re:Post.",
+      "Amazon Macie": "Macie discovers sensitive data in S3. The question instead calls for AWS re:Post."
+    }
+  },
+  {
+    "id": 101,
+    "domain": 4,
+    "question": "Where can customers discover and subscribe to third-party software for AWS?",
+    "answers": [
+      "AWS Marketplace",
+      "AWS Artifact",
+      "AWS IAM",
+      "Amazon VPC"
+    ],
+    "correct_answers": [
+      "AWS Marketplace"
+    ],
+    "explanation": "Marketplace offers software and related offerings from third-party vendors.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS Marketplace.",
+      "AWS IAM": "IAM manages identities and permissions for AWS resources. The question instead calls for AWS Marketplace.",
+      "Amazon VPC": "VPC provides logically isolated virtual networks. The question instead calls for AWS Marketplace."
+    }
+  },
+  {
+    "id": 102,
+    "domain": 4,
+    "question": "Which report provides detailed line-item AWS cost and usage data?",
+    "answers": [
+      "AWS Cost and Usage Report",
+      "A CloudTrail event history",
+      "A Route 53 query log",
+      "An IAM credential report"
+    ],
+    "correct_answers": [
+      "AWS Cost and Usage Report"
+    ],
+    "explanation": "Cost and Usage Reports provide detailed billing and usage records for analysis.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "A CloudTrail event history": "CloudTrail event history records account activity, not detailed billing line items.",
+      "A Route 53 query log": "Route 53 query logs record DNS queries, not all AWS costs and usage.",
+      "An IAM credential report": "An IAM credential report inventories user credential status, not service usage charges."
+    }
+  },
+  {
+    "id": 103,
+    "domain": 4,
+    "question": "What is a key risk of leaving unused cloud resources running?",
+    "answers": [
+      "They may continue generating charges",
+      "They always become free after one day",
+      "They automatically receive lifetime discounts",
+      "They are always deleted at month end"
+    ],
+    "correct_answers": [
+      "They may continue generating charges"
+    ],
+    "explanation": "Usage-based billing still charges for billable resources and storage that remain provisioned.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "They always become free after one day": "Billable resources do not become free merely because a day has elapsed.",
+      "They automatically receive lifetime discounts": "Discounts depend on applicable pricing or commitments, not simply leaving resources running.",
+      "They are always deleted at month end": "AWS does not generally delete all unused resources automatically at the end of the month."
+    }
+  },
+  {
+    "id": 104,
+    "domain": 1,
+    "question": "Which TWO practices improve workload resilience?",
+    "answers": [
+      "Deploy across multiple Availability Zones",
+      "Test recovery procedures",
+      "Keep all data on one instance",
+      "Disable backups",
+      "Use only manual health checks"
+    ],
+    "correct_answers": [
+      "Deploy across multiple Availability Zones",
+      "Test recovery procedures"
+    ],
+    "explanation": "Multiple failure domains and tested recovery procedures improve resilience.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Keep all data on one instance": "Keeping all data on one instance creates a single point of failure.",
+      "Disable backups": "Disabling backups removes a recovery option and can increase data loss.",
+      "Use only manual health checks": "Manual-only health checks delay detection and response compared with automated monitoring."
+    }
+  },
+  {
+    "id": 105,
+    "domain": 2,
+    "question": "Which TWO tasks are customer responsibilities when using EC2?",
+    "answers": [
+      "Patch the guest operating system",
+      "Configure security group rules",
+      "Replace physical server hardware",
+      "Secure the AWS data center",
+      "Maintain AWS facility power"
+    ],
+    "correct_answers": [
+      "Patch the guest operating system",
+      "Configure security group rules"
+    ],
+    "explanation": "Customers manage guest software and network access rules; AWS manages physical infrastructure.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Replace physical server hardware": "AWS maintains and replaces the physical hardware underlying EC2.",
+      "Secure the AWS data center": "AWS is responsible for physical security of its facilities.",
+      "Maintain AWS facility power": "AWS manages power for its facilities; customers manage their workloads within the cloud."
+    }
+  },
+  {
+    "id": 106,
+    "domain": 2,
+    "question": "Which TWO practices help secure AWS credentials?",
+    "answers": [
+      "Use temporary role credentials",
+      "Enable MFA for privileged access",
+      "Commit access keys to source control",
+      "Share the root password",
+      "Use root for daily work"
+    ],
+    "correct_answers": [
+      "Use temporary role credentials",
+      "Enable MFA for privileged access"
+    ],
+    "explanation": "Temporary credentials reduce long-term secret exposure, while MFA strengthens authentication.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Commit access keys to source control": "Source control can expose keys to collaborators or the public and retain secrets in history.",
+      "Share the root password": "Sharing root credentials exposes a highly privileged identity and removes individual accountability.",
+      "Use root for daily work": "Routine root use increases exposure; use scoped identities and reserve root for tasks that require it."
+    }
+  },
+  {
+    "id": 107,
+    "domain": 3,
+    "question": "Which TWO services provide managed relational databases?",
+    "answers": [
+      "Amazon RDS",
+      "Amazon Aurora",
+      "Amazon DynamoDB",
+      "Amazon S3",
+      "Amazon ElastiCache"
+    ],
+    "correct_answers": [
+      "Amazon RDS",
+      "Amazon Aurora"
+    ],
+    "explanation": "RDS and Aurora are relational databases. DynamoDB is NoSQL, S3 is object storage, and ElastiCache is an in-memory cache.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for Amazon RDS, Amazon Aurora.",
+      "Amazon S3": "S3 stores objects in buckets. The question instead calls for Amazon RDS, Amazon Aurora.",
+      "Amazon ElastiCache": "ElastiCache provides in-memory caching. The question instead calls for Amazon RDS, Amazon Aurora."
+    }
+  },
+  {
+    "id": 108,
+    "domain": 4,
+    "question": "Which TWO actions can reduce unnecessary cloud spending?",
+    "answers": [
+      "Rightsize underused instances",
+      "Remove unneeded storage resources",
+      "Keep every test server running",
+      "Choose the largest instance by default",
+      "Ignore cost reports"
+    ],
+    "correct_answers": [
+      "Rightsize underused instances",
+      "Remove unneeded storage resources"
+    ],
+    "explanation": "Rightsizing and removing unneeded resources reduce waste; check retention requirements before deleting data.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Keep every test server running": "Idle test servers may continue accruing charges without adding value.",
+      "Choose the largest instance by default": "The largest instance may provide unnecessary capacity and increase cost.",
+      "Ignore cost reports": "Ignoring reports makes it harder to identify waste and unexpected spending."
+    }
+  }
+]

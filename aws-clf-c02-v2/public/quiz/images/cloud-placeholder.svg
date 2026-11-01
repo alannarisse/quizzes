@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240" role="img" aria-labelledby="title desc">
+<title id="title">Cloud study illustration</title><desc id="desc">A cloud connected to three small resources. Placeholder artwork for answer explanations.</desc>
+<rect width="400" height="240" rx="20" fill="#edf5fa"/>
+<g stroke="#38657d" stroke-width="3" fill="none"><path d="M200 125v35M100 184v-24h200v24M200 160v24"/></g>
+<path d="M124 126a30 30 0 0 1-3-60 46 46 0 0 1 86-14 34 34 0 0 1 53 23 26 26 0 0 1-1 51Z" fill="#c7e3e8" stroke="#38657d" stroke-width="3"/>
+<g fill="#ffcf87" stroke="#38657d" stroke-width="3"><rect x="76" y="182" width="48" height="30" rx="5"/><rect x="176" y="182" width="48" height="30" rx="5"/><rect x="276" y="182" width="48" height="30" rx="5"/></g>
+</svg>
