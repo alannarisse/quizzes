@@ -45,13 +45,18 @@
     if (p && p.catch) p.catch(function () {});
   }
 
+  var applauseTimer;
   function applaud(times, withSound) {
-    var n = 0;
+    clearTimeout(applauseTimer);
     if (withSound && soundOn) playClap();
-    var t = setInterval(function () {
-      sign.classList.toggle("lit");
-      if (++n >= times * 2) { clearInterval(t); sign.classList.remove("lit"); }
-    }, 250);
+    function light() {
+      sign.classList.add("lit");
+      applauseTimer = setTimeout(function () {
+        sign.classList.remove("lit");
+        if (--times > 0) applauseTimer = setTimeout(light, 250);
+      }, 1250);
+    }
+    light();
   }
 
   sign.addEventListener("click", function () {
