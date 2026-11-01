@@ -229,3 +229,10 @@ footer { margin-top: 24px; text-align: center; font-size: .85rem; color: var(--w
   .answer { font-size: 1.25rem; }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* Sound preferences stay available between Previous and Next. */
+.sound-option { display: flex; align-items: center; gap: 10px; }
+.sound-option input { width: 20px; height: 20px; accent-color: var(--wall); }
+.nav { flex-wrap: nowrap; align-items: center; gap: 6px; }
+.nav button { padding-inline: clamp(6px, 2vw, 20px); }
+.sound-toggle { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; flex-shrink: 0; padding: 6px; }

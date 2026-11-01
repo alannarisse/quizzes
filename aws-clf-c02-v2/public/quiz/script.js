@@ -7,7 +7,61 @@ const SOUNDS = {
   incorrect: './sounds/incorrect.wav',
   passed: './sounds/passed-test.m4a'
 };
-function play(name){ try { const a=new Audio(SOUNDS[name]); a.play().catch(()=>{}); } catch {} }
+const SOUND_KEY = 'aws-clf-c02-sound';
+let soundEnabled = false;
+try { soundEnabled = localStorage.getItem(SOUND_KEY) === 'on'; } catch {}
+let activeAudio;
+function audioStatus(message) {
+  let status = document.querySelector('#audio-status');
+  if (!status) {
+    status = document.createElement('p');
+    status.id = 'audio-status';
+    status.setAttribute('role', 'status');
+    app.after(status);
+  }
+  status.textContent = message;
+}
+function audioError(error, name) {
+  // Replacing a sound or muting can intentionally interrupt pending playback.
+  if (error.name === 'AbortError') return;
+  console.error('Quiz audio playback failed', { sound: name, url: SOUNDS[name], error });
+  audioStatus(error.name === 'NotAllowedError'
+    ? 'Sound was blocked by your browser. Allow sound for this site, then turn sound off and on to try again.'
+    : 'The sound could not be played. Turn sound off and on to retry. Details are available in the browser console.');
+}
+function play(name) {
+  if (!soundEnabled) return;
+  try {
+    activeAudio?.pause();
+    activeAudio = new Audio(SOUNDS[name]);
+    activeAudio.play().then(() => audioStatus('')).catch(error => audioError(error, name));
+  } catch (error) { audioError(error, name); }
+}
+function setSound(enabled) {
+  soundEnabled = enabled;
+  if (!enabled) activeAudio?.pause();
+  try { localStorage.setItem(SOUND_KEY, enabled ? 'on' : 'off'); } catch {}
+  document.querySelectorAll('[data-sound-toggle]').forEach(button => {
+    button.innerHTML = soundIcon();
+    button.setAttribute('aria-pressed', String(enabled));
+    button.setAttribute('aria-label', enabled ? 'Mute sound' : 'Enable sound');
+    button.title = enabled ? 'Mute sound' : 'Enable sound';
+  });
+  audioStatus('');
+  // Called directly by the checkbox/button interaction, before any async work.
+  if (enabled) play('correct');
+}
+function soundIcon() {
+  return `<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/>${soundEnabled ? '<path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/>' : '<path d="m16 9 5 6m0-6-5 6M2 2l20 20"/>'}</svg>`;
+}
+function soundButton() {
+  return `<button type="button" class="sound-toggle" data-sound-toggle aria-pressed="${soundEnabled}" aria-label="${soundEnabled ? 'Mute sound' : 'Enable sound'}" title="${soundEnabled ? 'Mute sound' : 'Enable sound'}">${soundIcon()}</button>`;
+}
+function bindSoundButtons() {
+  document.querySelectorAll('[data-sound-toggle]').forEach(button => {
+    button.onclick = () => setSound(!soundEnabled);
+  });
+}
 let answerReviewOpen = false;
 const closedReviews = new Set();
 const escape = text => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -37,7 +91,8 @@ function start(mode) {
   save(); render(); focusHeading();
 }
 function home() {
-  app.innerHTML = `<section class="intro"><h2 tabindex="-1">Your next practice session</h2><p><strong>65 questions</strong> drawn from a bank of ${bank.length}. Pass with <strong>${REQUIRED}/65 correct</strong> (at least 85%).</p><p>Single-choice and multiple-response questions. Select every correct option for multiple-response questions; no partial credit.</p><div class="mode-grid"><section><h3>Mock exam</h3><p>Answer at your own pace. Review an answered question from the jump grid to see its answer and explanation, or submit for a full review.</p><button id="exam">Start mock exam</button></section><section><h3>Study mode</h3><p>Check each answer as you go. Explanations and images appear after checking.</p><button id="study">Start study quiz</button></section></div><p>All four exam domains are included. No timer or early cutoff; finish all 65 questions.</p></section>`;
+  app.innerHTML = `<section class="intro"><h2 tabindex="-1">Your next practice session</h2><p><strong>65 questions</strong> drawn from a bank of ${bank.length}. Pass with <strong>${REQUIRED}/65 correct</strong> (at least 85%).</p><p>Single-choice and multiple-response questions. Select every correct option for multiple-response questions; no partial credit.</p><label class="sound-option"><input id="sound-enabled" type="checkbox" ${soundEnabled?'checked':''}> Enable sound effects</label><div class="mode-grid"><section><h3>Mock exam</h3><p>Answer at your own pace. Review an answered question from the jump grid to see its answer and explanation, or submit for a full review.</p><button id="exam">Start mock exam</button></section><section><h3>Study mode</h3><p>Check each answer as you go. Explanations and images appear after checking.</p><button id="study">Start study quiz</button></section></div><p>All four exam domains are included. No timer or early cutoff; finish all 65 questions.</p></section>`;
+  document.querySelector('#sound-enabled').onchange = e => setSound(e.target.checked);
   document.querySelector('#exam').onclick = ()=>start('exam');
   document.querySelector('#study').onclick = ()=>start('study');
 }
@@ -72,16 +127,21 @@ function render() {
   const q=state.questions[state.index], chosen=state.answers[q.id]||[];
   const checked=state.mode==='study' && state.checked[q.id];
   const answered=state.questions.filter(q=>(state.answers[q.id]||[]).length).length;
-  app.innerHTML = `<p class="meta">${state.mode==='exam'?'Mock exam':'Study mode'} · ${answered}/${TOTAL} answered</p><progress max="65" value="${answered}" aria-label="Questions answered">${answered}/65</progress><p class="meta">Question ${state.index+1} of ${TOTAL} · ${escape(DOMAINS[q.domain])}</p>${inlineAnswerReview(q, answerReviewOpen || (checked && !closedReviews.has(q.id)))}<h2 id="current-question" tabindex="-1">${escape(q.question)}</h2><form id="question-form"><fieldset ${checked?'disabled':''}><legend>${q.correct_answers.length>1?`Select ${q.correct_answers.length} answers`:'Select one answer'}</legend>${q.answers.map((a,i)=>`<label class="answer"><input type="${q.correct_answers.length>1?'checkbox':'radio'}" name="answer" value="${i}" ${chosen.includes(a)?'checked':''}> <span>${escape(a)}</span></label>`).join('')}</fieldset>${state.mode==='study'?`<button id="check" ${checked||!chosen.length?'disabled':''}>Check answer</button>`:''}</form><label class="flag"><input id="flag" type="checkbox" ${state.flags[q.id]?'checked':''}> Flag for review</label><nav class="nav"><button id="prev" ${state.index===0?'disabled':''}>← Previous</button><button id="next" ${state.index===TOTAL-1?'disabled':''}>Next →</button></nav>${questionGrid(navigationOpen)}<div class="actions"><button id="finish">Finish &amp; review</button><button class="secondary" id="restart">New quiz</button></div>`;
+  app.innerHTML = `<p class="meta">${state.mode==='exam'?'Mock exam':'Study mode'} · ${answered}/${TOTAL} answered</p><progress max="65" value="${answered}" aria-label="Questions answered">${answered}/65</progress><p class="meta">Question ${state.index+1} of ${TOTAL} · ${escape(DOMAINS[q.domain])}</p>${inlineAnswerReview(q, answerReviewOpen || (checked && !closedReviews.has(q.id)))}<h2 id="current-question" tabindex="-1">${escape(q.question)}</h2><form id="question-form"><fieldset ${checked?'disabled':''}><legend>${q.correct_answers.length>1?`Select ${q.correct_answers.length} answers`:'Select one answer'}</legend>${q.answers.map((a,i)=>`<label class="answer"><input type="${q.correct_answers.length>1?'checkbox':'radio'}" name="answer" value="${i}" ${chosen.includes(a)?'checked':''}> <span>${escape(a)}</span></label>`).join('')}</fieldset>${state.mode==='study'?`<button id="check" ${checked||!chosen.length?'disabled':''}>Check answer</button>`:''}</form><label class="flag"><input id="flag" type="checkbox" ${state.flags[q.id]?'checked':''}> Flag for review</label><nav class="nav"><button id="prev" ${state.index===0?'disabled':''}>← Previous</button>${soundButton()}<button id="next" ${state.index===TOTAL-1?'disabled':''}>Next →</button></nav>${questionGrid(navigationOpen)}<div class="actions"><button id="finish">Finish &amp; review</button><button class="secondary" id="restart">New quiz</button></div>`;
   document.querySelectorAll('[name=answer]').forEach(input=>input.onchange=()=>{
     let selections=[...document.querySelectorAll('[name=answer]:checked')];
     if(selections.length>q.correct_answers.length){input.checked=false;return;}
     state.answers[q.id]=selections.map(el=>q.answers[Number(el.value)]);save();
+    // Wait for every requested choice before grading a multiple-response answer.
+    if (state.mode === 'exam' && selections.length === q.correct_answers.length) {
+      play(isCorrect(q,state.answers[q.id]) ? 'correct' : 'incorrect');
+    }
     // Keep focus on the selected input after updating counts and controls.
     const value=input.value;render();document.querySelector(`[name=answer][value="${value}"]`).focus();
   });
   document.querySelector('#question-form').onsubmit=e=>{e.preventDefault();if(chosen.length){state.checked[q.id]=true;play(isCorrect(q,chosen)?'correct':'incorrect');closedReviews.delete(q.id);save();render();document.querySelector('#answer-review').scrollIntoView({block:'start', behavior:'smooth'});}};
   document.querySelector('#flag').onchange=e=>{state.flags[q.id]=e.target.checked;save();render();document.querySelector('#flag').focus();};
+  bindSoundButtons();
   document.querySelector('#prev').onclick=()=>move(state.index-1);
   document.querySelector('#next').onclick=()=>{
     move(state.index+1);
@@ -104,8 +164,9 @@ function move(index, review = false){state.index=index;answerReviewOpen=review;s
 function newQuiz(){if(state.finished||confirm('Start a new quiz and replace this saved attempt?')){state=null;try{localStorage.removeItem(KEY);}catch{}home();focusHeading();}}
 function results(){
  const correct=score(state.questions,state.answers);
- app.innerHTML=`<section class="result ${passed(correct)?'correct':'wrong'}"><h2 tabindex="-1">${passed(correct)?'You passed!':'Keep practicing'}</h2><p class="result-score">${correct}/${TOTAL} · ${(correct/TOTAL*100).toFixed(1)}%</p><p>Practice target: at least 85% (${REQUIRED} correct). ${TOTAL-correct} incorrect or unanswered.</p></section><h3>By domain</h3><ul>${[1,2,3,4].map(d=>{const qs=state.questions.filter(q=>q.domain===d);return `<li>${escape(DOMAINS[d])}: ${score(qs,state.answers)}/${qs.length}</li>`;}).join('')}</ul><button id="restart">Start a new quiz</button>${questionGrid()}<h3>Review all answers</h3><p>Expand a question to see your answer, explanation, and image.</p>${state.questions.map((q,i)=>`<details class="review"><summary>${i+1}. ${isCorrect(q,state.answers[q.id])?'Correct':'Incorrect'}${state.flags[q.id]?' · ★ Flagged':''} — ${escape(q.question)}</summary><p><strong>Your answer:</strong> ${(state.answers[q.id]||[]).map(escape).join('; ')||'Unanswered'}</p>${feedback(q)}</details>`).join('')}`;
+ app.innerHTML=`<section class="result ${passed(correct)?'correct':'wrong'}"><h2 tabindex="-1">${passed(correct)?'You passed!':'Keep practicing'}</h2><p class="result-score">${correct}/${TOTAL} · ${(correct/TOTAL*100).toFixed(1)}%</p><p>Practice target: at least 85% (${REQUIRED} correct). ${TOTAL-correct} incorrect or unanswered.</p></section><h3>By domain</h3><ul>${[1,2,3,4].map(d=>{const qs=state.questions.filter(q=>q.domain===d);return `<li>${escape(DOMAINS[d])}: ${score(qs,state.answers)}/${qs.length}</li>`;}).join('')}</ul><div class="actions"><button id="restart">Start a new quiz</button>${soundButton()}</div>${questionGrid()}<h3>Review all answers</h3><p>Expand a question to see your answer, explanation, and image.</p>${state.questions.map((q,i)=>`<details class="review"><summary>${i+1}. ${isCorrect(q,state.answers[q.id])?'Correct':'Incorrect'}${state.flags[q.id]?' · ★ Flagged':''} — ${escape(q.question)}</summary><p><strong>Your answer:</strong> ${(state.answers[q.id]||[]).map(escape).join('; ')||'Unanswered'}</p>${feedback(q)}</details>`).join('')}`;
  document.querySelector('#restart').onclick=newQuiz;
+ bindSoundButtons();
  bindQuestionGrid();
 }
 try {

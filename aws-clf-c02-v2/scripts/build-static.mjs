@@ -2,10 +2,10 @@ import { cp, mkdir, rm, readFile, access } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 
 const source = new URL('../public/quiz/', import.meta.url);
-const output = new URL('../dist/dreamhost/', import.meta.url);
+const output = new URL('../dist/', import.meta.url);
 
 // The React route only redirects to this standalone quiz. Publish the quiz
-// directly, with relative URLs so it also works in a DreamHost subdirectory.
+// directly, with relative URLs so it also works in a hosting subdirectory.
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await cp(source, output, {

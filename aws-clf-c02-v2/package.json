@@ -12,7 +12,7 @@
     "format": "prettier --write .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "build:dreamhost": "node scripts/build-dreamhost.mjs",
+    "build:static": "node scripts/build-static.mjs",
     "test:quiz": "node --test public/quiz/engine.test.mjs"
   },
   "overrides": {
