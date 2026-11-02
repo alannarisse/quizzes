@@ -542,8 +542,8 @@
       "Grant only permissions required for a task"
     ],
     "explanation": "Least privilege limits access to what an identity needs.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Identity-and-Access-Management_64.svg",
+    "image_alt": "AWS Identity and Access Management",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Give every user administrator access": "Administrator access grants more privileges than most users need.",
@@ -565,8 +565,8 @@
       "Use an IAM role attached through an instance profile"
     ],
     "explanation": "IAM roles supply temporary credentials without hardcoded long-term keys.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Res_AWS-Identity-Access-Management_Role_48.svg",
+    "image_alt": "AWS Identity Access Management Role",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Embed the root key in code": "Root keys are highly privileged, and embedding them in code exposes long-term credentials.",
@@ -588,8 +588,8 @@
       "Enable multi-factor authentication"
     ],
     "explanation": "MFA adds a factor beyond a password; root credentials should be protected and used sparingly.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Res_AWS-Identity-Access-Management_MFA-Token_48.svg",
+    "image_alt": "AWS Identity Access Management MFA Token",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Share root credentials with all staff": "Sharing root credentials broadens exposure and removes individual accountability.",
@@ -611,8 +611,8 @@
       "An IAM group with attached policies"
     ],
     "explanation": "IAM groups simplify applying permissions to multiple IAM users.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Identity-and-Access-Management_64.svg",
+    "image_alt": "AWS Identity and Access Management",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "One shared root account": "A shared root identity grants excessive privileges and does not manage permissions for individual IAM users.",
@@ -634,8 +634,8 @@
       "AWS IAM Identity Center"
     ],
     "explanation": "IAM Identity Center centralizes workforce sign-in and access across accounts and applications.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-IAM-Identity-Center_64.svg",
+    "image_alt": "AWS IAM Identity Center",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Amazon Cognito user pools": "Cognito user pools provide sign-up and sign-in for application users. The question instead calls for AWS IAM Identity Center.",
@@ -657,8 +657,8 @@
       "AWS CloudTrail"
     ],
     "explanation": "CloudTrail records account activity, including supported API actions, for auditing.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-CloudTrail_64.svg",
+    "image_alt": "AWS CloudTrail",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Amazon CloudWatch metrics": "CloudWatch metrics are numerical monitoring measurements, rather than a record of individual API actions. The question instead calls for AWS CloudTrail.",
@@ -680,8 +680,8 @@
       "AWS Config"
     ],
     "explanation": "AWS Config tracks resource configurations and evaluates compliance with rules.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Config_64.svg",
+    "image_alt": "AWS Config",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Amazon SQS": "SQS queues messages between application components. The question instead calls for AWS Config.",
@@ -703,8 +703,8 @@
       "AWS Artifact"
     ],
     "explanation": "Artifact provides access to AWS compliance reports and agreements.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Artifact_64.svg",
+    "image_alt": "AWS Artifact",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "AWS Certificate Manager": "Certificate Manager provisions and manages TLS certificates for supported services. The question instead calls for AWS Artifact.",
@@ -726,8 +726,8 @@
       "Amazon GuardDuty"
     ],
     "explanation": "GuardDuty analyzes supported data sources to identify potential threats.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-GuardDuty_64.svg",
+    "image_alt": "Amazon GuardDuty",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Amazon Athena": "Athena runs serverless SQL queries against supported data sources, including S3. The question instead calls for Amazon GuardDuty.",
@@ -749,8 +749,8 @@
       "Amazon Inspector"
     ],
     "explanation": "Inspector provides automated vulnerability management for supported workloads.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Inspector_64.svg",
+    "image_alt": "Amazon Inspector",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Amazon CloudFront": "CloudFront caches and delivers content at edge locations. The question instead calls for Amazon Inspector.",
@@ -772,8 +772,8 @@
       "Amazon Macie"
     ],
     "explanation": "Macie helps discover and protect sensitive data stored in Amazon S3.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Macie_64.svg",
+    "image_alt": "Amazon Macie",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Amazon ElastiCache": "ElastiCache provides in-memory caching. The question instead calls for Amazon Macie.",
@@ -795,8 +795,8 @@
       "AWS WAF"
     ],
     "explanation": "WAF protects web applications using rules that inspect web requests.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-WAF_64.svg",
+    "image_alt": "AWS WAF",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "AWS KMS": "KMS manages cryptographic keys used for encryption. The question instead calls for AWS WAF.",
@@ -818,8 +818,8 @@
       "AWS Shield"
     ],
     "explanation": "Shield provides protection against distributed denial-of-service attacks.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Shield_64.svg",
+    "image_alt": "AWS Shield",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "AWS Secrets Manager": "Secrets Manager stores secrets and supports credential rotation. The question instead calls for AWS Shield.",
@@ -841,8 +841,8 @@
       "AWS Key Management Service"
     ],
     "explanation": "AWS KMS creates and controls cryptographic keys for supported encryption workflows.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Key-Management-Service_64.svg",
+    "image_alt": "AWS Key Management Service",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "AWS Config": "Config tracks resource configurations and evaluates compliance rules. The question instead calls for AWS Key Management Service.",
@@ -864,8 +864,8 @@
       "AWS Secrets Manager"
     ],
     "explanation": "Secrets Manager manages secrets and supports automated rotation for supported integrations.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Secrets-Manager_64.svg",
+    "image_alt": "AWS Secrets Manager",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for AWS Secrets Manager.",
@@ -887,8 +887,8 @@
       "AWS Certificate Manager"
     ],
     "explanation": "ACM handles certificate provisioning and lifecycle management for supported services.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Certificate-Manager_64.svg",
+    "image_alt": "AWS Certificate Manager",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "AWS Cost Explorer": "Cost Explorer analyzes historical spending and usage trends. The question instead calls for AWS Certificate Manager.",
@@ -1002,8 +1002,8 @@
       "Set permission guardrails for member accounts"
     ],
     "explanation": "SCPs limit maximum available permissions; identities still need applicable grants.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Organizations_64.svg",
+    "image_alt": "AWS Organizations",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Directly grant all required user permissions": "SCPs limit available permissions but do not grant identities permission to perform actions.",
@@ -1025,8 +1025,8 @@
       "AWS Security Hub"
     ],
     "explanation": "Security Hub brings together findings and security posture information.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Security-Hub_64.svg",
+    "image_alt": "AWS Security Hub",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for AWS Security Hub.",
@@ -1048,8 +1048,8 @@
       "Identity federation"
     ],
     "explanation": "Federation lets trusted external identities access AWS using temporary credentials.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Identity-and-Access-Management_64.svg",
+    "image_alt": "AWS Identity and Access Management",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Sharing root credentials": "Shared root credentials do not integrate corporate identities and create excessive exposure.",
@@ -1071,8 +1071,8 @@
       "AWS Firewall Manager"
     ],
     "explanation": "Firewall Manager helps centrally administer supported protection policies across an organization.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Firewall-Manager_64.svg",
+    "image_alt": "AWS Firewall Manager",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
     "incorrect_explanations": {
       "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for AWS Firewall Manager.",
@@ -1117,8 +1117,8 @@
       "Amazon EC2"
     ],
     "explanation": "EC2 provides configurable virtual machines and guest operating system control.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-EC2_64.svg",
+    "image_alt": "Amazon EC2",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "AWS Lambda": "Lambda runs functions without customer management of the underlying servers. The question instead calls for Amazon EC2.",
@@ -1140,8 +1140,8 @@
       "AWS Lambda"
     ],
     "explanation": "Lambda executes functions while AWS manages the underlying server infrastructure.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Lambda_64.svg",
+    "image_alt": "AWS Lambda",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for AWS Lambda.",
@@ -1163,8 +1163,8 @@
       "AWS Fargate"
     ],
     "explanation": "Fargate provides serverless compute for supported ECS and EKS container workloads.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Fargate_64.svg",
+    "image_alt": "AWS Fargate",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for AWS Fargate.",
@@ -1186,8 +1186,8 @@
       "Amazon EKS"
     ],
     "explanation": "EKS manages the Kubernetes control plane; ECS uses AWS-native container orchestration.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Elastic-Kubernetes-Service_64.svg",
+    "image_alt": "Amazon Elastic Kubernetes Service",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon ECS": "ECS is AWS-native container orchestration rather than Kubernetes. The question instead calls for Amazon EKS.",
@@ -1209,8 +1209,8 @@
       "Amazon ECS"
     ],
     "explanation": "ECS schedules and manages containerized applications.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Elastic-Container-Service_64.svg",
+    "image_alt": "Amazon Elastic Container Service",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for Amazon ECS.",
@@ -1232,8 +1232,8 @@
       "Distributes traffic among healthy targets"
     ],
     "explanation": "Load balancers route incoming traffic to healthy application targets.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Elastic-Load-Balancing_64.svg",
+    "image_alt": "Elastic Load Balancing",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Stores long-term database backups": "Long-term backup retention belongs to backup and storage services, not traffic distribution.",
@@ -1255,8 +1255,8 @@
       "Amazon EC2 Auto Scaling"
     ],
     "explanation": "EC2 Auto Scaling changes instance capacity based on policies and health.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-EC2-Auto-Scaling_64.svg",
+    "image_alt": "Amazon EC2 Auto Scaling",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for Amazon EC2 Auto Scaling.",
@@ -1347,8 +1347,8 @@
       "Amazon CloudFront"
     ],
     "explanation": "CloudFront is a content delivery network that caches content at edge locations.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-CloudFront_64.svg",
+    "image_alt": "Amazon CloudFront",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon RDS": "RDS manages relational database instances. The question instead calls for Amazon CloudFront.",
@@ -1370,8 +1370,8 @@
       "Amazon Route 53"
     ],
     "explanation": "Route 53 provides DNS, domain registration, and routing capabilities.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Route-53_64.svg",
+    "image_alt": "Amazon Route 53",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon S3 Glacier": "S3 Glacier storage classes are designed for archive data. The question instead calls for Amazon Route 53.",
@@ -1393,8 +1393,8 @@
       "Amazon VPC"
     ],
     "explanation": "A VPC gives customers control over a virtual network, including subnets and routing.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Virtual-Private-Cloud_64.svg",
+    "image_alt": "Amazon Virtual Private Cloud",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon SNS": "SNS publishes notifications to subscribers. The question instead calls for Amazon VPC.",
@@ -1416,8 +1416,8 @@
       "AWS Direct Connect"
     ],
     "explanation": "Direct Connect establishes dedicated network connectivity; a VPN uses encrypted tunnels.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Direct-Connect_64.svg",
+    "image_alt": "AWS Direct Connect",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "AWS Site-to-Site VPN": "Site-to-Site VPN uses encrypted IPsec tunnels, commonly over the internet, rather than a dedicated private connection. The question instead calls for AWS Direct Connect.",
@@ -1439,8 +1439,8 @@
       "AWS Site-to-Site VPN"
     ],
     "explanation": "Site-to-Site VPN provides IPsec tunnels for network connectivity.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Site-to-Site-VPN_64.svg",
+    "image_alt": "AWS Site to Site VPN",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for AWS Site-to-Site VPN.",
@@ -1462,8 +1462,8 @@
       "Amazon S3"
     ],
     "explanation": "S3 stores objects in buckets rather than exposing block devices or shared file systems.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Simple-Storage-Service_64.svg",
+    "image_alt": "Amazon Simple Storage Service",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for Amazon S3.",
@@ -1485,8 +1485,8 @@
       "Amazon EBS"
     ],
     "explanation": "EBS provides block storage volumes used with EC2 instances.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Elastic-Block-Store_64.svg",
+    "image_alt": "Amazon Elastic Block Store",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon S3": "S3 stores objects in buckets. The question instead calls for Amazon EBS.",
@@ -1508,8 +1508,8 @@
       "Amazon EFS"
     ],
     "explanation": "EFS provides shared file storage that multiple clients can access.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-EFS_64.svg",
+    "image_alt": "Amazon EFS",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for Amazon EFS.",
@@ -1531,8 +1531,8 @@
       "S3 Lifecycle rules"
     ],
     "explanation": "Lifecycle rules transition or expire objects based on configured conditions.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Simple-Storage-Service_64.svg",
+    "image_alt": "Amazon Simple Storage Service",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Security groups": "Security groups filter network traffic and do not transition stored objects.",
@@ -1554,8 +1554,8 @@
       "S3 Glacier Deep Archive"
     ],
     "explanation": "Deep Archive trades slower retrieval for low-cost long-term archive storage.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Res_Amazon-Simple-Storage-Service_S3-Glacier-Deep-Archive_48.svg",
+    "image_alt": "Amazon Simple Storage Service S3 Glacier Deep Archive",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "S3 Standard": "S3 Standard targets frequently accessed data and is not the low-cost deep archival choice.",
@@ -1577,8 +1577,8 @@
       "AWS Storage Gateway"
     ],
     "explanation": "Storage Gateway supports hybrid storage through file, volume, and tape gateway options.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Storage-Gateway_64.svg",
+    "image_alt": "AWS Storage Gateway",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "AWS CloudTrail": "CloudTrail records account and API activity for auditing. The question instead calls for AWS Storage Gateway.",
@@ -1600,8 +1600,8 @@
       "AWS Backup"
     ],
     "explanation": "AWS Backup centrally manages backup policies and recovery points for supported resources.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Backup_64.svg",
+    "image_alt": "AWS Backup",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "AWS WAF": "WAF filters web requests using application-layer rules. The question instead calls for AWS Backup.",
@@ -1623,8 +1623,8 @@
       "Amazon RDS"
     ],
     "explanation": "RDS manages common relational database engines and many routine administrative tasks.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-RDS_64.svg",
+    "image_alt": "Amazon RDS",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for Amazon RDS.",
@@ -1646,8 +1646,8 @@
       "Amazon Aurora"
     ],
     "explanation": "Aurora is a cloud-optimized relational database compatible with MySQL and PostgreSQL.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Aurora_64.svg",
+    "image_alt": "Amazon Aurora",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for Amazon Aurora.",
@@ -1669,8 +1669,8 @@
       "Amazon DynamoDB"
     ],
     "explanation": "DynamoDB is a managed NoSQL database for key-value and document data.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-DynamoDB_64.svg",
+    "image_alt": "Amazon DynamoDB",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon RDS": "RDS manages relational database instances. The question instead calls for Amazon DynamoDB.",
@@ -1692,8 +1692,8 @@
       "Amazon ElastiCache"
     ],
     "explanation": "ElastiCache speeds access to frequently used data with in-memory caching.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-ElastiCache_64.svg",
+    "image_alt": "Amazon ElastiCache",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon S3 Glacier": "S3 Glacier storage classes are designed for archive data. The question instead calls for Amazon ElastiCache.",
@@ -1715,8 +1715,8 @@
       "AWS Database Migration Service"
     ],
     "explanation": "DMS supports database migration and ongoing replication for supported source and target engines.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Database-Migration-Service_64.svg",
+    "image_alt": "AWS Database Migration Service",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "AWS WAF": "WAF filters web requests using application-layer rules. The question instead calls for AWS Database Migration Service.",
@@ -1738,8 +1738,8 @@
       "Amazon CloudWatch"
     ],
     "explanation": "CloudWatch monitors resources and applications using metrics, logs, dashboards, and alarms.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-CloudWatch_64.svg",
+    "image_alt": "Amazon CloudWatch",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for Amazon CloudWatch.",
@@ -1761,8 +1761,8 @@
       "AWS CloudFormation"
     ],
     "explanation": "CloudFormation defines and provisions resources as infrastructure as code.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-CloudFormation_64.svg",
+    "image_alt": "AWS CloudFormation",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon Inspector": "Inspector scans supported workloads for software vulnerabilities. The question instead calls for AWS CloudFormation.",
@@ -1784,8 +1784,8 @@
       "AWS CLI"
     ],
     "explanation": "The AWS CLI provides command-line access to AWS service APIs.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Command-Line-Interface_64.svg",
+    "image_alt": "AWS Command Line Interface",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS CLI.",
@@ -1807,8 +1807,8 @@
       "Amazon SQS"
     ],
     "explanation": "SQS buffers messages so producers and consumers can operate independently.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Simple-Queue-Service_64.svg",
+    "image_alt": "Amazon Simple Queue Service",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon SNS": "SNS publishes notifications to subscribers. The question instead calls for Amazon SQS.",
@@ -1830,8 +1830,8 @@
       "Amazon SNS"
     ],
     "explanation": "SNS uses publish-subscribe messaging to distribute messages to subscribers.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Simple-Notification-Service_64.svg",
+    "image_alt": "Amazon Simple Notification Service",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for Amazon SNS.",
@@ -1853,8 +1853,8 @@
       "Amazon EventBridge"
     ],
     "explanation": "EventBridge routes events using event buses and rules.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-EventBridge_64.svg",
+    "image_alt": "Amazon EventBridge",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon EFS": "EFS provides shared file storage over NFS. The question instead calls for Amazon EventBridge.",
@@ -1876,8 +1876,8 @@
       "Amazon Athena"
     ],
     "explanation": "Athena provides serverless SQL queries over supported data sources, commonly S3.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Athena_64.svg",
+    "image_alt": "Amazon Athena",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon RDS": "RDS manages relational database instances. The question instead calls for Amazon Athena.",
@@ -1899,8 +1899,8 @@
       "AWS Glue"
     ],
     "explanation": "Glue supports data integration, catalogs, and extract-transform-load jobs.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Glue_64.svg",
+    "image_alt": "AWS Glue",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "AWS Shield": "Shield protects against distributed denial-of-service attacks. The question instead calls for AWS Glue.",
@@ -1922,8 +1922,8 @@
       "Amazon Redshift"
     ],
     "explanation": "Redshift is designed for analytical warehouse queries across large datasets.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Redshift_64.svg",
+    "image_alt": "Amazon Redshift",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for Amazon Redshift.",
@@ -1945,8 +1945,8 @@
       "Amazon Polly"
     ],
     "explanation": "Polly synthesizes speech from text; Transcribe converts audio to text.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Polly_64.svg",
+    "image_alt": "Amazon Polly",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon Transcribe": "Transcribe converts speech audio to text, reversing the direction requested here. The question instead calls for Amazon Polly.",
@@ -1968,8 +1968,8 @@
       "Amazon Textract"
     ],
     "explanation": "Textract uses machine learning to extract text, forms, and tables from documents.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Textract_64.svg",
+    "image_alt": "Amazon Textract",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon Polly": "Polly converts text to speech. The question instead calls for Amazon Textract.",
@@ -1991,8 +1991,8 @@
       "Amazon Lex"
     ],
     "explanation": "Lex provides tools for building conversational bots and interfaces.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-Lex_64.svg",
+    "image_alt": "Amazon Lex",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for Amazon Lex.",
@@ -2014,8 +2014,8 @@
       "Amazon WorkSpaces"
     ],
     "explanation": "WorkSpaces provides managed virtual desktop environments.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-WorkSpaces_64.svg",
+    "image_alt": "Amazon WorkSpaces",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon S3": "S3 stores objects in buckets. The question instead calls for Amazon WorkSpaces.",
@@ -2060,8 +2060,8 @@
       "AWS Cost Explorer"
     ],
     "explanation": "Cost Explorer helps analyze costs, usage, and trends over time.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Cost-Explorer_64.svg",
+    "image_alt": "AWS Cost Explorer",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS Cost Explorer.",
@@ -2083,8 +2083,8 @@
       "AWS Budgets"
     ],
     "explanation": "Budgets tracks configured cost or usage thresholds and sends notifications.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Budgets_64.svg",
+    "image_alt": "AWS Budgets",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "Amazon Route 53": "Route 53 provides DNS and routing. The question instead calls for AWS Budgets.",
@@ -2106,8 +2106,8 @@
       "AWS Organizations consolidated billing"
     ],
     "explanation": "Consolidated billing combines organization account charges and can share qualifying discounts.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Organizations_64.svg",
+    "image_alt": "AWS Organizations",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "S3 versioning": "S3 versioning retains object versions and does not combine account bills.",
@@ -2152,8 +2152,8 @@
       "On-Demand Instances"
     ],
     "explanation": "On-Demand charges for usage without a long-term purchasing commitment.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-EC2_64.svg",
+    "image_alt": "Amazon EC2",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "Three-year Reserved Instances": "A three-year commitment is poorly matched to a short experiment with uncertain usage.",
@@ -2175,8 +2175,8 @@
       "Spot Instances"
     ],
     "explanation": "Spot uses spare EC2 capacity at discounted rates but can be interrupted.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Res_Amazon-EC2_Spot-Instance_48.svg",
+    "image_alt": "Amazon EC2 Spot Instance",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "On-Demand Instances only": "On-Demand does not take advantage of discounted spare capacity, even though the job can tolerate interruptions.",
@@ -2198,8 +2198,8 @@
       "Savings Plans"
     ],
     "explanation": "Savings Plans exchange a one- or three-year usage-spend commitment for discounted eligible compute rates.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Savings-Plans_64.svg",
+    "image_alt": "Savings Plans",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "AWS Budgets": "Budgets tracks cost or usage thresholds and sends alerts. The question instead calls for Savings Plans.",
@@ -2221,8 +2221,8 @@
       "Dedicated Hosts"
     ],
     "explanation": "Dedicated Hosts provide dedicated physical servers and host-level visibility for licensing needs.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_Amazon-EC2_64.svg",
+    "image_alt": "Amazon EC2",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "Spot Instances": "Spot Instances use spare capacity and do not provide control over an entire dedicated physical server.",
@@ -2244,8 +2244,8 @@
       "AWS Trusted Advisor"
     ],
     "explanation": "Trusted Advisor checks workloads against supported best practices and provides recommendations.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Trusted-Advisor_64.svg",
+    "image_alt": "AWS Trusted Advisor",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS Trusted Advisor.",
@@ -2267,8 +2267,8 @@
       "AWS Health Dashboard"
     ],
     "explanation": "AWS Health provides visibility into service events and scheduled changes affecting an account.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Health-Dashboard_64.svg",
+    "image_alt": "AWS Health Dashboard",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "AWS Pricing Calculator": "Pricing Calculator estimates costs for planned resource usage. The question instead calls for AWS Health Dashboard.",
@@ -2290,8 +2290,8 @@
       "AWS re:Post"
     ],
     "explanation": "AWS re:Post is a community knowledge and question-and-answer resource.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-rePost_64.svg",
+    "image_alt": "AWS rePost",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "Amazon EBS": "EBS provides block storage volumes for EC2. The question instead calls for AWS re:Post.",
@@ -2313,8 +2313,8 @@
       "AWS Marketplace"
     ],
     "explanation": "Marketplace offers software and related offerings from third-party vendors.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Marketplace_Light_64.svg",
+    "image_alt": "AWS Marketplace Light",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "AWS Artifact": "Artifact provides AWS compliance reports and agreements. The question instead calls for AWS Marketplace.",
@@ -2336,8 +2336,8 @@
       "AWS Cost and Usage Report"
     ],
     "explanation": "Cost and Usage Reports provide detailed billing and usage records for analysis.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "Arch_AWS-Cost-and-Usage-Report_64.svg",
+    "image_alt": "AWS Cost and Usage Report",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
     "incorrect_explanations": {
       "A CloudTrail event history": "CloudTrail event history records account activity, not detailed billing line items.",
@@ -2459,8 +2459,8 @@
       "Amazon Aurora"
     ],
     "explanation": "RDS and Aurora are relational databases. DynamoDB is NoSQL, S3 is object storage, and ElastiCache is an in-memory cache.",
-    "image_filename": "cloud-placeholder.svg",
-    "image_alt": "Cloud study illustration",
+    "image_filename": "services-amazon-rds-amazon-aurora.svg",
+    "image_alt": "Amazon RDS and Amazon Auroras",
     "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
     "incorrect_explanations": {
       "Amazon DynamoDB": "DynamoDB is a key-value and document NoSQL database. The question instead calls for Amazon RDS, Amazon Aurora.",
@@ -2491,6 +2491,1156 @@
       "Keep every test server running": "Idle test servers may continue accruing charges without adding value.",
       "Choose the largest instance by default": "The largest instance may provide unnecessary capacity and increase cost.",
       "Ignore cost reports": "Ignoring reports makes it harder to identify waste and unexpected spending."
+    }
+  },
+  {
+    "id": 109,
+    "domain": 3,
+    "question": "A retailer needs a highly available website with static images worldwide and dynamic APIs. Which combination best fits?",
+    "answers": [
+      "S3 + CloudFront + API Gateway + Lambda",
+      "EBS + Direct Connect + IAM",
+      "Glacier Flexible Retrieval + Route 53 Resolver",
+      "AWS Backup + CloudTrail"
+    ],
+    "correct_answers": [
+      "S3 + CloudFront + API Gateway + Lambda"
+    ],
+    "explanation": "S3 stores static assets, CloudFront caches them globally, and API Gateway invokes Lambda for APIs.",
+    "image_filename": "services-amazon-simple-storage-service-amazon-cloudfront-amazon-api-gateway-aws-lambda.svg",
+    "image_alt": "Amazon Simple Storage Service and Amazon CloudFront and Amazon API Gateway and AWS Lambdas",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "EBS + Direct Connect + IAM": "EBS is block storage and Direct Connect is network connectivity, not a web delivery stack.",
+      "Glacier Flexible Retrieval + Route 53 Resolver": "Archive storage and DNS resolution do not implement the site.",
+      "AWS Backup + CloudTrail": "Backup and audit logging do not serve requests."
+    }
+  },
+  {
+    "id": 110,
+    "domain": 3,
+    "question": "A startup wants to deploy containers without managing EC2 hosts. Which approach is most suitable?",
+    "answers": [
+      "EC2 Auto Scaling only",
+      "Amazon ECS on AWS Fargate",
+      "Amazon S3 static hosting",
+      "Amazon RDS Multi-AZ"
+    ],
+    "correct_answers": [
+      "Amazon ECS on AWS Fargate"
+    ],
+    "explanation": "ECS orchestrates containers and Fargate supplies serverless compute capacity.",
+    "image_filename": "services-amazon-elastic-container-service-aws-fargate.svg",
+    "image_alt": "Amazon Elastic Container Service and AWS Fargates",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "EC2 Auto Scaling only": "Auto Scaling still requires EC2 host management.",
+      "Amazon S3 static hosting": "Why this option is incorrect: S3 cannot run containers.",
+      "Amazon RDS Multi-AZ": "Why this option is incorrect: RDS runs databases, not containers."
+    }
+  },
+  {
+    "id": 111,
+    "domain": 3,
+    "question": "A company needs a managed relational database with automatic failover in one Region. Choose the design.",
+    "answers": [
+      "DynamoDB with DAX",
+      "RDS with Multi-AZ deployment",
+      "S3 with versioning",
+      "EC2 instance store"
+    ],
+    "correct_answers": [
+      "RDS with Multi-AZ deployment"
+    ],
+    "explanation": "RDS Multi-AZ provides a synchronous standby and automatic failover for supported engines.",
+    "image_filename": "Res_Amazon-RDS_Multi-AZ_48.svg",
+    "image_alt": "Amazon RDS Multi AZ",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "DynamoDB with DAX": "Why this option is incorrect: DynamoDB is NoSQL and DAX is caching.",
+      "S3 with versioning": "S3 is object storage, not a relational database.",
+      "EC2 instance store": "Instance store is ephemeral and not a managed database."
+    }
+  },
+  {
+    "id": 112,
+    "domain": 3,
+    "question": "A mobile game needs single-digit-millisecond key-value access at massive scale. Which service is the best fit?",
+    "answers": [
+      "Amazon Redshift",
+      "Amazon DynamoDB",
+      "Amazon EFS",
+      "Amazon Athena"
+    ],
+    "correct_answers": [
+      "Amazon DynamoDB"
+    ],
+    "explanation": "DynamoDB is managed NoSQL optimized for low-latency key-value and document workloads.",
+    "image_filename": "Arch_Amazon-DynamoDB_64.svg",
+    "image_alt": "Amazon DynamoDB",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon Redshift": "Why this option is incorrect: Redshift is analytical warehousing.",
+      "Amazon EFS": "Why this option is incorrect: EFS is shared file storage.",
+      "Amazon Athena": "Athena queries data in S3 rather than serving transactional key-value requests."
+    }
+  },
+  {
+    "id": 113,
+    "domain": 3,
+    "question": "An organization wants to analyze years of data in S3 using SQL without provisioning servers. What should it use?",
+    "answers": [
+      "Amazon Athena",
+      "Amazon RDS",
+      "AWS DataSync",
+      "Amazon ElastiCache"
+    ],
+    "correct_answers": [
+      "Amazon Athena"
+    ],
+    "explanation": "Athena runs serverless SQL queries directly against supported data formats in S3.",
+    "image_filename": "Arch_Amazon-Athena_64.svg",
+    "image_alt": "Amazon Athena",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon RDS": "RDS requires loading data into a database.",
+      "AWS DataSync": "DataSync transfers data rather than querying it.",
+      "Amazon ElastiCache": "ElastiCache is a cache, not a data lake query engine."
+    }
+  },
+  {
+    "id": 114,
+    "domain": 2,
+    "question": "A bank needs an immutable audit trail of AWS API actions and alerts on suspicious activity. Which pairing is strongest?",
+    "answers": [
+      "CloudTrail + EventBridge",
+      "CloudFront + Shield",
+      "Cost Explorer + Budgets",
+      "EFS + Backup"
+    ],
+    "correct_answers": [
+      "CloudTrail + EventBridge"
+    ],
+    "explanation": "CloudTrail records API activity and EventBridge can route matching events for alerting.",
+    "image_filename": "services-aws-cloudtrail-amazon-eventbridge.svg",
+    "image_alt": "AWS CloudTrail and Amazon EventBridges",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "CloudFront + Shield": "These protect delivery from attacks, not provide API audit records.",
+      "Cost Explorer + Budgets": "Why this option is incorrect: These track spending, not API calls.",
+      "EFS + Backup": "These handle files and backups, not security event detection."
+    }
+  },
+  {
+    "id": 115,
+    "domain": 3,
+    "question": "A SaaS company needs metrics, log insights, and alarms for its applications. Which service is primary?",
+    "answers": [
+      "AWS CloudTrail",
+      "Amazon CloudWatch",
+      "AWS Config",
+      "AWS Artifact"
+    ],
+    "correct_answers": [
+      "Amazon CloudWatch"
+    ],
+    "explanation": "CloudWatch collects metrics and logs and supports alarms.",
+    "image_filename": "Arch_Amazon-CloudWatch_64.svg",
+    "image_alt": "Amazon CloudWatch",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS CloudTrail": "Why this option is incorrect: CloudTrail focuses on API activity.",
+      "AWS Config": "Config evaluates resource configuration and compliance.",
+      "AWS Artifact": "Artifact supplies compliance documents and agreements."
+    }
+  },
+  {
+    "id": 116,
+    "domain": 2,
+    "question": "An auditor asks whether S3 buckets are publicly accessible and wants configuration history. What should be enabled?",
+    "answers": [
+      "AWS Config",
+      "Amazon Route 53",
+      "AWS Snowball",
+      "AWS CloudFormation only"
+    ],
+    "correct_answers": [
+      "AWS Config"
+    ],
+    "explanation": "Config records supported resource configurations and evaluates rules over time.",
+    "image_filename": "Arch_AWS-Config_64.svg",
+    "image_alt": "AWS Config",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon Route 53": "Why this option is incorrect: Route 53 handles DNS.",
+      "AWS Snowball": "Why this option is incorrect: Snowball transfers data.",
+      "AWS CloudFormation only": "CloudFormation provisions infrastructure but is not the primary configuration-history service."
+    }
+  },
+  {
+    "id": 117,
+    "domain": 2,
+    "question": "A company needs to manage AWS accounts centrally and apply preventive service restrictions. Which combination?",
+    "answers": [
+      "Organizations + service control policies",
+      "IAM user groups alone",
+      "CloudWatch + SNS",
+      "Trusted Advisor + EFS"
+    ],
+    "correct_answers": [
+      "Organizations + service control policies"
+    ],
+    "explanation": "AWS Organizations groups accounts and SCPs set permission guardrails for member accounts.",
+    "image_filename": "Arch_AWS-Organizations_64.svg",
+    "image_alt": "AWS Organizations",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "IAM user groups alone": "IAM groups do not govern multiple accounts centrally.",
+      "CloudWatch + SNS": "Monitoring and messaging do not set account permission boundaries.",
+      "Trusted Advisor + EFS": "Advisory checks and file storage do not enforce organization-wide controls."
+    }
+  },
+  {
+    "id": 118,
+    "domain": 2,
+    "question": "A developer wants short-lived credentials for an EC2 workload to access S3. What is best?",
+    "answers": [
+      "Store an IAM user's access keys in code",
+      "Attach an IAM role to the EC2 instance",
+      "Make the S3 bucket public",
+      "Share root account credentials"
+    ],
+    "correct_answers": [
+      "Attach an IAM role to the EC2 instance"
+    ],
+    "explanation": "An EC2 IAM role provides temporary credentials without embedding long-term secrets.",
+    "image_filename": "Res_AWS-Identity-Access-Management_Role_48.svg",
+    "image_alt": "AWS Identity Access Management Role",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Store an IAM user's access keys in code": "Hard-coded keys increase exposure and rotation burden.",
+      "Make the S3 bucket public": "Public access is unnecessary and insecure.",
+      "Share root account credentials": "Root credentials must not be shared with applications."
+    }
+  },
+  {
+    "id": 119,
+    "domain": 2,
+    "question": "A company needs workforce single sign-on across several AWS accounts. Which solution?",
+    "answers": [
+      "IAM Identity Center",
+      "AWS WAF",
+      "Amazon Cognito user pools only",
+      "Amazon Inspector"
+    ],
+    "correct_answers": [
+      "IAM Identity Center"
+    ],
+    "explanation": "IAM Identity Center provides centralized workforce access to AWS accounts and applications.",
+    "image_filename": "Arch_AWS-IAM-Identity-Center_64.svg",
+    "image_alt": "AWS IAM Identity Center",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS WAF": "Why this option is incorrect: WAF filters web requests.",
+      "Amazon Cognito user pools only": "Cognito user pools focus on app end-user identities.",
+      "Amazon Inspector": "Inspector finds software vulnerabilities."
+    }
+  },
+  {
+    "id": 120,
+    "domain": 2,
+    "question": "An e-commerce application must block common SQL injection patterns before requests reach its ALB. Choose the service.",
+    "answers": [
+      "AWS Shield Advanced",
+      "AWS WAF",
+      "Amazon GuardDuty",
+      "AWS Secrets Manager"
+    ],
+    "correct_answers": [
+      "AWS WAF"
+    ],
+    "explanation": "AWS WAF applies web ACL rules to HTTP(S) requests, including managed protections against injection.",
+    "image_filename": "Arch_AWS-WAF_64.svg",
+    "image_alt": "AWS WAF",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS Shield Advanced": "Why this option is incorrect: Shield focuses on DDoS protection.",
+      "Amazon GuardDuty": "GuardDuty detects threats rather than filtering web requests.",
+      "AWS Secrets Manager": "Secrets Manager stores and rotates secrets."
+    }
+  },
+  {
+    "id": 121,
+    "domain": 2,
+    "question": "A public website is hit by a large distributed denial-of-service attack. Which AWS offering provides baseline protection automatically?",
+    "answers": [
+      "AWS Shield Standard",
+      "AWS KMS",
+      "Amazon Macie",
+      "AWS Config"
+    ],
+    "correct_answers": [
+      "AWS Shield Standard"
+    ],
+    "explanation": "Shield Standard provides baseline DDoS protection for supported AWS resources.",
+    "image_filename": "Arch_AWS-Shield_64.svg",
+    "image_alt": "AWS Shield",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS KMS": "Why this option is incorrect: KMS manages cryptographic keys.",
+      "Amazon Macie": "Why this option is incorrect: Macie discovers sensitive S3 data.",
+      "AWS Config": "Why this option is incorrect: Config assesses configuration changes."
+    }
+  },
+  {
+    "id": 122,
+    "domain": 2,
+    "question": "A team wants to find exposed credentials and anomalous AWS account behavior. What should it use?",
+    "answers": [
+      "Amazon GuardDuty",
+      "AWS Budgets",
+      "AWS CloudFormation",
+      "Amazon EBS"
+    ],
+    "correct_answers": [
+      "Amazon GuardDuty"
+    ],
+    "explanation": "GuardDuty analyzes signals to identify suspicious and malicious activity.",
+    "image_filename": "Arch_Amazon-GuardDuty_64.svg",
+    "image_alt": "Amazon GuardDuty",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS Budgets": "Why this option is incorrect: Budgets tracks costs.",
+      "AWS CloudFormation": "Why this option is incorrect: CloudFormation deploys resources.",
+      "Amazon EBS": "Why this option is incorrect: EBS is block storage."
+    }
+  },
+  {
+    "id": 123,
+    "domain": 2,
+    "question": "A healthcare company wants to discover sensitive personal data in S3 buckets. Which service fits?",
+    "answers": [
+      "Amazon Macie",
+      "AWS Shield",
+      "Amazon Route 53",
+      "Amazon SQS"
+    ],
+    "correct_answers": [
+      "Amazon Macie"
+    ],
+    "explanation": "Macie uses machine learning and pattern matching to discover sensitive data in S3.",
+    "image_filename": "Arch_Amazon-Macie_64.svg",
+    "image_alt": "Amazon Macie",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS Shield": "Why this option is incorrect: Shield mitigates DDoS.",
+      "Amazon Route 53": "Why this option is incorrect: Route 53 is DNS.",
+      "Amazon SQS": "Why this option is incorrect: SQS is message queuing."
+    }
+  },
+  {
+    "id": 124,
+    "domain": 2,
+    "question": "A team needs encrypted database credentials automatically rotated and retrieved by applications. Which service?",
+    "answers": [
+      "AWS Secrets Manager",
+      "Amazon CloudFront",
+      "AWS Artifact",
+      "Amazon SNS"
+    ],
+    "correct_answers": [
+      "AWS Secrets Manager"
+    ],
+    "explanation": "Secrets Manager securely stores secrets and supports rotation integrations.",
+    "image_filename": "Arch_AWS-Secrets-Manager_64.svg",
+    "image_alt": "AWS Secrets Manager",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon CloudFront": "Why this option is incorrect: CloudFront distributes content.",
+      "AWS Artifact": "Artifact offers compliance documentation.",
+      "Amazon SNS": "Why this option is incorrect: SNS delivers notifications."
+    }
+  },
+  {
+    "id": 125,
+    "domain": 2,
+    "question": "An enterprise requires customer-controlled encryption keys for S3 and EBS. Which service manages them?",
+    "answers": [
+      "AWS KMS",
+      "Amazon Inspector",
+      "AWS Cost Explorer",
+      "AWS Direct Connect"
+    ],
+    "correct_answers": [
+      "AWS KMS"
+    ],
+    "explanation": "KMS manages cryptographic keys and integrates with AWS encryption features.",
+    "image_filename": "Arch_AWS-Key-Management-Service_64.svg",
+    "image_alt": "AWS Key Management Service",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon Inspector": "Why this option is incorrect: Inspector scans for vulnerabilities.",
+      "AWS Cost Explorer": "Why this option is incorrect: Cost Explorer analyzes spending.",
+      "AWS Direct Connect": "Why this option is incorrect: Direct Connect is private connectivity."
+    }
+  },
+  {
+    "id": 126,
+    "domain": 3,
+    "question": "A company wants dedicated private network connectivity from its data center to AWS with consistent throughput. Choose.",
+    "answers": [
+      "AWS Direct Connect",
+      "Amazon CloudFront",
+      "AWS WAF",
+      "Amazon EventBridge"
+    ],
+    "correct_answers": [
+      "AWS Direct Connect"
+    ],
+    "explanation": "Direct Connect establishes a dedicated connection to AWS via supported locations and partners.",
+    "image_filename": "Arch_AWS-Direct-Connect_64.svg",
+    "image_alt": "AWS Direct Connect",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon CloudFront": "Why this option is incorrect: CloudFront is a CDN.",
+      "AWS WAF": "Why this option is incorrect: WAF filters web requests.",
+      "Amazon EventBridge": "Why this option is incorrect: EventBridge routes events."
+    }
+  },
+  {
+    "id": 127,
+    "domain": 3,
+    "question": "Remote employees need encrypted access to private VPC resources over the internet. Which option is appropriate?",
+    "answers": [
+      "AWS Client VPN",
+      "AWS Snowcone",
+      "Amazon Route 53",
+      "Amazon S3 Transfer Acceleration"
+    ],
+    "correct_answers": [
+      "AWS Client VPN"
+    ],
+    "explanation": "Client VPN provides managed client-based VPN access to AWS and on-premises networks.",
+    "image_filename": "Arch_AWS-Client-VPN_64.svg",
+    "image_alt": "AWS Client VPN",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Snowcone": "Snowcone is an edge/data transfer device.",
+      "Amazon Route 53": "Why this option is incorrect: Route 53 resolves DNS.",
+      "Amazon S3 Transfer Acceleration": "Why this option is incorrect: Transfer Acceleration speeds S3 uploads."
+    }
+  },
+  {
+    "id": 128,
+    "domain": 3,
+    "question": "A company must distribute traffic among healthy EC2 web servers and scale instance counts based on demand. Which combination?",
+    "answers": [
+      "Elastic Load Balancing + EC2 Auto Scaling",
+      "S3 Glacier + Athena",
+      "CloudTrail + Config",
+      "IAM + KMS"
+    ],
+    "correct_answers": [
+      "Elastic Load Balancing + EC2 Auto Scaling"
+    ],
+    "explanation": "ELB routes requests to healthy targets and Auto Scaling adjusts capacity.",
+    "image_filename": "services-elastic-load-balancing-amazon-ec2-auto-scaling.svg",
+    "image_alt": "Elastic Load Balancing and Amazon EC2 Auto Scalings",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "S3 Glacier + Athena": "Archival storage and queries do not serve web traffic.",
+      "CloudTrail + Config": "Audit and compliance services do not scale traffic.",
+      "IAM + KMS": "Identity and encryption do not balance load."
+    }
+  },
+  {
+    "id": 129,
+    "domain": 1,
+    "question": "An application must keep operating if an Availability Zone fails. Which design is most appropriate?",
+    "answers": [
+      "One large EC2 instance in one AZ",
+      "Instances across multiple AZs behind an ALB",
+      "One instance with a larger EBS volume",
+      "S3 Glacier archive only"
+    ],
+    "correct_answers": [
+      "Instances across multiple AZs behind an ALB"
+    ],
+    "explanation": "Multiple AZs remove a single-AZ dependency; an ALB routes to healthy instances.",
+    "image_filename": "services-amazon-ec2-elastic-load-balancing.svg",
+    "image_alt": "Amazon EC2 and Elastic Load Balancings",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "One large EC2 instance in one AZ": "One instance is a single point of failure.",
+      "One instance with a larger EBS volume": "A larger disk does not address AZ outages.",
+      "S3 Glacier archive only": "Archive storage is not application compute."
+    }
+  },
+  {
+    "id": 130,
+    "domain": 3,
+    "question": "A company wants to direct users to the closest healthy regional endpoint using DNS. Which service and feature?",
+    "answers": [
+      "Route 53 latency-based routing with health checks",
+      "CloudTrail trails",
+      "Amazon EBS snapshots",
+      "AWS IAM Access Analyzer"
+    ],
+    "correct_answers": [
+      "Route 53 latency-based routing with health checks"
+    ],
+    "explanation": "Route 53 latency routing chooses lower-latency endpoints and health checks can avoid unhealthy ones.",
+    "image_filename": "Arch_Amazon-Route-53_64.svg",
+    "image_alt": "Amazon Route 53",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "CloudTrail trails": "Why this option is incorrect: CloudTrail records API calls.",
+      "Amazon EBS snapshots": "Why this option is incorrect: Snapshots are backups.",
+      "AWS IAM Access Analyzer": "Access Analyzer assesses access permissions."
+    }
+  },
+  {
+    "id": 131,
+    "domain": 3,
+    "question": "A media firm must speed global downloads of static assets and reduce origin load. What is the best choice?",
+    "answers": [
+      "Amazon CloudFront",
+      "Amazon RDS Proxy",
+      "AWS Glue",
+      "Amazon VPC Flow Logs"
+    ],
+    "correct_answers": [
+      "Amazon CloudFront"
+    ],
+    "explanation": "CloudFront caches and delivers content from edge locations.",
+    "image_filename": "Arch_Amazon-CloudFront_64.svg",
+    "image_alt": "Amazon CloudFront",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon RDS Proxy": "Why this option is incorrect: RDS Proxy manages database connections.",
+      "AWS Glue": "Why this option is incorrect: Glue integrates and prepares data.",
+      "Amazon VPC Flow Logs": "Flow Logs capture network traffic metadata."
+    }
+  },
+  {
+    "id": 132,
+    "domain": 3,
+    "question": "A small business needs a shared POSIX file system mounted concurrently by Linux EC2 instances. Which storage?",
+    "answers": [
+      "Amazon EFS",
+      "Amazon S3",
+      "Amazon EBS volume attached to one instance",
+      "Amazon DynamoDB"
+    ],
+    "correct_answers": [
+      "Amazon EFS"
+    ],
+    "explanation": "EFS is managed elastic shared file storage using NFS.",
+    "image_filename": "Arch_Amazon-EFS_64.svg",
+    "image_alt": "Amazon EFS",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon S3": "S3 uses an object API rather than normal shared NFS semantics.",
+      "Amazon EBS volume attached to one instance": "A standard EBS volume is not the typical multi-instance shared file system.",
+      "Amazon DynamoDB": "Why this option is incorrect: DynamoDB is NoSQL."
+    }
+  },
+  {
+    "id": 133,
+    "domain": 3,
+    "question": "A video archive must be retained for seven years and is rarely accessed; retrieval can take hours. Which storage class fits?",
+    "answers": [
+      "S3 Standard",
+      "S3 Glacier Deep Archive",
+      "S3 Express One Zone",
+      "EBS gp3"
+    ],
+    "correct_answers": [
+      "S3 Glacier Deep Archive"
+    ],
+    "explanation": "Glacier Deep Archive is intended for very infrequently accessed, long-term archival objects with delayed retrieval.",
+    "image_filename": "Res_Amazon-Simple-Storage-Service_S3-Glacier-Deep-Archive_48.svg",
+    "image_alt": "Amazon Simple Storage Service S3 Glacier Deep Archive",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "S3 Standard": "Standard has higher storage costs for long-term cold archives.",
+      "S3 Express One Zone": "Express One Zone prioritizes low-latency access.",
+      "EBS gp3": "EBS is attached block storage, not archival object storage."
+    }
+  },
+  {
+    "id": 134,
+    "domain": 3,
+    "question": "A company wants to recover accidentally deleted S3 objects and automatically move old objects to cheaper tiers. What combination?",
+    "answers": [
+      "S3 Versioning + Lifecycle rules",
+      "CloudTrail + WAF",
+      "EBS instance store + IAM",
+      "Athena + Redshift"
+    ],
+    "correct_answers": [
+      "S3 Versioning + Lifecycle rules"
+    ],
+    "explanation": "Versioning preserves prior object versions and Lifecycle rules transition or expire objects.",
+    "image_filename": "Arch_Amazon-Simple-Storage-Service_64.svg",
+    "image_alt": "Amazon Simple Storage Service",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "CloudTrail + WAF": "Audit logs and request filtering do not manage object versions.",
+      "EBS instance store + IAM": "Why this option is incorrect: Instance store is temporary storage.",
+      "Athena + Redshift": "Analytics tools do not implement object retention policies."
+    }
+  },
+  {
+    "id": 135,
+    "domain": 3,
+    "question": "An application needs asynchronous order processing so checkout is not blocked by a slow worker. Choose.",
+    "answers": [
+      "Amazon SQS between checkout and workers",
+      "A single synchronous Lambda invocation only",
+      "Amazon CloudFront only",
+      "AWS KMS only"
+    ],
+    "correct_answers": [
+      "Amazon SQS between checkout and workers"
+    ],
+    "explanation": "SQS decouples producers and consumers with durable queues.",
+    "image_filename": "Arch_Amazon-Simple-Queue-Service_64.svg",
+    "image_alt": "Amazon Simple Queue Service",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "A single synchronous Lambda invocation only": "A synchronous call remains coupled to worker latency.",
+      "Amazon CloudFront only": "Why this option is incorrect: CloudFront caches content.",
+      "AWS KMS only": "Why this option is incorrect: KMS handles keys."
+    }
+  },
+  {
+    "id": 136,
+    "domain": 3,
+    "question": "A service must broadcast an event to email subscribers and multiple processing queues. Which combination?",
+    "answers": [
+      "Amazon SNS topic with SQS subscriptions",
+      "Amazon EBS with snapshots",
+      "Amazon RDS read replica only",
+      "AWS Direct Connect only"
+    ],
+    "correct_answers": [
+      "Amazon SNS topic with SQS subscriptions"
+    ],
+    "explanation": "SNS provides pub/sub fan-out and can deliver messages to SQS queues and supported endpoints.",
+    "image_filename": "services-amazon-simple-notification-service-amazon-simple-queue-service.svg",
+    "image_alt": "Amazon Simple Notification Service and Amazon Simple Queue Services",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EBS with snapshots": "Why this option is incorrect: Snapshots back up volumes.",
+      "Amazon RDS read replica only": "Why this option is incorrect: Read replicas scale database reads.",
+      "AWS Direct Connect only": "Why this option is incorrect: Direct Connect provides network links."
+    }
+  },
+  {
+    "id": 137,
+    "domain": 3,
+    "question": "A retailer needs a serverless event bus to route order events to different services based on rules. Which service?",
+    "answers": [
+      "Amazon EventBridge",
+      "AWS Snowball",
+      "Amazon EFS",
+      "Amazon Redshift"
+    ],
+    "correct_answers": [
+      "Amazon EventBridge"
+    ],
+    "explanation": "EventBridge routes events from sources to targets using event patterns.",
+    "image_filename": "Arch_Amazon-EventBridge_64.svg",
+    "image_alt": "Amazon EventBridge",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Snowball": "Why this option is incorrect: Snowball moves data.",
+      "Amazon EFS": "Why this option is incorrect: EFS stores files.",
+      "Amazon Redshift": "Why this option is incorrect: Redshift performs analytics."
+    }
+  },
+  {
+    "id": 138,
+    "domain": 3,
+    "question": "A business workflow invokes several Lambda functions with retries, branches, and a human approval wait. Which service?",
+    "answers": [
+      "AWS Step Functions",
+      "Amazon CloudFront",
+      "Amazon Route 53",
+      "AWS Artifact"
+    ],
+    "correct_answers": [
+      "AWS Step Functions"
+    ],
+    "explanation": "Step Functions coordinates stateful workflows, branching, retries, and waits.",
+    "image_filename": "Arch_AWS-Step-Functions_64.svg",
+    "image_alt": "AWS Step Functions",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon CloudFront": "Why this option is incorrect: CloudFront distributes content.",
+      "Amazon Route 53": "Why this option is incorrect: Route 53 handles DNS.",
+      "AWS Artifact": "Why this option is incorrect: Artifact supplies compliance reports."
+    }
+  },
+  {
+    "id": 139,
+    "domain": 3,
+    "question": "A company wants to run code when images land in S3 without managing servers. Choose.",
+    "answers": [
+      "S3 event notification + AWS Lambda",
+      "EC2 Dedicated Hosts only",
+      "RDS read replica",
+      "AWS Cost Explorer"
+    ],
+    "correct_answers": [
+      "S3 event notification + AWS Lambda"
+    ],
+    "explanation": "S3 events can invoke Lambda to process new objects.",
+    "image_filename": "services-amazon-simple-storage-service-aws-lambda.svg",
+    "image_alt": "Amazon Simple Storage Service and AWS Lambdas",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "EC2 Dedicated Hosts only": "Dedicated Hosts require host-based capacity planning.",
+      "RDS read replica": "Read replicas do not execute image processing.",
+      "AWS Cost Explorer": "Why this option is incorrect: Cost Explorer is for billing analysis."
+    }
+  },
+  {
+    "id": 140,
+    "domain": 3,
+    "question": "An analyst wants a managed data warehouse for complex SQL reporting across large datasets. Which service?",
+    "answers": [
+      "Amazon Redshift",
+      "Amazon ElastiCache",
+      "Amazon SQS",
+      "AWS Secrets Manager"
+    ],
+    "correct_answers": [
+      "Amazon Redshift"
+    ],
+    "explanation": "Redshift is a managed cloud data warehouse designed for analytical SQL workloads.",
+    "image_filename": "Arch_Amazon-Redshift_64.svg",
+    "image_alt": "Amazon Redshift",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon ElastiCache": "Why this option is incorrect: ElastiCache caches frequently used data.",
+      "Amazon SQS": "Why this option is incorrect: SQS queues messages.",
+      "AWS Secrets Manager": "Why this option is incorrect: Secrets Manager stores credentials."
+    }
+  },
+  {
+    "id": 141,
+    "domain": 3,
+    "question": "A team wants to improve repeated read performance for an application database using an in-memory cache. Which service?",
+    "answers": [
+      "Amazon ElastiCache",
+      "AWS Backup",
+      "AWS Config",
+      "AWS CloudTrail"
+    ],
+    "correct_answers": [
+      "Amazon ElastiCache"
+    ],
+    "explanation": "ElastiCache provides managed Redis- or Memcached-compatible caching options.",
+    "image_filename": "Arch_Amazon-ElastiCache_64.svg",
+    "image_alt": "Amazon ElastiCache",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Backup": "Why this option is incorrect: Backup protects recovery copies.",
+      "AWS Config": "Why this option is incorrect: Config records configurations.",
+      "AWS CloudTrail": "Why this option is incorrect: CloudTrail logs API events."
+    }
+  },
+  {
+    "id": 142,
+    "domain": 3,
+    "question": "A company wants a managed service to transform and catalog data for an S3 data lake. Which service?",
+    "answers": [
+      "AWS Glue",
+      "AWS WAF",
+      "Amazon Route 53",
+      "AWS Shield"
+    ],
+    "correct_answers": [
+      "AWS Glue"
+    ],
+    "explanation": "Glue offers data integration jobs and a Data Catalog.",
+    "image_filename": "Arch_AWS-Glue_64.svg",
+    "image_alt": "AWS Glue",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS WAF": "Why this option is incorrect: WAF protects web applications.",
+      "Amazon Route 53": "Why this option is incorrect: Route 53 is DNS.",
+      "AWS Shield": "Why this option is incorrect: Shield mitigates DDoS."
+    }
+  },
+  {
+    "id": 143,
+    "domain": 3,
+    "question": "A factory needs to move tens of terabytes from a site with poor internet bandwidth into AWS. Which option?",
+    "answers": [
+      "AWS Snowball Edge",
+      "Amazon CloudFront",
+      "AWS IAM Identity Center",
+      "Amazon EventBridge"
+    ],
+    "correct_answers": [
+      "AWS Snowball Edge"
+    ],
+    "explanation": "Snowball Edge supports offline bulk transfer using physical devices.",
+    "image_filename": "Arch_AWS-Snowball-Edge_64.svg",
+    "image_alt": "AWS Snowball Edge",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon CloudFront": "Why this option is incorrect: CloudFront delivers content to viewers.",
+      "AWS IAM Identity Center": "Identity Center handles workforce identity.",
+      "Amazon EventBridge": "Why this option is incorrect: EventBridge routes events."
+    }
+  },
+  {
+    "id": 144,
+    "domain": 3,
+    "question": "A business needs recurring on-premises file transfers to S3 over network links, with scheduling and validation. Which service?",
+    "answers": [
+      "AWS DataSync",
+      "AWS KMS",
+      "Amazon Cognito",
+      "AWS Artifact"
+    ],
+    "correct_answers": [
+      "AWS DataSync"
+    ],
+    "explanation": "DataSync automates and accelerates supported data transfers and includes verification capabilities.",
+    "image_filename": "Arch_AWS-DataSync_64.svg",
+    "image_alt": "AWS DataSync",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS KMS": "Why this option is incorrect: KMS manages keys.",
+      "Amazon Cognito": "Why this option is incorrect: Cognito manages application identities.",
+      "AWS Artifact": "Why this option is incorrect: Artifact provides compliance documents."
+    }
+  },
+  {
+    "id": 145,
+    "domain": 4,
+    "question": "A finance team wants alerts when monthly AWS spending is projected to exceed a threshold. Which service?",
+    "answers": [
+      "AWS Budgets",
+      "AWS WAF",
+      "Amazon Inspector",
+      "Amazon CloudFront"
+    ],
+    "correct_answers": [
+      "AWS Budgets"
+    ],
+    "explanation": "Budgets tracks actual and forecasted spend and can send threshold alerts.",
+    "image_filename": "Arch_AWS-Budgets_64.svg",
+    "image_alt": "AWS Budgets",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "AWS WAF": "Why this option is incorrect: WAF filters web requests.",
+      "Amazon Inspector": "Why this option is incorrect: Inspector scans workloads.",
+      "Amazon CloudFront": "Why this option is incorrect: CloudFront delivers content."
+    }
+  },
+  {
+    "id": 146,
+    "domain": 4,
+    "question": "An architect wants to compare service spending over time and identify cost trends. What should they open?",
+    "answers": [
+      "AWS Cost Explorer",
+      "AWS CloudTrail",
+      "AWS Config",
+      "Amazon SQS"
+    ],
+    "correct_answers": [
+      "AWS Cost Explorer"
+    ],
+    "explanation": "Cost Explorer visualizes historical and forecasted cost and usage.",
+    "image_filename": "Arch_AWS-Cost-Explorer_64.svg",
+    "image_alt": "AWS Cost Explorer",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "AWS CloudTrail": "Why this option is incorrect: CloudTrail records API actions.",
+      "AWS Config": "Why this option is incorrect: Config evaluates resource settings.",
+      "Amazon SQS": "Why this option is incorrect: SQS handles messaging."
+    }
+  },
+  {
+    "id": 147,
+    "domain": 4,
+    "question": "A company has steady baseline EC2 use for three years but occasional peaks. Which cost strategy is best?",
+    "answers": [
+      "Savings Plans for baseline + On-Demand for peaks",
+      "Spot Instances for all critical baseline capacity",
+      "Dedicated Hosts for every workload",
+      "Only On-Demand regardless of predictable usage"
+    ],
+    "correct_answers": [
+      "Savings Plans for baseline + On-Demand for peaks"
+    ],
+    "explanation": "Savings Plans can discount committed usage while On-Demand handles uncertain bursts.",
+    "image_filename": "services-savings-plans-amazon-ec2.svg",
+    "image_alt": "Savings Plans and Amazon EC2s",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Spot Instances for all critical baseline capacity": "Spot capacity can be interrupted and is unsuitable as the sole critical baseline.",
+      "Dedicated Hosts for every workload": "Dedicated Hosts are for specific compliance or licensing needs and can cost more.",
+      "Only On-Demand regardless of predictable usage": "All On-Demand misses possible commitment discounts."
+    }
+  },
+  {
+    "id": 148,
+    "domain": 4,
+    "question": "A fault-tolerant batch job can pause and retry when compute is interrupted. Which EC2 purchase option can lower cost?",
+    "answers": [
+      "Spot Instances",
+      "Dedicated Hosts",
+      "On-Demand Capacity Reservations",
+      "EC2 Mac instances"
+    ],
+    "correct_answers": [
+      "Spot Instances"
+    ],
+    "explanation": "Spot uses spare capacity at a discount but can be interrupted.",
+    "image_filename": "Res_Amazon-EC2_Spot-Instance_48.svg",
+    "image_alt": "Amazon EC2 Spot Instance",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Dedicated Hosts": "Dedicated Hosts are dedicated physical servers.",
+      "On-Demand Capacity Reservations": "Capacity Reservations reserve capacity rather than optimize interruptible batch cost.",
+      "EC2 Mac instances": "Mac instances serve macOS build workloads."
+    }
+  },
+  {
+    "id": 149,
+    "domain": 4,
+    "question": "A company wants advice on underutilized resources, cost savings, service limits, and security checks. Which service?",
+    "answers": [
+      "AWS Trusted Advisor",
+      "Amazon S3",
+      "AWS Step Functions",
+      "Amazon Athena"
+    ],
+    "correct_answers": [
+      "AWS Trusted Advisor"
+    ],
+    "explanation": "Trusted Advisor provides best-practice checks across several categories; available checks depend on support plan.",
+    "image_filename": "Arch_AWS-Trusted-Advisor_64.svg",
+    "image_alt": "AWS Trusted Advisor",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Amazon S3": "Why this option is incorrect: S3 stores objects.",
+      "AWS Step Functions": "Why this option is incorrect: Step Functions orchestrates workflows.",
+      "Amazon Athena": "Why this option is incorrect: Athena queries S3 data."
+    }
+  },
+  {
+    "id": 150,
+    "domain": 3,
+    "question": "A team wants to provision repeatable VPCs, subnets, and application infrastructure from declarative templates. Choose.",
+    "answers": [
+      "AWS CloudFormation",
+      "AWS CloudTrail",
+      "Amazon Macie",
+      "AWS Shield"
+    ],
+    "correct_answers": [
+      "AWS CloudFormation"
+    ],
+    "explanation": "CloudFormation deploys and updates infrastructure as code from templates.",
+    "image_filename": "Arch_AWS-CloudFormation_64.svg",
+    "image_alt": "AWS CloudFormation",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS CloudTrail": "Why this option is incorrect: CloudTrail audits API calls.",
+      "Amazon Macie": "Why this option is incorrect: Macie finds sensitive S3 data.",
+      "AWS Shield": "Why this option is incorrect: Shield protects against DDoS."
+    }
+  },
+  {
+    "id": 151,
+    "domain": 3,
+    "question": "A business wants deployment automation for its code pipeline from source to build and release. Which combination fits?",
+    "answers": [
+      "CodePipeline + CodeBuild + CodeDeploy",
+      "KMS + Artifact + Macie",
+      "EFS + Glacier + Snowball",
+      "CloudFront + Route 53 only"
+    ],
+    "correct_answers": [
+      "CodePipeline + CodeBuild + CodeDeploy"
+    ],
+    "explanation": "These developer tools orchestrate stages, build/test code, and automate deployments.",
+    "image_filename": "services-aws-codepipeline-aws-codebuild-aws-codedeploy.svg",
+    "image_alt": "AWS CodePipeline and AWS CodeBuild and AWS CodeDeploys",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "KMS + Artifact + Macie": "Why this option is incorrect: These focus on security and compliance.",
+      "EFS + Glacier + Snowball": "Why this option is incorrect: These handle storage and transfer.",
+      "CloudFront + Route 53 only": "These deliver content and DNS, not a complete CI/CD pipeline."
+    }
+  },
+  {
+    "id": 152,
+    "domain": 1,
+    "question": "A company is planning a cloud migration and wants to assess server inventory and dependencies before moving. Which service helps?",
+    "answers": [
+      "AWS Application Discovery Service",
+      "Amazon CloudFront",
+      "Amazon SQS",
+      "AWS WAF"
+    ],
+    "correct_answers": [
+      "AWS Application Discovery Service"
+    ],
+    "explanation": "Application Discovery Service collects information useful for migration planning.",
+    "image_filename": "Arch_AWS-Application-Discovery-Service_64.svg",
+    "image_alt": "AWS Application Discovery Service",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Amazon CloudFront": "Why this option is incorrect: CloudFront caches content.",
+      "Amazon SQS": "Why this option is incorrect: SQS queues messages.",
+      "AWS WAF": "Why this option is incorrect: WAF filters requests."
+    }
+  },
+  {
+    "id": 153,
+    "domain": 2,
+    "question": "A firm needs compliance reports such as AWS SOC documentation for its audit. Where should it look?",
+    "answers": [
+      "AWS Artifact",
+      "Amazon GuardDuty",
+      "AWS Systems Manager",
+      "Amazon Inspector"
+    ],
+    "correct_answers": [
+      "AWS Artifact"
+    ],
+    "explanation": "Artifact gives on-demand access to AWS compliance reports and agreements.",
+    "image_filename": "Arch_AWS-Artifact_64.svg",
+    "image_alt": "AWS Artifact",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon GuardDuty": "Why this option is incorrect: GuardDuty detects threats.",
+      "AWS Systems Manager": "Why this option is incorrect: Systems Manager manages operations.",
+      "Amazon Inspector": "Why this option is incorrect: Inspector assesses vulnerabilities."
+    }
+  },
+  {
+    "id": 154,
+    "domain": 2,
+    "question": "A security team wants to assess EC2 and container workloads for software vulnerabilities. Which service?",
+    "answers": [
+      "Amazon Inspector",
+      "Amazon CloudFront",
+      "AWS Budgets",
+      "Amazon S3"
+    ],
+    "correct_answers": [
+      "Amazon Inspector"
+    ],
+    "explanation": "Inspector continually assesses supported workloads for vulnerabilities and exposure.",
+    "image_filename": "Arch_Amazon-Inspector_64.svg",
+    "image_alt": "Amazon Inspector",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon CloudFront": "Why this option is incorrect: CloudFront is a CDN.",
+      "AWS Budgets": "Why this option is incorrect: Budgets tracks costs.",
+      "Amazon S3": "Why this option is incorrect: S3 stores objects."
+    }
+  },
+  {
+    "id": 155,
+    "domain": 3,
+    "question": "An operations team wants to patch EC2 instances and run commands at scale without logging into each host. Which service?",
+    "answers": [
+      "AWS Systems Manager",
+      "Amazon SNS",
+      "AWS Direct Connect",
+      "Amazon Athena"
+    ],
+    "correct_answers": [
+      "AWS Systems Manager"
+    ],
+    "explanation": "Systems Manager provides Run Command and Patch Manager for supported managed nodes.",
+    "image_filename": "Arch_AWS-Systems-Manager_64.svg",
+    "image_alt": "AWS Systems Manager",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon SNS": "Why this option is incorrect: SNS sends notifications, not patches.",
+      "AWS Direct Connect": "Direct Connect provides private connectivity.",
+      "Amazon Athena": "Why this option is incorrect: Athena queries data in S3."
+    }
+  },
+  {
+    "id": 156,
+    "domain": 2,
+    "question": "A business wants a customer-facing signup and sign-in service for its mobile application. Which AWS service?",
+    "answers": [
+      "Amazon Cognito",
+      "IAM Identity Center",
+      "AWS Organizations",
+      "Amazon Inspector"
+    ],
+    "correct_answers": [
+      "Amazon Cognito"
+    ],
+    "explanation": "Cognito provides customer identity, authentication, and user management for applications.",
+    "image_filename": "Arch_Amazon-Cognito_64.svg",
+    "image_alt": "Amazon Cognito",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "IAM Identity Center": "Identity Center targets workforce access.",
+      "AWS Organizations": "Why this option is incorrect: Organizations manages AWS accounts.",
+      "Amazon Inspector": "Why this option is incorrect: Inspector identifies vulnerabilities."
+    }
+  },
+  {
+    "id": 157,
+    "domain": 1,
+    "question": "A company wants to improve resilience by assessing its workload against AWS architecture best practices. Which framework?",
+    "answers": [
+      "AWS Well-Architected Framework",
+      "AWS Shared Responsibility Model only",
+      "AWS Pricing Calculator",
+      "AWS Artifact"
+    ],
+    "correct_answers": [
+      "AWS Well-Architected Framework"
+    ],
+    "explanation": "The Well-Architected Framework evaluates architectures across operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "AWS Shared Responsibility Model only": "Shared responsibility clarifies security ownership but is not the full architecture review framework.",
+      "AWS Pricing Calculator": "Why this option is incorrect: Pricing Calculator estimates costs.",
+      "AWS Artifact": "Why this option is incorrect: Artifact supplies compliance reports."
+    }
+  },
+  {
+    "id": 158,
+    "domain": 2,
+    "question": "A new AWS customer asks who patches the guest OS on an EC2 instance and who maintains the underlying hardware. Which statement is correct?",
+    "answers": [
+      "AWS patches both",
+      "Customer patches guest OS; AWS maintains physical infrastructure",
+      "Customer maintains data center hardware; AWS patches guest OS",
+      "Neither party is responsible"
+    ],
+    "correct_answers": [
+      "Customer patches guest OS; AWS maintains physical infrastructure"
+    ],
+    "explanation": "Under shared responsibility, customers manage EC2 guest operating systems while AWS secures underlying physical infrastructure.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS patches both": "AWS does not generally patch customer-managed EC2 guest operating systems.",
+      "Customer maintains data center hardware; AWS patches guest OS": "Customers do not maintain AWS data center hardware.",
+      "Neither party is responsible": "Both parties have defined responsibilities."
     }
   }
 ]
