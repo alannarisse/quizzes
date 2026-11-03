@@ -3642,5 +3642,707 @@
       "Customer maintains data center hardware; AWS patches guest OS": "Customers do not maintain AWS data center hardware.",
       "Neither party is responsible": "Both parties have defined responsibilities."
     }
+  },
+  {
+    "id": 159,
+    "domain": 1,
+    "question": "A museum wants to test three different interactive exhibit ideas. Buying servers for each experiment would take months, and unsuccessful prototypes will be discarded. Which cloud benefit best supports this approach?",
+    "answers": [
+      "Dedicated hardware ownership",
+      "Agility through on-demand provisioning",
+      "Guaranteed commercial success",
+      "Permanent capacity reservations"
+    ],
+    "correct_answers": [
+      "Agility through on-demand provisioning"
+    ],
+    "explanation": "On-demand provisioning lets the museum create experiments quickly and remove resources when an idea is no longer useful.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Dedicated hardware ownership": "Owning dedicated hardware does not remove the procurement delay or make temporary experiments easier to discard.",
+      "Guaranteed commercial success": "Cloud services support experimentation but cannot guarantee that an exhibit will succeed with visitors.",
+      "Permanent capacity reservations": "Permanently reserving capacity before testing the ideas adds commitment rather than supporting rapid experimentation."
+    }
+  },
+  {
+    "id": 160,
+    "domain": 1,
+    "question": "A garden supplier sells most of its products during a short planting season. It wants application capacity to grow when orders rise and shrink when the season ends. Which cloud characteristic addresses both changes?",
+    "answers": [
+      "Durability",
+      "Data residency",
+      "Elasticity",
+      "Physical isolation"
+    ],
+    "correct_answers": [
+      "Elasticity"
+    ],
+    "explanation": "Elasticity allows capacity to expand and contract with demand, reducing the need to retain peak-season capacity all year.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Durability": "Durability concerns preserving stored data, rather than changing compute capacity with seasonal demand.",
+      "Data residency": "Data residency concerns where data is stored and processed, rather than matching capacity to order volume.",
+      "Physical isolation": "Physical isolation separates hardware use and does not automatically increase or decrease application capacity."
+    }
+  },
+  {
+    "id": 161,
+    "domain": 1,
+    "question": "A publisher is comparing a new server room with a cloud deployment. Which TWO items belong in a total cost of ownership comparison? (Select TWO)",
+    "answers": [
+      "Only the purchase price of servers",
+      "Facilities and electricity costs for the server room",
+      "A guarantee that cloud operation will always cost less",
+      "Staff time needed to operate each proposed environment",
+      "Only the first month of cloud charges"
+    ],
+    "correct_answers": [
+      "Facilities and electricity costs for the server room",
+      "Staff time needed to operate each proposed environment"
+    ],
+    "explanation": "A total cost comparison includes direct and indirect costs over a comparable period, including facilities and operational labor in each environment.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Only the purchase price of servers": "Server purchases are one component of ownership cost; excluding facilities and labor makes the comparison incomplete.",
+      "A guarantee that cloud operation will always cost less": "Cloud costs depend on workload and operating choices, so a guaranteed saving is an assumption rather than a cost item.",
+      "Only the first month of cloud charges": "One month of cloud charges does not represent the full comparison period or the other costs of operating the environment."
+    }
+  },
+  {
+    "id": 162,
+    "domain": 1,
+    "question": "A manufacturer must keep a factory control application on its own equipment, while a new customer portal will run on AWS. The two environments will exchange inventory updates. Which deployment model is described?",
+    "answers": [
+      "Public cloud only",
+      "Software as a Service",
+      "Hybrid cloud",
+      "Multiple public clouds"
+    ],
+    "correct_answers": [
+      "Hybrid cloud"
+    ],
+    "explanation": "A hybrid deployment connects on-premises infrastructure with cloud resources so workloads can operate across both environments.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Public cloud only": "A public-cloud-only deployment does not include the factory application that must remain on the manufacturer's equipment.",
+      "Software as a Service": "SaaS describes consuming a completed software product, rather than how on-premises and cloud environments are connected.",
+      "Multiple public clouds": "The scenario includes one public cloud and an on-premises environment, rather than multiple public cloud providers."
+    }
+  },
+  {
+    "id": 163,
+    "domain": 1,
+    "question": "A research group wants to move an unchanged application from its own virtual machines to Amazon EC2 before a lease expires. It will consider redesigning the application next year. Which migration strategy fits the initial move?",
+    "answers": [
+      "Repurchasing",
+      "Retiring",
+      "Refactoring",
+      "Rehosting"
+    ],
+    "correct_answers": [
+      "Rehosting"
+    ],
+    "explanation": "Rehosting moves an existing application to cloud infrastructure with little or no application redesign, fitting the immediate deadline.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Repurchasing": "Repurchasing means adopting a different product, such as SaaS, rather than moving the existing application unchanged.",
+      "Retiring": "Retiring removes a workload from use; this research application must remain available after the move.",
+      "Refactoring": "Refactoring changes the application architecture and does not match the plan to defer redesign until next year."
+    }
+  },
+  {
+    "id": 164,
+    "domain": 1,
+    "question": "A nonprofit wants its online donation service to recover from infrastructure failures. Which TWO practices best support the reliability pillar? (Select TWO)",
+    "answers": [
+      "Test restoration procedures before an incident",
+      "Place every component on one server",
+      "Use automated health checks and replacement of failed instances",
+      "Rely on a larger instance to eliminate all failures",
+      "Disable monitoring to reduce operational complexity"
+    ],
+    "correct_answers": [
+      "Test restoration procedures before an incident",
+      "Use automated health checks and replacement of failed instances"
+    ],
+    "explanation": "Testing recovery and automating failure detection and replacement help the service restore operation when components fail.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Place every component on one server": "One server creates a single point of failure and leaves no alternate component to handle donations if it fails.",
+      "Rely on a larger instance to eliminate all failures": "A larger instance can still fail; additional capacity does not replace recovery planning or redundant components.",
+      "Disable monitoring to reduce operational complexity": "Disabling monitoring removes signals needed to detect problems and makes timely recovery harder."
+    }
+  },
+  {
+    "id": 165,
+    "domain": 1,
+    "question": "A software company buys more server capacity than it needs because future customer demand is uncertain. Which economic advantage of cloud computing most directly reduces this forecasting problem?",
+    "answers": [
+      "Committing to a fixed fleet for every possible demand level",
+      "Paying for capacity as it is consumed instead of buying for a forecast peak",
+      "Eliminating every operating expense",
+      "Transferring application design decisions to AWS"
+    ],
+    "correct_answers": [
+      "Paying for capacity as it is consumed instead of buying for a forecast peak"
+    ],
+    "explanation": "Usage-based consumption lets the company adjust resources as demand becomes known instead of purchasing all potential peak capacity in advance.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+    "incorrect_explanations": {
+      "Committing to a fixed fleet for every possible demand level": "A fixed fleet preserves the same forecasting and overprovisioning problem the company wants to reduce.",
+      "Eliminating every operating expense": "Cloud deployments still incur operating expenses, including resource usage and the work needed to manage applications.",
+      "Transferring application design decisions to AWS": "Customers remain responsible for application design; AWS does not make all architecture decisions on their behalf."
+    }
+  },
+  {
+    "id": 166,
+    "domain": 2,
+    "question": "A legal research application runs on Amazon EC2. The team is assigning tasks under the shared responsibility model. Which TWO tasks remain with the customer? (Select TWO)",
+    "answers": [
+      "Replacing failed physical host processors",
+      "Updating the guest operating system",
+      "Maintaining data center access controls",
+      "Configuring access permissions for application data",
+      "Patching the AWS virtualization infrastructure"
+    ],
+    "correct_answers": [
+      "Updating the guest operating system",
+      "Configuring access permissions for application data"
+    ],
+    "explanation": "For EC2 workloads, customers manage their guest operating systems and access to their application data. AWS operates the underlying infrastructure.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Replacing failed physical host processors": "Physical processor replacement belongs to AWS as part of operating the infrastructure beneath EC2.",
+      "Maintaining data center access controls": "AWS controls physical access to its data centers; customers configure security for their own workloads.",
+      "Patching the AWS virtualization infrastructure": "AWS manages the underlying virtualization infrastructure rather than delegating its patching to EC2 customers."
+    }
+  },
+  {
+    "id": 167,
+    "domain": 2,
+    "question": "An EC2-based publishing job must write generated documents to a private S3 bucket. The security team wants to avoid placing long-lived access keys in deployment files. What should it use?",
+    "answers": [
+      "An IAM role associated with the EC2 instance",
+      "A shared root account access key",
+      "Public write access on the S3 bucket",
+      "An IAM user password embedded in the job"
+    ],
+    "correct_answers": [
+      "An IAM role associated with the EC2 instance"
+    ],
+    "explanation": "An instance role supplies temporary credentials for permitted AWS API actions without embedding long-lived access keys in the application.",
+    "image_filename": "Res_AWS-Identity-Access-Management_Role_48.svg",
+    "image_alt": "AWS Identity Access Management Role",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "A shared root account access key": "Root access keys grant excessive authority and introduce a long-lived secret instead of meeting the credential requirement.",
+      "Public write access on the S3 bucket": "Public write access exposes the bucket to unnecessary access and does not provide a controlled workload identity.",
+      "An IAM user password embedded in the job": "Embedding an IAM password creates a stored secret and is not the mechanism for authorizing S3 API calls from the job."
+    }
+  },
+  {
+    "id": 168,
+    "domain": 2,
+    "question": "An accounting firm needs to determine which AWS identity deleted a resource yesterday and when the deletion request occurred. Which service is the primary source for this API activity investigation?",
+    "answers": [
+      "Amazon CloudWatch",
+      "AWS CloudTrail",
+      "Amazon Inspector",
+      "AWS Artifact"
+    ],
+    "correct_answers": [
+      "AWS CloudTrail"
+    ],
+    "explanation": "CloudTrail records AWS API activity, including identity and event time, supporting investigation of resource deletion requests.",
+    "image_filename": "Arch_AWS-CloudTrail_64.svg",
+    "image_alt": "AWS CloudTrail",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon CloudWatch": "CloudWatch provides metrics and logs but is not the primary AWS API activity audit service for identifying the caller.",
+      "Amazon Inspector": "Inspector assesses supported workloads for vulnerabilities rather than recording who issued resource deletion requests.",
+      "AWS Artifact": "Artifact supplies AWS compliance reports and agreements rather than the firm's account API activity history."
+    }
+  },
+  {
+    "id": 169,
+    "domain": 2,
+    "question": "A university has many S3 datasets and needs to discover which supported objects contain sensitive personal information. Which service is designed for this data discovery task?",
+    "answers": [
+      "AWS Shield",
+      "AWS Config",
+      "Amazon Macie",
+      "AWS Certificate Manager"
+    ],
+    "correct_answers": [
+      "Amazon Macie"
+    ],
+    "explanation": "Macie uses machine learning and pattern matching to discover sensitive data in supported S3 objects and generate findings.",
+    "image_filename": "Arch_Amazon-Macie_64.svg",
+    "image_alt": "Amazon Macie",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS Shield": "Shield provides DDoS protection rather than examining stored dataset contents for personal information.",
+      "AWS Config": "Config evaluates resource configurations; it does not classify the personal information contained within S3 objects.",
+      "AWS Certificate Manager": "Certificate Manager manages TLS certificates rather than discovering sensitive data stored in datasets."
+    }
+  },
+  {
+    "id": 170,
+    "domain": 2,
+    "question": "An online ticket office sees malicious HTTP requests containing common SQL injection patterns. It wants to filter those requests before they reach its application behind an Application Load Balancer. Which service fits?",
+    "answers": [
+      "AWS WAF",
+      "AWS Backup",
+      "AWS CloudTrail",
+      "Amazon EFS"
+    ],
+    "correct_answers": [
+      "AWS WAF"
+    ],
+    "explanation": "AWS WAF can apply web request rules to supported resources, including Application Load Balancers, to filter common application-layer attacks.",
+    "image_filename": "Arch_AWS-WAF_64.svg",
+    "image_alt": "AWS WAF",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS Backup": "Backup creates and manages recovery copies; it does not inspect incoming HTTP requests for injection patterns.",
+      "AWS CloudTrail": "CloudTrail audits AWS API activity rather than filtering visitor requests sent to the ticket application.",
+      "Amazon EFS": "EFS provides shared file storage and has no web application request-filtering role."
+    }
+  },
+  {
+    "id": 171,
+    "domain": 2,
+    "question": "A company manages several AWS member accounts. Even when a member account administrator grants broad IAM permissions, the company wants a central policy to prevent selected AWS actions. Which control should it use?",
+    "answers": [
+      "Amazon CloudWatch dashboards",
+      "Service control policies in AWS Organizations",
+      "An S3 Lifecycle rule",
+      "An IAM group in an unrelated account"
+    ],
+    "correct_answers": [
+      "Service control policies in AWS Organizations"
+    ],
+    "explanation": "Service control policies set permission guardrails for affected member accounts. An applicable explicit deny limits actions even when IAM policies allow them.",
+    "image_filename": "Arch_AWS-Organizations_64.svg",
+    "image_alt": "AWS Organizations",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon CloudWatch dashboards": "Dashboards display monitoring information and do not establish organization-wide permission guardrails.",
+      "An S3 Lifecycle rule": "S3 Lifecycle rules transition or expire objects and do not restrict AWS API permissions across accounts.",
+      "An IAM group in an unrelated account": "An IAM group controls permissions in its own account and is not a central guardrail for other member accounts."
+    }
+  },
+  {
+    "id": 172,
+    "domain": 2,
+    "question": "A robotics company needs both detection of suspicious AWS account activity and assessment of software vulnerabilities on supported compute workloads. Which TWO services match these needs? (Select TWO)",
+    "answers": [
+      "Amazon GuardDuty",
+      "AWS Pricing Calculator",
+      "Amazon Inspector",
+      "Amazon Route 53",
+      "AWS DataSync"
+    ],
+    "correct_answers": [
+      "Amazon GuardDuty",
+      "Amazon Inspector"
+    ],
+    "explanation": "GuardDuty detects threats from AWS activity and other supported signals. Inspector assesses supported workloads for software vulnerabilities.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "AWS Pricing Calculator": "Pricing Calculator estimates proposed resource costs rather than detecting threats or assessing software vulnerabilities.",
+      "Amazon Route 53": "Route 53 provides DNS and routing capabilities rather than account threat detection or workload vulnerability assessment.",
+      "AWS DataSync": "DataSync transfers data between supported storage systems and does not perform either security assessment task."
+    }
+  },
+  {
+    "id": 173,
+    "domain": 2,
+    "question": "A medical software vendor needs AWS-issued compliance reports for an infrastructure audit. It does not need a scan of its own application code. Where should it obtain these reports?",
+    "answers": [
+      "Amazon Inspector",
+      "AWS Artifact",
+      "AWS CloudFormation",
+      "Amazon CloudWatch Logs"
+    ],
+    "correct_answers": [
+      "AWS Artifact"
+    ],
+    "explanation": "AWS Artifact provides access to AWS compliance documentation and agreements that customers can use during audits.",
+    "image_filename": "Arch_AWS-Artifact_64.svg",
+    "image_alt": "AWS Artifact",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon Inspector": "Inspector produces vulnerability findings for supported workloads, not AWS-issued infrastructure compliance reports.",
+      "AWS CloudFormation": "CloudFormation provisions infrastructure from templates and is not the portal for AWS compliance documentation.",
+      "Amazon CloudWatch Logs": "CloudWatch Logs stores log data and does not serve as the source for AWS-issued audit reports."
+    }
+  },
+  {
+    "id": 174,
+    "domain": 2,
+    "question": "A design studio stores database passwords in source files. It wants a managed place to store those passwords and support automatic rotation for compatible databases. Which service should it choose?",
+    "answers": [
+      "Amazon SNS",
+      "AWS Certificate Manager",
+      "AWS Secrets Manager",
+      "AWS Organizations"
+    ],
+    "correct_answers": [
+      "AWS Secrets Manager"
+    ],
+    "explanation": "Secrets Manager stores application secrets and supports automated rotation using supported integrations or configured rotation functions.",
+    "image_filename": "Arch_AWS-Secrets-Manager_64.svg",
+    "image_alt": "AWS Secrets Manager",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "incorrect_explanations": {
+      "Amazon SNS": "SNS delivers messages to subscribers rather than managing database credentials and their rotation lifecycle.",
+      "AWS Certificate Manager": "Certificate Manager manages TLS certificates and does not provide database password storage and rotation.",
+      "AWS Organizations": "Organizations manages multiple AWS accounts rather than storing and rotating application passwords."
+    }
+  },
+  {
+    "id": 175,
+    "domain": 3,
+    "question": "A historical archive stores document scans in S3. Researchers occasionally need SQL summaries of metadata files stored beside those scans, without importing the files into a database. Which service is most suitable?",
+    "answers": [
+      "Amazon Athena",
+      "Amazon ElastiCache",
+      "Amazon EBS",
+      "Amazon Route 53"
+    ],
+    "correct_answers": [
+      "Amazon Athena"
+    ],
+    "explanation": "Athena supports SQL queries against supported data in S3, allowing ad hoc analysis without loading that data into a separate database.",
+    "image_filename": "Arch_Amazon-Athena_64.svg",
+    "image_alt": "Amazon Athena",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon ElastiCache": "ElastiCache provides in-memory data caching rather than an interactive SQL query service for files in S3.",
+      "Amazon EBS": "EBS provides block storage for compute workloads and does not directly execute SQL against S3 metadata files.",
+      "Amazon Route 53": "Route 53 resolves DNS names and routes traffic rather than analyzing stored metadata."
+    }
+  },
+  {
+    "id": 176,
+    "domain": 3,
+    "question": "A photo restoration company wants to process each new uploaded image with a short event-triggered function. It does not want to maintain a fleet of servers waiting for uploads. Which compute service fits?",
+    "answers": [
+      "Amazon EC2 Dedicated Hosts",
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS Direct Connect"
+    ],
+    "correct_answers": [
+      "AWS Lambda"
+    ],
+    "explanation": "Lambda runs function code in response to events, such as supported S3 upload notifications, without the team managing server hosts.",
+    "image_filename": "Arch_AWS-Lambda_64.svg",
+    "image_alt": "AWS Lambda",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EC2 Dedicated Hosts": "Dedicated Hosts require the company to manage server-based capacity rather than provide event-triggered function execution.",
+      "Amazon RDS": "RDS provides managed relational databases and is not a general-purpose image processing function service.",
+      "AWS Direct Connect": "Direct Connect provides network connectivity and does not execute image restoration code."
+    }
+  },
+  {
+    "id": 177,
+    "domain": 3,
+    "question": "A laboratory has containerized an internal analysis application using Amazon ECS. It wants to specify task CPU and memory without patching EC2 container hosts. Which compute option should it choose?",
+    "answers": [
+      "ECS on customer-managed EC2 instances",
+      "Amazon S3 static website hosting",
+      "AWS Fargate",
+      "Amazon EBS"
+    ],
+    "correct_answers": [
+      "AWS Fargate"
+    ],
+    "explanation": "Fargate supplies compute for supported container workloads while AWS manages the underlying hosts, removing EC2 host maintenance from the team.",
+    "image_filename": "Arch_AWS-Fargate_64.svg",
+    "image_alt": "AWS Fargate",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "ECS on customer-managed EC2 instances": "The EC2 option still requires managing the container hosts, including their operating systems and capacity.",
+      "Amazon S3 static website hosting": "S3 static hosting serves objects and cannot run the laboratory's application containers.",
+      "Amazon EBS": "EBS supplies block storage rather than a compute engine for executing ECS tasks."
+    }
+  },
+  {
+    "id": 178,
+    "domain": 3,
+    "question": "A distributor must record purchase orders with relational joins and transactions. It wants AWS to operate the database infrastructure and provide automated backup capabilities. Which service is the best fit?",
+    "answers": [
+      "Amazon CloudFront",
+      "Amazon SQS",
+      "Amazon RDS",
+      "Amazon EFS"
+    ],
+    "correct_answers": [
+      "Amazon RDS"
+    ],
+    "explanation": "RDS provides managed relational database engines suited to transactional workloads, with managed infrastructure and configurable automated backups.",
+    "image_filename": "Arch_Amazon-RDS_64.svg",
+    "image_alt": "Amazon RDS",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon CloudFront": "CloudFront distributes content through edge locations rather than maintaining relational purchase-order records.",
+      "Amazon SQS": "SQS queues messages between components and is not a relational database with SQL joins.",
+      "Amazon EFS": "EFS provides shared file storage rather than managed relational database engines and transaction processing."
+    }
+  },
+  {
+    "id": 179,
+    "domain": 3,
+    "question": "An auction application retrieves individual bidding-session records by key. It needs a managed key-value database that can serve low-latency requests as traffic grows substantially. Which service should it evaluate first?",
+    "answers": [
+      "Amazon Redshift",
+      "Amazon DynamoDB",
+      "Amazon EFS",
+      "AWS CloudTrail"
+    ],
+    "correct_answers": [
+      "Amazon DynamoDB"
+    ],
+    "explanation": "DynamoDB is a managed key-value and document database designed for low-latency access at scale.",
+    "image_filename": "Arch_Amazon-DynamoDB_64.svg",
+    "image_alt": "Amazon DynamoDB",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon Redshift": "Redshift is an analytical data warehouse; individual high-volume session lookups are a different access pattern.",
+      "Amazon EFS": "EFS provides file-system access rather than a managed key-value database for application session records.",
+      "AWS CloudTrail": "CloudTrail records AWS API events and is not an application database for bidding sessions."
+    }
+  },
+  {
+    "id": 180,
+    "domain": 3,
+    "question": "A craft marketplace accepts custom orders even when its engraving worker is temporarily offline. Which service can hold work messages so the worker can process them after it recovers?",
+    "answers": [
+      "Amazon Route 53",
+      "AWS Certificate Manager",
+      "Amazon SQS",
+      "Amazon CloudFront"
+    ],
+    "correct_answers": [
+      "Amazon SQS"
+    ],
+    "explanation": "SQS decouples producers and consumers by retaining messages for configured retention periods, allowing workers to process queued work independently.",
+    "image_filename": "Arch_Amazon-Simple-Queue-Service_64.svg",
+    "image_alt": "Amazon Simple Queue Service",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon Route 53": "DNS routing does not retain pending work messages when the only engraving worker is unavailable.",
+      "AWS Certificate Manager": "Certificate Manager provisions certificates and does not provide durable application work queues.",
+      "Amazon CloudFront": "CloudFront caches and delivers content rather than retaining order-processing messages for workers."
+    }
+  },
+  {
+    "id": 181,
+    "domain": 3,
+    "question": "A game studio needs both to spread incoming requests across healthy EC2 servers and to change how many servers are running as player demand changes. Which TWO services directly provide these capabilities? (Select TWO)",
+    "answers": [
+      "Elastic Load Balancing",
+      "AWS CloudTrail",
+      "Amazon EC2 Auto Scaling",
+      "AWS Artifact",
+      "Amazon Athena"
+    ],
+    "correct_answers": [
+      "Elastic Load Balancing",
+      "Amazon EC2 Auto Scaling"
+    ],
+    "explanation": "Elastic Load Balancing distributes requests to healthy targets, while EC2 Auto Scaling adjusts and maintains the instance fleet.",
+    "image_filename": "services-elastic-load-balancing-amazon-ec2-auto-scaling.svg",
+    "image_alt": "Elastic Load Balancing and Amazon EC2 Auto Scalings",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS CloudTrail": "CloudTrail records AWS API activity; it does not distribute player traffic or adjust the running server fleet.",
+      "AWS Artifact": "Artifact supplies compliance documents rather than application traffic management or compute scaling.",
+      "Amazon Athena": "Athena queries supported datasets and does not balance application requests or manage EC2 instance counts."
+    }
+  },
+  {
+    "id": 182,
+    "domain": 3,
+    "question": "A language-learning site serves the same audio lessons to students on several continents. It wants cached copies closer to listeners and fewer requests reaching its origin. Which service should it use?",
+    "answers": [
+      "Amazon CloudFront",
+      "AWS Direct Connect",
+      "Amazon RDS",
+      "AWS Config"
+    ],
+    "correct_answers": [
+      "Amazon CloudFront"
+    ],
+    "explanation": "CloudFront caches and delivers content through edge locations, reducing origin requests and improving content delivery to distributed audiences.",
+    "image_filename": "Arch_Amazon-CloudFront_64.svg",
+    "image_alt": "Amazon CloudFront",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Direct Connect": "Direct Connect provides dedicated connectivity to AWS rather than globally distributed caches for public listeners.",
+      "Amazon RDS": "RDS stores relational data and is not a global content delivery network for audio files.",
+      "AWS Config": "Config records and evaluates resource configuration rather than serving cached lesson content."
+    }
+  },
+  {
+    "id": 183,
+    "domain": 3,
+    "question": "A translation service has several Linux EC2 instances that must concurrently mount the same shared directory using file-system operations. Which storage service best fits?",
+    "answers": [
+      "Amazon EBS volumes attached separately to each server",
+      "Amazon DynamoDB",
+      "Amazon EFS",
+      "Amazon SQS"
+    ],
+    "correct_answers": [
+      "Amazon EFS"
+    ],
+    "explanation": "EFS provides managed shared file storage that supported Linux clients can mount using NFS, allowing concurrent file-system access.",
+    "image_filename": "Arch_Amazon-EFS_64.svg",
+    "image_alt": "Amazon EFS",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "Amazon EBS volumes attached separately to each server": "Separate EBS volumes do not present the same shared directory to all servers and require a different storage design.",
+      "Amazon DynamoDB": "DynamoDB uses a database API and does not provide a mountable shared Linux file system.",
+      "Amazon SQS": "SQS holds messages for processing and does not expose shared directories or file-system operations."
+    }
+  },
+  {
+    "id": 184,
+    "domain": 3,
+    "question": "A subscription platform needs to watch application latency and alert its operations team when a threshold is exceeded. Which service provides metrics and alarms for this monitoring requirement?",
+    "answers": [
+      "AWS Artifact",
+      "Amazon CloudWatch",
+      "AWS CloudFormation",
+      "AWS Database Migration Service"
+    ],
+    "correct_answers": [
+      "Amazon CloudWatch"
+    ],
+    "explanation": "CloudWatch collects supported metrics and provides alarms that can initiate configured actions when metric conditions are met.",
+    "image_filename": "Arch_Amazon-CloudWatch_64.svg",
+    "image_alt": "Amazon CloudWatch",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "incorrect_explanations": {
+      "AWS Artifact": "Artifact provides compliance documentation rather than application performance metrics and threshold alarms.",
+      "AWS CloudFormation": "CloudFormation provisions infrastructure from templates; it is not the runtime metric and alarm service.",
+      "AWS Database Migration Service": "Database Migration Service moves and replicates database data rather than monitoring application latency thresholds."
+    }
+  },
+  {
+    "id": 185,
+    "domain": 4,
+    "question": "Before launching a digital textbook platform, a school consortium wants to compare the estimated monthly cost of two proposed AWS architectures. Neither architecture has been deployed. Which tool fits?",
+    "answers": [
+      "AWS Cost Explorer",
+      "AWS CloudTrail",
+      "AWS Pricing Calculator",
+      "AWS Config"
+    ],
+    "correct_answers": [
+      "AWS Pricing Calculator"
+    ],
+    "explanation": "Pricing Calculator models expected AWS resource usage to estimate costs before deployment. The estimate depends on the supplied assumptions.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "AWS Cost Explorer": "Cost Explorer analyzes existing cost and usage data; it is not the primary tool for modeling a new architecture from scratch.",
+      "AWS CloudTrail": "CloudTrail records AWS API activity and does not estimate proposed infrastructure costs.",
+      "AWS Config": "Config evaluates resource configurations and does not calculate prospective monthly service charges."
+    }
+  },
+  {
+    "id": 186,
+    "domain": 4,
+    "question": "A consulting company runs several client projects in one AWS account. It wants to group supported resource costs by project in its billing analysis. What should it implement?",
+    "answers": [
+      "A separate IAM password policy for each project",
+      "Activated cost allocation tags using project identifiers",
+      "A CloudFront distribution for each invoice",
+      "A larger EC2 instance for every project"
+    ],
+    "correct_answers": [
+      "Activated cost allocation tags using project identifiers"
+    ],
+    "explanation": "Applying consistent project tags and activating them for cost allocation allows supported tagged usage to be grouped in billing analysis.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "A separate IAM password policy for each project": "Password policies govern authentication requirements and do not label usage with project cost categories.",
+      "A CloudFront distribution for each invoice": "CloudFront distributes content and does not associate AWS resource charges with internal project identifiers.",
+      "A larger EC2 instance for every project": "Increasing instance sizes changes resource consumption rather than categorizing charges by project."
+    }
+  },
+  {
+    "id": 187,
+    "domain": 4,
+    "question": "A film studio renders preview frames overnight. Jobs save checkpoints and can resume after losing an instance. Which EC2 purchase option is designed to offer discounted spare capacity with interruption risk?",
+    "answers": [
+      "Dedicated Hosts",
+      "On-Demand Instances",
+      "Spot Instances",
+      "On-Demand Capacity Reservations"
+    ],
+    "correct_answers": [
+      "Spot Instances"
+    ],
+    "explanation": "Spot Instances use available spare EC2 capacity at discounted prices and can be interrupted, making checkpointed flexible jobs a suitable use case.",
+    "image_filename": "Res_Amazon-EC2_Spot-Instance_48.svg",
+    "image_alt": "Amazon EC2 Spot Instance",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Dedicated Hosts": "Dedicated Hosts provide dedicated physical servers for requirements such as licensing or isolation, rather than spare-capacity pricing.",
+      "On-Demand Instances": "On-Demand provides usage-based compute without a long-term commitment, but does not offer the Spot spare-capacity model.",
+      "On-Demand Capacity Reservations": "Capacity Reservations reserve capacity in a specific Availability Zone and are not the discounted interruptible spare-capacity option."
+    }
+  },
+  {
+    "id": 188,
+    "domain": 4,
+    "question": "A small agency wants to investigate which services drove last month's bill and receive notifications when future spending approaches its chosen budget. Which TWO tools address these separate needs? (Select TWO)",
+    "answers": [
+      "AWS Cost Explorer",
+      "Amazon Route 53",
+      "AWS Budgets",
+      "AWS Artifact",
+      "AWS CloudFormation"
+    ],
+    "correct_answers": [
+      "AWS Cost Explorer",
+      "AWS Budgets"
+    ],
+    "explanation": "Cost Explorer helps analyze historical cost and usage patterns. Budgets provides configurable budget thresholds and notifications.",
+    "image_filename": "cloud-placeholder.svg",
+    "image_alt": "Cloud study illustration",
+    "web_link": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "incorrect_explanations": {
+      "Amazon Route 53": "Route 53 provides DNS and traffic routing rather than historical billing analysis or budget threshold notifications.",
+      "AWS Artifact": "Artifact supplies AWS compliance documentation rather than service spending reports or budget alerts.",
+      "AWS CloudFormation": "CloudFormation defines infrastructure deployments and does not provide these cost analysis and budget monitoring functions."
+    }
   }
 ]
